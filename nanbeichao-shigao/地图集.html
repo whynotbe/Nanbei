@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>南北朝地图集 v2(304–589 · 疆域示意图)</title>
+<style>
+  body{background:#26221c;color:#e8ddc8;font-family:"Microsoft YaHei",sans-serif;margin:0;padding:22px;}
+  h1{font-size:21px;margin:0 0 4px;}
+  .sub{color:#a89a7e;font-size:13px;margin-bottom:12px;}
+  .tabs{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:14px;}
+  .tabs button{background:#443c30;color:#e8ddc8;border:1px solid #6b5f4a;border-radius:6px;padding:7px 13px;font-size:14px;cursor:pointer;}
+  .tabs button.on{background:#8c2f2a;border-color:#c05a50;}
+  .panel{display:none;}
+  .panel.on{display:block;}
+  .mapwrap{max-width:1240px;background:#efe6d0;border:1px solid #b7a888;border-radius:8px;padding:8px;}
+  svg{width:100%;height:auto;display:block;}
+  .state{transition:filter .15s;}
+  .state:hover{filter:brightness(1.18) saturate(1.3);}
+  .cap{font-size:14px;color:#d8cbb0;margin:12px 2px 4px;}
+  .legend{font-size:13px;color:#bfae8e;margin:6px 2px;line-height:1.9;}
+  .sw{display:inline-block;width:15px;height:10px;border-radius:2px;margin:0 5px -1px 12px;border:1px solid rgba(0,0,0,.45);}
+  .note{font-size:12px;color:#8f8168;margin-top:12px;line-height:1.8;}
+</style>
+</head>
+<body>
+
+<h1>南北朝地图集 v2 · 304–589(疆域+边境线版)</h1>
+<div class="sub">按经纬投影重绘(纬 18°–43°N / 经 97°–127°E 示意),黄河走汉唐故道;每个政权为带边境线的闭合疆域。鼠标悬停色块可看说明。边界仍属示意走向,精确界线以谭其骧《中国历史地图集》为准。</div>
+
+<div class="tabs">
+  <button class="on" data-t="p1">① 304 十六国开局</button>
+  <button data-t="p2">② 382 淝水前夜</button>
+  <button data-t="p3">③ 420 南北朝开局</button>
+  <button data-t="p4">④ 534 两魏分立</button>
+  <button data-t="p5">⑤ 548 侯景之乱(锚点)</button>
+  <button data-t="p6">⑥ 589 隋灭陈</button>
+  <button data-t="p7">⑦ 怨气地图(志怪)</button>
+</div>
+
+<svg width="0" height="0" style="position:absolute">
+<defs>
+  <clipPath id="clipCN"><use href="#land"/></clipPath>
+  <g id="land-src">
+    <path id="land" d="M40,60 L1180,60 L1180,190 L1080,177 L991,152 L940,118 L900,174 L821,202 L822,242 L866,242 L935,230 L1000,242 L919,295 L877,342 L900,380 L964,437 L914,466 L964,478 L934,537 L881,596 L836,645 L783,679 L685,707 L610,730 L545,778 L470,760 L422,757 L364,769 L40,860 Z"/>
+  </g>
+  <g id="terrain">
+    <!-- 经纬网 -->
+    <g stroke="#c8b995" stroke-width=".6" opacity=".55">
+      <line x1="155" y1="60" x2="155" y2="860"/><line x1="343" y1="60" x2="343" y2="860"/>
+      <line x1="531" y1="60" x2="531" y2="860"/><line x1="719" y1="60" x2="719" y2="860"/>
+      <line x1="907" y1="60" x2="907" y2="860"/><line x1="1095" y1="60" x2="1095" y2="860"/>
+      <line x1="40" y1="723" x2="1180" y2="723"/><line x1="40" y1="567" x2="1180" y2="567"/>
+      <line x1="40" y1="411" x2="1180" y2="411"/><line x1="40" y1="255" x2="1180" y2="255"/><line x1="40" y1="99" x2="1180" y2="99"/>
+    </g>
+    <g font-size="9" fill="#a3967c">
+      <text x="46" y="718">25°N</text><text x="46" y="562">30°N</text><text x="46" y="406">35°N</text><text x="46" y="250">40°N</text>
+      <text x="150" y="72">100°E</text><text x="338" y="72">105°E</text><text x="526" y="72">110°E</text><text x="714" y="72">115°E</text><text x="902" y="72">120°E</text><text x="1090" y="72">125°E</text>
+    </g>
+    <!-- 海 -->
+    <rect x="0" y="0" width="1220" height="920" fill="#c9dbe4"/>
+    <use href="#land" fill="#efe6d0" stroke="#8f8168" stroke-width="1.6"/>
+    <!-- 大地理带 -->
+    <path d="M40,60 L1180,60 L1180,150 L900,155 L760,165 L660,130 L430,152 L40,150 Z" fill="#e3d9b8" opacity=".5" clip-path="url(#clipCN)"/>
+    <path d="M40,150 L430,152 L660,130 L900,155 L1180,150 L1180,330 L1000,260 L900,300 L877,342 L830,300 L700,330 L636,330 L519,350 L440,360 L40,360 Z" fill="#e8dcb4" opacity=".45" clip-path="url(#clipCN)"/>
+    <path d="M40,360 L440,360 L519,350 L636,330 L700,330 L830,300 L877,342 L900,380 L1000,300 L1180,330 L1180,860 L40,860 Z" fill="#dfe6c2" opacity=".5" clip-path="url(#clipCN)"/>
+    <!-- 湖泊 -->
+    <g fill="#9dbfd4" stroke="#6f95ad" stroke-width="1">
+      <ellipse cx="640" cy="505" rx="22" ry="13"/><ellipse cx="741" cy="505" rx="16" ry="10"/>
+      <ellipse cx="922" cy="442" rx="18" ry="11"/><ellipse cx="810" cy="412" rx="8" ry="6"/>
+    </g>
+    <text x="628" y="509" font-size="9" fill="#3a6172">洞庭</text><text x="732" y="509" font-size="9" fill="#3a6172">彭蠡</text>
+    <text x="914" y="446" font-size="9" fill="#3a6172">太湖</text><text x="804" y="416" font-size="8" fill="#3a6172">巢湖</text>
+    <!-- 黄河(汉唐故道) -->
+    <path d="M313,297 Q370,260 403,215 Q425,175 452,148 L520,150 Q570,152 601,165 Q604,185 604,202 Q594,260 581,311 L530,345 Q570,338 604,330 L624,338 L636,330 Q670,320 709,308 L743,284 L773,271 L822,242"
+          fill="none" stroke="#c9a13b" stroke-width="3.6" stroke-linecap="round"/>
+    <!-- 渭水/汾水/洛水 -->
+    <path d="M437,348 Q470,346 489,344 L519,342 530,345" fill="none" stroke="#c9a13b" stroke-width="2.4"/>
+    <path d="M615,202 Q614,225 613,240 Q600,275 584,295 Q582,308 581,311" fill="none" stroke="#c9a13b" stroke-width="2"/>
+    <path d="M568,342 Q595,342 624,342" fill="none" stroke="#c9a13b" stroke-width="1.6"/>
+    <!-- 长江 -->
+    <path d="M334,537 Q380,520 415,500 Q500,478 572,469 Q586,476 598,481 Q620,495 640,505 Q655,488 677,475 Q710,486 741,500 Q800,465 847,434 Q856,432 862,421 Q872,419 885,417 Q925,425 964,437"
+          fill="none" stroke="#4f7fa8" stroke-width="4" stroke-linecap="round"/>
+    <!-- 汉水/岷江/嘉陵江/湘江/赣江 -->
+    <path d="M421,393 Q440,398 459,402 Q530,415 594,428 Q640,455 677,475" fill="none" stroke="#4f7fa8" stroke-width="2.2"/>
+    <path d="M312,469 Q322,505 334,537" fill="none" stroke="#4f7fa8" stroke-width="1.8"/>
+    <path d="M407,378 Q402,420 415,500" fill="none" stroke="#4f7fa8" stroke-width="1.8"/>
+    <path d="M561,627 Q590,585 624,545 Q632,525 640,505" fill="none" stroke="#4f7fa8" stroke-width="1.8"/>
+    <path d="M717,632 Q728,580 738,531 Q740,518 741,505" fill="none" stroke="#4f7fa8" stroke-width="1.8"/>
+    <!-- 淮河+泗水+汴渠+邗沟 -->
+    <path d="M636,417 Q665,416 685,415 Q730,412 787,406 Q800,398 813,390 Q830,378 843,366 L880,352" fill="none" stroke="#6f95ad" stroke-width="2.4"/>
+    <path d="M806,308 Q804,332 802,354 Q808,375 813,390" fill="none" stroke="#6f95ad" stroke-width="1.6"/>
+    <path d="M636,330 Q664,332 692,331 Q718,336 745,344 Q774,348 802,354" fill="none" stroke="#6f95ad" stroke-width="1.6" stroke-dasharray="4 3"/>
+    <path d="M843,366 Q862,388 885,412" fill="none" stroke="#6f95ad" stroke-width="1.6" stroke-dasharray="4 3"/>
+    <text x="852" y="384" font-size="9" fill="#51748a">邗沟</text><text x="700" y="326" font-size="9" fill="#51748a">汴渠</text>
+    <text x="826" y="250" font-size="11" fill="#a3822a">黄河</text>
+    <text x="500" y="492" font-size="11" fill="#3a6172">长江</text>
+    <text x="476" y="416" font-size="9" fill="#3a6172">汉水</text>
+    <text x="700" y="402" font-size="9" fill="#51748a">淮水</text>
+    <!-- 山脉 -->
+    <g stroke="#a3967c" stroke-width="6" opacity=".45" stroke-linecap="round">
+      <path d="M430,144 L530,136 L590,132 L660,124" fill="none"/>
+      <path d="M392,252 L400,218" fill="none"/>
+      <path d="M640,332 L690,280 L730,240 L745,196" fill="none"/>
+      <path d="M584,300 L596,246" fill="none"/>
+      <path d="M440,352 L520,344 L594,340" fill="none"/>
+      <path d="M428,398 L500,408 L566,414" fill="none"/>
+      <path d="M760,162 L830,152 L880,150" fill="none"/>
+      <path d="M408,330 L398,290" fill="none"/>
+      <path d="M498,470 L548,458" fill="none"/>
+      <path d="M640,652 L740,646 L850,640" fill="none"/>
+      <path d="M896,560 L922,616" fill="none"/>
+    </g>
+    <g font-size="10" fill="#93866c">
+      <text x="512" y="126">阴山</text><text x="378" y="238">贺兰山</text><text x="690" y="288">太行</text>
+      <text x="580" y="262">吕梁</text><text x="480" y="340">秦岭</text><text x="480" y="412">大巴山</text>
+      <text x="800" y="146">燕山</text><text x="388" y="312">陇山</text><text x="512" y="452">巫山</text>
+      <text x="716" y="642">南岭</text><text x="928" y="600">武夷</text>
+    </g>
+    <!-- 沙漠 -->
+    <g fill="#d8c79b" opacity=".6">
+      <ellipse cx="520" cy="212" rx="55" ry="18"/><ellipse cx="340" cy="212" rx="48" ry="16"/>
+      <ellipse cx="200" cy="185" rx="45" ry="15"/>
+    </g>
+    <text x="494" y="216" font-size="9" fill="#a08c5e">毛乌素</text><text x="316" y="216" font-size="9" fill="#a08c5e">腾格里</text>
+    <!-- 六镇边塞线 -->
+    <path d="M430,150 L660,124" stroke="#8c6f4a" stroke-width="2.6" stroke-dasharray="8 5" fill="none"/>
+    <text x="452" y="140" font-size="9" fill="#8c6f4a">六镇边塞线(北魏)</text>
+    <g fill="#8c6f4a"><rect x="449" y="145" width="6" height="6"/><rect x="560" y="141" width="6" height="6"/><rect x="587" y="141" width="6" height="6"/><rect x="623" y="134" width="6" height="6"/><rect x="645" y="127" width="6" height="6"/><rect x="665" y="122" width="6" height="6"/></g>
+    <g font-size="8.5" fill="#8c6f4a">
+      <text x="438" y="160">沃野</text><text x="548" y="158">怀朔</text><text x="584" y="158">武川</text><text x="618" y="150">抚冥</text><text x="640" y="143">柔玄</text><text x="662" y="136">怀荒</text>
+    </g>
+    <!-- 岛屿 -->
+    <ellipse cx="527" cy="803" rx="30" ry="17" fill="#efe6d0" stroke="#8f8168" stroke-width="1.4"/>
+    <text x="512" y="807" font-size="10" fill="#8f8168">珠崖</text>
+    <ellipse cx="966" cy="668" rx="13" ry="30" fill="#efe6d0" stroke="#8f8168" stroke-width="1.4"/>
+    <text x="955" y="708" font-size="10" fill="#8f8168">夷洲</text>
+    <!-- 指北针 -->
+    <g transform="translate(1150,760)"><path d="M0,-34 L7,8 L0,0 L-7,8 Z" fill="#7a6a4d"/><text x="-5" y="24" font-size="13" fill="#7a6a4d">北</text></g>
+  </g>
+  <!-- 城市层 -->
+  <g id="cities" font-size="11" fill="#4a3f2e">
+    <g fill="#4a3f2e" stroke="none">
+      <circle cx="96" cy="184" r="3.2"/><circle cx="168" cy="208" r="3.2"/><circle cx="251" cy="240" r="3.2"/>
+      <circle cx="313" cy="297" r="3.2"/><circle cx="291" cy="311" r="2.6"/><circle cx="385" cy="342" r="3.2"/>
+      <circle cx="403" cy="298" r="2.6"/><circle cx="407" cy="233" r="2.6"/><circle cx="485" cy="249" r="3.2"/>
+      <circle cx="421" cy="393" r="3.2"/><circle cx="351" cy="425" r="2.6"/><circle cx="312" cy="469" r="3.2"/>
+      <circle cx="415" cy="500" r="3.2"/><circle cx="307" cy="627" r="2.6"/><circle cx="572" cy="311" r="3.2"/>
+      <circle cx="613" cy="240" r="3.2"/><circle cx="584" cy="295" r="2.6"/><circle cx="489" cy="351" r="3.6"/>
+      <circle cx="530" cy="345" r="2.4"/><circle cx="624" cy="342" r="3.6"/><circle cx="692" cy="331" r="2.6"/>
+      <circle cx="696" cy="394" r="3.2"/><circle cx="624" cy="394" r="2.6"/><circle cx="685" cy="425" r="3.2"/>
+      <circle cx="594" cy="428" r="3.2"/><circle cx="598" cy="481" r="3.2"/><circle cx="632" cy="509" r="3.2"/>
+      <circle cx="677" cy="475" r="3.2"/><circle cx="741" cy="500" r="2.6"/><circle cx="738" cy="531" r="2.6"/>
+      <circle cx="624" cy="545" r="2.6"/><circle cx="668" cy="659" r="2.6"/><circle cx="639" cy="704" r="3.2"/>
+      <circle cx="364" cy="769" r="2.6"/><circle cx="802" cy="354" r="3.2"/><circle cx="745" cy="344" r="2.6"/>
+      <circle cx="795" cy="273" r="2.6"/><circle cx="851" cy="273" r="2.6"/><circle cx="700" cy="305" r="2.6"/>
+      <circle cx="700" cy="289" r="3.4"/><circle cx="715" cy="215" r="2.6"/><circle cx="738" cy="240" r="2.6"/>
+      <circle cx="760" cy="168" r="3.2"/><circle cx="911" cy="121" r="3.2"/><circle cx="1017" cy="124" r="2.6"/>
+      <circle cx="651" cy="171" r="3.4"/><circle cx="806" cy="420" r="2.6"/><circle cx="787" cy="406" r="3.2"/>
+      <circle cx="817" cy="391" r="2.6"/><circle cx="779" cy="378" r="2.6"/><circle cx="851" cy="426" r="3.2"/>
+      <circle cx="885" cy="417" r="3.2"/><circle cx="885" cy="412" r="2.8"/><circle cx="862" cy="421" r="3.8"/>
+      <circle cx="929" cy="434" r="2.6"/><circle cx="929" cy="475" r="2.6"/>
+    </g>
+    <g>
+      <text x="104" y="180">酒泉</text><text x="176" y="204">张掖</text><text x="259" y="236">姑臧</text>
+      <text x="321" y="293">金城</text><text x="299" y="323">枹罕</text><text x="358" y="338">上邽</text>
+      <text x="411" y="294">高平</text><text x="415" y="229">薄骨律</text><text x="462" y="245">统万城</text>
+      <text x="429" y="389">汉中</text><text x="359" y="421">涪城</text><text x="320" y="465">成都</text>
+      <text x="423" y="496">巴郡</text><text x="315" y="623">宁州</text><text x="580" y="307">玉壁</text>
+      <text x="621" y="236">晋阳</text><text x="592" y="291">平阳</text><text x="497" y="347">长安</text>
+      <text x="538" y="341" font-size="9">潼关</text><text x="632" y="338">洛阳</text><text x="700" y="327" font-size="9">陈留</text>
+      <text x="704" y="390">悬瓠</text><text x="632" y="390" font-size="9">宛</text><text x="693" y="421">义阳</text>
+      <text x="602" y="424">襄阳</text><text x="606" y="477">江陵</text><text x="640" y="511">巴陵</text>
+      <text x="685" y="471">夏口</text><text x="749" y="496" font-size="9">柴桑</text><text x="746" y="527" font-size="9">豫章</text>
+      <text x="632" y="541" font-size="9">长沙</text><text x="676" y="655" font-size="9">始兴</text><text x="647" y="700">广州</text>
+      <text x="372" y="765">交州</text><text x="810" y="350">彭城</text><text x="753" y="340" font-size="9">睢阳</text>
+      <text x="803" y="269" font-size="9">历城</text><text x="859" y="269" font-size="9">广固</text><text x="708" y="301" font-size="9">滑台</text>
+      <text x="664" y="285">邺城</text><text x="723" y="211" font-size="9">中山</text><text x="746" y="236" font-size="9">信都</text>
+      <text x="768" y="164">蓟城</text><text x="919" y="117">龙城</text><text x="995" y="120" font-size="9">襄平</text>
+      <text x="659" y="167">平城</text><text x="814" y="416" font-size="9">合肥</text><text x="757" y="402">寿阳</text>
+      <text x="825" y="387" font-size="9">钟离</text><text x="737" y="374" font-size="9">涡阳</text><text x="824" y="440">采石</text>
+      <text x="893" y="421">京口</text><text x="846" y="404" font-size="9">广陵</text><text x="850" y="415" font-size="12" font-weight="bold">建康</text>
+      <text x="937" y="430" font-size="9">吴郡</text><text x="937" y="471" font-size="9">会稽</text>
+    </g>
+    <!-- 地理区划虚字 -->
+    <g font-size="17" fill="#b3a385" opacity=".75" font-weight="bold">
+      <text x="560" y="100">漠南草原</text><text x="424" y="272">陇右</text><text x="498" y="372" font-size="14">关中</text>
+      <text x="628" y="266" font-size="14">河东</text><text x="770" y="252" font-size="14">河北</text><text x="818" y="305" font-size="14">山东</text>
+      <text x="724" y="368" font-size="13">河南</text><text x="796" y="398" font-size="13">淮南</text><text x="896" y="462" font-size="14">三吴</text>
+      <text x="636" y="458" font-size="14">荆襄</text><text x="356" y="524" font-size="16">巴蜀</text><text x="180" y="228" font-size="14">河西</text>
+      <text x="866" y="146" font-size="13">辽西</text><text x="46" y="212" font-size="13">西域→</text><text x="600" y="742" font-size="14">交广</text>
+    </g>
+  </g>
+</defs>
+</svg>
+
+<!-- ① 304 -->
+<div class="panel on" id="p1">
+  <div class="cap">① 304 年 · 十六国开局:西晋尚存,四支火种(汉·匈奴、成汉·巴氐、代·拓跋、慕容·辽西)已落地。</div>
+  <div class="mapwrap"><svg viewBox="0 0 1220 920">
+    <use href="#terrain"/>
+    <polygon class="state" points="592,238 648,232 656,268 598,274" fill="#8c3a2e" opacity=".45" stroke="#7a2f24" stroke-width="2"><title>汉(匈奴刘渊):左国城-平阳,并州南部,兵力五万</title></polygon>
+    <polygon class="state" points="275,440 360,435 366,520 285,526" fill="#6e4f8c" opacity=".45" stroke="#5a3f75" stroke-width="2"><title>成汉(巴氐李雄):益州</title></polygon>
+    <polygon class="state" points="524,148 596,140 602,170 530,178" fill="#4f7a8c" opacity=".42" stroke="#3f6474" stroke-width="2"><title>代(拓跋):盛乐一带</title></polygon>
+    <polygon class="state" points="840,116 900,108 908,138 848,146" fill="#4f7a8c" opacity=".42" stroke="#3f6474" stroke-width="2"><title>慕容鲜卑:棘城(辽西)</title></polygon>
+    <polygon class="state" points="40,150 430,152 660,130 900,155 1180,150 1180,860 40,860" fill="#c8b06a" opacity=".18" stroke="#a8924e" stroke-width="1.6" stroke-dasharray="3 3"><title>西晋:名义控制区(实际州郡半独立,流民四起)</title></polygon>
+    <use href="#cities"/>
+    <g font-size="15" font-weight="bold">
+      <text x="560" y="296" fill="#7a2f24">汉</text><text x="300" y="480" fill="#5a3f75">成汉</text>
+      <text x="530" y="196" fill="#3f6474">代</text><text x="836" y="166" fill="#3f6474">慕容</text>
+      <text x="770" y="560" fill="#8a7a45" font-size="17">西晋</text>
+    </g>
+    <g font-size="11" fill="#8c2f2a"><text x="640" y="330">★洛阳(晋都)</text></g>
+  </svg></div>
+  <div class="legend">看点:汉据并州瞰洛阳,成汉锁蜀口,代与慕容两支鲜卑分踞漠南与辽西——未来瓜分北方的四张种子牌,全部压在西晋边境线上。</div>
+</div>
+
+<!-- ② 382 -->
+<div class="panel" id="p2">
+  <div class="cap">② 382 年 · 淝水前夜:前秦(苻坚)统一北方+蜀+襄阳,东晋只剩江南——十六国唯一的北方统一。</div>
+  <div class="mapwrap"><svg viewBox="0 0 1220 920">
+    <use href="#terrain"/>
+    <polygon class="state" points="940,433 964,437 914,466 964,478 934,537 881,596 836,645 783,679 685,707 610,730 545,778 470,760 422,757 364,769 40,860 40,360 350,380 310,430 290,470 300,530 334,537 415,500 572,469 598,481 640,505 677,475 741,500 847,434 851,426 862,421 885,417" fill="#3d7d4f" opacity=".32" stroke="#2e6b3f" stroke-width="2.4"><title>东晋(司马曜·建康):扬、荆、江、湘、交、广</title></polygon>
+    <polygon class="state" points="40,190 96,184 140,160 400,150 600,150 760,158 900,148 935,135 900,174 821,202 822,242 866,242 935,230 1000,242 919,295 877,342 900,380 940,433 885,417 862,421 851,426 847,434 741,500 677,475 640,505 598,481 572,469 415,500 334,537 300,530 290,470 310,430 350,380 40,360" fill="#c9a13b" opacity=".34" stroke="#a3822a" stroke-width="2.8"><title>前秦(苻坚·长安):北方全境+梁益+襄阳+淮南拉锯区</title></polygon>
+    <use href="#cities"/>
+    <text x="420" y="330" font-size="18" fill="#a3822a" font-weight="bold">前秦</text>
+    <text x="600" y="620" font-size="18" fill="#2e6b3f" font-weight="bold">东晋</text>
+    <g transform="translate(800,402)"><circle r="9" fill="none" stroke="#8c2f2a" stroke-width="2.5"/><path d="M0,-14 L4.5,-4.5 L14,-3.5 L7,3.5 L8.5,13 L0,8 L-8.5,13 L-7,3.5 L-14,-3.5 L-4.5,-4.5 Z" fill="#8c2f2a"/></g>
+    <text x="762" y="384" font-size="13" fill="#8c2f2a" font-weight="bold">淝水(383)</text>
+    <g font-size="11" fill="#8c2f2a"><text x="505" y="366">★长安(秦都)</text><text x="874" y="448">★建康(晋都)</text></g>
+  </svg></div>
+  <div class="legend">看点:两国的国境线就是一条长江;383 年的一切都压在寿阳城外那条小支流上。北府兵八万,对面号称百万。</div>
+</div>
+
+<!-- ③ 420 -->
+<div class="panel" id="p3">
+  <div class="cap">③ 420 年 · 南北朝开局:刘裕代晋建宋(南朝最大版图);北方北魏、夏、西秦、北凉、西凉、北燕、吐谷浑七家并立。</div>
+  <div class="mapwrap"><svg viewBox="0 0 1220 920">
+    <use href="#terrain"/>
+    <polygon class="state" points="430,150 660,124 760,160 880,150 960,140 900,174 821,202 822,242 773,262 743,280 709,302 636,326 604,326 581,311 604,202 601,165" fill="#c05a2e" opacity=".36" stroke="#9c4420" stroke-width="2.8"><title>北魏(拓跋嗣·平城):司、冀、并、幽、平(营州)</title></polygon>
+    <polygon class="state" points="601,165 604,202 581,311 594,340 560,350 490,352 460,330 430,300 420,260 440,220 480,200 520,190 560,180" fill="#8c5a2e" opacity=".45" stroke="#6e4420" stroke-width="2.4"><title>夏(赫连勃勃·统万):关中、陕北、陇东</title></polygon>
+    <polygon class="state" points="150,212 251,215 302,232 296,262 250,266 180,256 140,235" fill="#4f7a8c" opacity=".45" stroke="#3a6172" stroke-width="2.2"><title>北凉(沮渠蒙逊·姑臧):河西中段</title></polygon>
+    <polygon class="state" points="40,195 96,186 150,212 150,238 90,244 40,232" fill="#946b4a" opacity=".5" stroke="#6e4e33" stroke-width="2.2"><title>西凉(李歆·酒泉):河西西段(敦煌、酒泉)</title></polygon>
+    <polygon class="state" points="291,300 385,315 402,346 360,362 300,352 278,326" fill="#7a4fa3" opacity=".4" stroke="#5d3b80" stroke-width="2.2"><title>西秦(乞伏炽磐·枹罕):陇西</title></polygon>
+    <polygon class="state" points="840,114 911,108 932,140 882,150 846,142" fill="#946b4a" opacity=".5" stroke="#6e4e33" stroke-width="2.2"><title>北燕(冯跋·龙城):辽西</title></polygon>
+    <polygon class="state" points="250,330 330,342 362,400 302,432 232,402 202,352" fill="#b08a3e" opacity=".3" stroke="#8c6b28" stroke-width="1.8" stroke-dasharray="5 3"><title>吐谷浑:青海高原(部落政权,界线流动)</title></polygon>
+    <polygon class="state" points="581,315 604,332 636,330 709,302 743,280 773,262 822,242 843,252 866,246 877,342 900,380 964,437 914,466 964,478 934,537 881,596 836,645 783,679 685,707 610,730 545,778 470,760 422,757 364,769 40,860 40,600 270,660 300,560 290,470 300,430 330,400 350,380 421,370 440,355 519,345 560,335" fill="#3d7d4f" opacity=".32" stroke="#2e6b3f" stroke-width="2.8"><title>刘宋(刘裕·建康):江南+巴蜀+汉中+淮南+青齐+河南南部</title></polygon>
+    <use href="#cities"/>
+    <g font-size="15" font-weight="bold">
+      <text x="700" y="200" fill="#9c4420">北魏</text><text x="470" y="330" fill="#6e4420">夏</text>
+      <text x="196" y="250" font-size="13" fill="#3a6172">北凉</text><text x="60" y="216" font-size="13" fill="#6e4e33">西凉</text>
+      <text x="304" y="336" font-size="13" fill="#5d3b80">西秦</text><text x="846" y="176" font-size="13" fill="#6e4e33">北燕</text>
+      <text x="252" y="392" font-size="12" fill="#8c6b28">吐谷浑</text><text x="770" y="560" fill="#2e6b3f" font-size="17">刘宋</text>
+    </g>
+    <g font-size="11" fill="#8c2f2a"><text x="662" y="184">★平城</text><text x="874" y="448">★建康</text></g>
+  </svg></div>
+  <div class="legend">看点:宋的边境线顶到黄河南岸——洛阳、虎牢、滑台、青齐全在手,这是南朝三百年的最大疆域;"元嘉草草"(450)之后,这条线将永久退到淮河。</div>
+</div>
+
+<!-- ④ 534 -->
+<div class="panel" id="p4">
+  <div class="cap">④ 534 年 · 两魏分立:北魏沿黄河(晋陕段)裂成东西两部;梁朝据淮南-襄阳-汉中-蜀,国势承平。</div>
+  <div class="mapwrap"><svg viewBox="0 0 1220 920">
+    <use href="#terrain"/>
+    <polygon class="state" points="40,280 180,290 251,300 300,320 403,340 440,352 519,342 560,330 581,311 604,202 601,168 560,180 500,195 400,200 250,195 140,205 40,195" fill="#7a4fa3" opacity=".38" stroke="#5d3b80" stroke-width="2.8"><title>西魏(宇文泰·长安):关陇、河西东部、河东一部</title></polygon>
+    <polygon class="state" points="601,168 604,202 581,311 594,345 630,380 700,400 745,395 787,392 813,390 880,352 877,342 900,380 964,437 914,466 964,478 934,537 881,596 836,645 783,679 685,707 610,730 545,778 470,760 422,757 364,769 40,860 40,600 270,660 300,560 290,470 300,430 330,400 350,380 421,370 440,355 519,345 560,335 581,315 600,350" fill="#3d7d4f" opacity=".32" stroke="#2e6b3f" stroke-width="2.8"><title>梁(萧衍·建康):江南+巴蜀+汉中+襄阳+淮南(寿阳)</title></polygon>
+    <polygon class="state" points="601,168 660,124 760,160 880,150 960,140 900,174 821,202 822,242 773,262 743,280 709,302 745,360 787,360 813,388 880,352 813,390 787,392 745,395 700,400 630,380 594,345 581,311 604,202" fill="#c05a2e" opacity=".38" stroke="#9c4420" stroke-width="2.8"><title>东魏(高欢·邺城):河北、山东、河南大部、山西(晋阳)</title></polygon>
+    <use href="#cities"/>
+    <g font-size="15" font-weight="bold">
+      <text x="330" y="290" fill="#5d3b80">西魏</text><text x="740" y="220" fill="#9c4420">东魏</text><text x="770" y="560" fill="#2e6b3f" font-size="17">梁</text>
+    </g>
+    <text x="586" y="262" font-size="10" fill="#7a2f24" transform="rotate(75 586 262)">东西魏界·黄河</text>
+    <g font-size="11" fill="#8c2f2a"><text x="712" y="282">★邺城</text><text x="505" y="366">★长安</text><text x="874" y="448">★建康</text></g>
+    <g transform="translate(608,330)"><circle r="6" fill="#8c2f2a"/><text x="9" y="-4" font-size="12" fill="#8c2f2a" font-weight="bold">河阴(528)</text></g>
+    <g transform="translate(572,311)"><circle r="6" fill="#8c2f2a"/><text x="-64" y="14" font-size="12" fill="#8c2f2a" font-weight="bold">玉壁(546)</text></g>
+  </svg></div>
+  <div class="legend">看点:东西魏的边境线几乎就是黄河晋陕峡谷+潼关一线;此后二十年的五场国战(小关、沙苑、河桥、邙山、玉壁)全部发生在这条线的两端。梁的边境线北推到淮河——寿阳在梁手里,这就是 547 年侯景南来时的"接收区"。</div>
+</div>
+
+<!-- ⑤ 548 锚点 -->
+<div class="panel" id="p5">
+  <div class="cap">⑤ 548–552 年 · 侯景之乱(锚点):红箭头=侯景进军(寿阳→采石→台城),绿虚线=梁军反攻(江陵→巴陵→建康),①-⑩=可改写节点。</div>
+  <div class="mapwrap"><svg viewBox="0 0 1220 920">
+    <use href="#terrain"/>
+    <polygon class="state" points="40,280 180,290 251,300 300,320 403,340 440,352 519,342 560,330 581,311 604,202 601,168 560,180 500,195 400,200 250,195 140,205 40,195" fill="#7a4fa3" opacity=".38" stroke="#5d3b80" stroke-width="2.8"><title>西魏(宇文泰)</title></polygon>
+    <polygon class="state" points="601,168 604,202 581,311 594,345 630,380 700,400 745,395 787,392 813,390 880,352 877,342 900,380 964,437 914,466 964,478 934,537 881,596 836,645 783,679 685,707 610,730 545,778 470,760 422,757 364,769 40,860 40,600 270,660 300,560 290,470 300,430 330,400 350,380 421,370 440,355 519,345 560,335 581,315 600,350" fill="#3d7d4f" opacity=".32" stroke="#2e6b3f" stroke-width="2.8"><title>梁(萧衍·建康)</title></polygon>
+    <polygon class="state" points="601,168 660,124 760,160 880,150 960,140 900,174 821,202 822,242 773,262 743,280 709,302 745,360 787,360 813,388 880,352 813,390 787,392 745,395 700,400 630,380 594,345 581,311 604,202" fill="#c05a2e" opacity=".38" stroke="#9c4420" stroke-width="2.8"><title>东魏(高澄·邺城)</title></polygon>
+    <use href="#cities"/>
+    <g font-size="14" font-weight="bold">
+      <text x="330" y="290" fill="#5d3b80">西魏</text><text x="740" y="220" fill="#9c4420">东魏</text><text x="770" y="560" fill="#2e6b3f">梁</text>
+    </g>
+    <defs>
+      <marker id="ar" markerWidth="11" markerHeight="9" refX="9" refY="4.5" orient="auto"><path d="M0,0 L11,4.5 L0,9 Z" fill="#c1121f"/></marker>
+      <marker id="ag" markerWidth="11" markerHeight="9" refX="9" refY="4.5" orient="auto"><path d="M0,0 L11,4.5 L0,9 Z" fill="#1e7d46"/></marker>
+    </defs>
+    <path d="M787,406 Q824,424 845,428" fill="none" stroke="#c1121f" stroke-width="4.5" marker-end="url(#ar)"/>
+    <path d="M851,426 Q856,424 862,421" fill="none" stroke="#c1121f" stroke-width="4.5" marker-end="url(#ar)"/>
+    <path d="M598,481 Q620,498 632,509 Q680,500 741,500 Q800,462 840,434" fill="none" stroke="#1e7d46" stroke-width="3.6" stroke-dasharray="10 7" marker-end="url(#ag)"/>
+    <path d="M632,509 Q660,522 677,475" fill="none" stroke="#1e7d46" stroke-width="3" stroke-dasharray="10 7" marker-end="url(#ag)"/>
+    <ellipse cx="929" cy="458" rx="46" ry="30" fill="none" stroke="#c1121f" stroke-width="2" stroke-dasharray="6 4"/>
+    <g font-size="13" font-weight="bold" text-anchor="middle">
+      <g><circle cx="787" cy="406" r="12" fill="#c1121f"/><text x="787" y="411" fill="#fff">1</text></g>
+      <g><circle cx="880" cy="352" r="12" fill="#c1121f"/><text x="880" y="357" fill="#fff">2</text></g>
+      <g><circle cx="836" cy="432" r="12" fill="#c1121f"/><text x="836" y="437" fill="#fff">3</text></g>
+      <g><circle cx="862" cy="421" r="12" fill="#8c2f2a"/><text x="862" y="426" fill="#fff">4</text></g>
+      <g><circle cx="900" cy="440" r="12" fill="#8c2f2a"/><text x="900" y="445" fill="#fff">5</text></g>
+      <g><circle cx="929" cy="458" r="12" fill="#c1121f"/><text x="929" y="463" fill="#fff">6</text></g>
+      <g><circle cx="632" cy="509" r="12" fill="#1e7d46"/><text x="632" y="514" fill="#fff">7</text></g>
+      <g><circle cx="598" cy="481" r="12" fill="#1e7d46"/><text x="598" y="486" fill="#fff">8</text></g>
+      <g><circle cx="880" cy="470" r="12" fill="#8c2f2a"/><text x="880" y="475" fill="#fff">9</text></g>
+      <g><circle cx="700" cy="470" r="12" fill="#1e7d46"/><text x="700" y="475" fill="#fff">10</text></g>
+    </g>
+    <text x="690" y="392" font-size="12" fill="#c1121f" font-weight="bold">侯景:寿阳起兵→采石渡江(步八千·马数百)</text>
+    <text x="900" y="418" font-size="12" fill="#8c2f2a" font-weight="bold">台城围 130 天</text>
+    <text x="912" y="500" font-size="11" fill="#c1121f">三吴浩劫(551)</text>
+  </svg></div>
+  <div class="legend">
+    <b style="color:#c1121f">改写节点:</b>①寿阳受降(547) ②"贞阳旦至"回信(548) ③采石渡江(548) ④羊侃之死/台城守御(548–549) ⑤援军观望(549) ⑥三吴(551) ⑦巴陵之战(551) ⑧江陵焚书(554) ⑨王僧辩之死(555) ⑩巴陵-建康反攻线(552)。<br>看点:侯景的路线是"淮河最弱点→长江最弱点"的一条直线;绿色反攻线就是后来陈朝的权力地理。
+  </div>
+</div>
+
+<!-- ⑥ 589 -->
+<div class="panel" id="p6">
+  <div class="cap">⑥ 588–589 年 · 隋灭陈:八路五十一万,四支主攻箭头;韩擒虎夜渡采石——与 548 年侯景同一条渡口。</div>
+  <div class="mapwrap"><svg viewBox="0 0 1220 920">
+    <use href="#terrain"/>
+    <polygon class="state" points="940,433 964,437 914,466 964,478 934,537 881,596 836,645 783,679 685,707 610,730 545,778 470,760 422,757 364,769 40,860 40,600 270,660 300,560 290,470 300,530 334,537" fill="#2e8b74" opacity=".36" stroke="#1e6e5c" stroke-width="2.6"><title>陈(陈叔宝·建康):长江以南+交广(淮南、蜀、汉中已失)</title></polygon>
+    <polygon class="state" points="40,190 140,160 400,150 600,150 760,158 900,148 935,135 900,174 821,202 822,242 866,242 935,230 1000,242 919,295 877,342 900,380 940,433 885,417 862,421 851,426 847,434 741,500 677,475 640,505 598,481 572,469 415,500 334,537 300,530 290,470 310,430 350,380 40,360" fill="#b0343a" opacity=".36" stroke="#8c2228" stroke-width="2.8"><title>隋(杨坚·大兴):北方+蜀+襄汉(后梁江陵)+淮南</title></polygon>
+    <polygon points="620,452 680,430 700,470 660,500 620,492" fill="#b0343a" opacity=".5" stroke="#8c2228" stroke-width="1.8"><title>后梁(萧氏傀儡·江陵,587 年废)</title></polygon>
+    <use href="#cities"/>
+    <text x="420" y="330" font-size="18" fill="#8c2228" font-weight="bold">隋</text>
+    <text x="600" y="620" font-size="18" fill="#1e6e5c" font-weight="bold">陈</text>
+    <text x="580" y="440" font-size="11" fill="#8c2228">后梁(587 废)</text>
+    <defs><marker id="ar2" markerWidth="11" markerHeight="9" refX="9" refY="4.5" orient="auto"><path d="M0,0 L11,4.5 L0,9 Z" fill="#701818"/></marker></defs>
+    <g stroke="#701818" stroke-width="4" fill="none">
+      <path d="M885,412 885,418" marker-end="url(#ar2)"/>
+      <path d="M820,430 838,428" marker-end="url(#ar2)"/>
+      <path d="M520,470 560,472" marker-end="url(#ar2)"/>
+      <path d="M594,428 640,455" marker-end="url(#ar2)"/>
+    </g>
+    <g font-size="12" fill="#701818" font-weight="bold">
+      <text x="900" y="408">贺若弼 广陵→京口</text>
+      <text x="742" y="446">韩擒虎 横江→采石</text>
+      <text x="432" y="458">杨素 水军出三峡</text>
+      <text x="540" y="415">杨俊 出襄阳</text>
+    </g>
+    <g transform="translate(862,421)"><circle r="9" fill="none" stroke="#701818" stroke-width="2.5"/><text x="-30" y="30" font-size="12" fill="#701818" font-weight="bold">景阳井(胭脂井)</text></g>
+  </svg></div>
+  <div class="legend">看点:与②对照——207 年前前秦没能渡过的长江,隋用四个箭头同时压过。采石在 548 与 589 两次改写历史:这条渡口值得在你的游戏地图上立碑。</div>
+</div>
+
+<!-- ⑦ 怨气地图 -->
+<div class="panel" id="p7">
+  <div class="cap">⑦ 怨气地图(志怪系统):红色光晕=浩劫峰值(自北而南迁移),卍=佛寺结怨点。超度/镇魂系统的地理底稿。</div>
+  <div class="mapwrap"><svg viewBox="0 0 1220 920">
+    <use href="#terrain"/>
+    <use href="#cities"/>
+    <defs>
+      <radialGradient id="gr" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#e03616" stop-opacity=".85"/><stop offset="55%" stop-color="#c1121f" stop-opacity=".4"/><stop offset="100%" stop-color="#c1121f" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <g>
+      <circle cx="709" cy="366" r="52" fill="url(#gr)"/><text x="676" y="352" font-size="12" fill="#7a1008" font-weight="bold">宁平城 311</text>
+      <circle cx="651" cy="157" r="44" fill="url(#gr)"/><text x="600" y="144" font-size="12" fill="#7a1008" font-weight="bold">参合陂 395</text>
+      <circle cx="699" cy="264" r="40" fill="url(#gr)"/><text x="666" y="250" font-size="12" fill="#7a1008" font-weight="bold">遏陉山 352</text>
+      <circle cx="485" cy="249" r="42" fill="url(#gr)"/><text x="438" y="236" font-size="12" fill="#7a1008" font-weight="bold">统万城 413</text>
+      <circle cx="608" cy="330" r="44" fill="url(#gr)"/><text x="640" y="318" font-size="12" fill="#7a1008" font-weight="bold">河阴 528</text>
+      <circle cx="572" cy="311" r="40" fill="url(#gr)"/><text x="512" y="292" font-size="12" fill="#7a1008" font-weight="bold">玉壁 546</text>
+      <circle cx="862" cy="421" r="60" fill="url(#gr)"/><text x="838" y="398" font-size="13" fill="#7a1008" font-weight="bold">台城 549</text>
+      <circle cx="929" cy="458" r="54" fill="url(#gr)"/><text x="906" y="494" font-size="12" fill="#7a1008" font-weight="bold">三吴 551</text>
+      <circle cx="598" cy="481" r="54" fill="url(#gr)"/><text x="562" y="464" font-size="12" fill="#7a1008" font-weight="bold">江陵 554</text>
+    </g>
+    <g font-size="14" fill="#1e5aa8" font-weight="bold">
+      <g transform="translate(463,336)"><text>卍</text><text x="16" y="0" font-size="11">新平佛寺(苻坚死 385)</text></g>
+      <g transform="translate(613,240)"><text>卍</text><text x="16" y="16" font-size="11">三级佛寺(孝庄帝死 530)</text></g>
+      <g transform="translate(880,432)"><text>卍</text><text x="-120" y="30" font-size="11">净居殿(梁武帝死 549)</text></g>
+    </g>
+  </svg></div>
+  <div class="legend">怨气峰值南迁时间线:宁平城(311)→参合陂(395)→统万城(413)→河阴(528)→玉壁(546)→台城/三吴(549–551)→江陵(554)。你的锚点时代恰好是这条南迁线的终点。三个卍字佛寺=超度任务的固定锚点。</div>
+</div>
+
+<div class="note">v2 升级:经纬投影底图(25°–40°N 网格)、大陆海岸线+岛屿、黄河汉唐故道+渭汾洛、长江+汉岷嘉湘赣、淮泗汴邗水网、洞庭彭蠡太湖巢湖、山脉十一列、毛乌素腾格里沙漠、六镇边塞线与六镇戍点、53 座城邑、指北针;七个政权疆域均为带边境线的闭合多边形,悬停可见说明。仍为示意走向,精确界线以谭其骧《中国历史地图集》为准。</div>
+
+<script>
+  document.querySelectorAll('.tabs button').forEach(b=>{
+    b.onclick=()=>{
+      document.querySelectorAll('.tabs button').forEach(x=>x.classList.remove('on'));
+      document.querySelectorAll('.panel').forEach(x=>x.classList.remove('on'));
+      b.classList.add('on');
+      document.getElementById(b.dataset.t).classList.add('on');
+    };
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,4587 @@
+{
+ "npc_seeds": [
+  {
+   "id": 1,
+   "name": "侯景",
+   "courtesy": "万景",
+   "xiaozihao": null,
+   "title_label": "宇宙大将军·汉帝",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": 552,
+   "death_cause": "部下杀",
+   "home_region": "朔方",
+   "faction": "怀朔系",
+   "confidence": 0.9,
+   "notes": "seed依据:侯景，字万景，朔方人，或云雁门人\n[更新]小字狗子(宝志谶语);祖名乙羽周,父名摽\n[更新]小字狗子(宝志谶语);祖名乙羽周,父名摽\n[更新]小字狗子(宝志谶语);祖名乙羽周,父名摽",
+   "degree": 92,
+   "aliases": [
+    "万景",
+    "侯万景",
+    "狗子"
+   ]
+  },
+  {
+   "id": 127,
+   "name": "陈霸先",
+   "courtesy": "兴国",
+   "xiaozihao": null,
+   "title_label": "陈武帝(高祖)",
+   "era": "陈",
+   "birth_year": null,
+   "death_year": 559,
+   "death_cause": "病卒",
+   "home_region": "吴兴长城",
+   "faction": "岭南-吴兴寒门",
+   "confidence": 0.85,
+   "notes": "seed依据:陈霸先率众五万，出自南江，前军五千，行至湓口\n[更新]陈书:字兴国,小字法生;吴兴长城下若里人;身长七尺五寸日角龙颜垂手过膝;永定三年崩于璿玑殿年五十七;姚察评:汉高魏武之亚\n[更新]陈书:字兴国,小字法生;吴兴长城下若里人;身长七尺五寸日角龙颜垂手过膝;永定三年崩于璿玑殿年五十七;姚察评:汉高魏武之亚",
+   "degree": 30,
+   "aliases": [
+    "兴国"
+   ]
+  },
+  {
+   "id": 19,
+   "name": "王僧辩",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "领军·大将军",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:世祖遣领军王僧辩率众东下代徐文盛\n[更新]字君才,王神念子;萧绎斫其中左髯下狱而复起用;母魏氏贞敬太夫人;555 夜袭中被杀,长子頠\n[更新]陈书版夜袭:高祖因风纵火,僧辩穷迫乃就擒,是夜缢僧辩及頠(与梁书'尔夜斩之'互见)\n[更新]陈书版夜袭:高祖因风纵火,僧辩穷迫乃就擒,是夜缢僧辩及頠(与梁书'尔夜斩之'互见)",
+   "degree": 25,
+   "aliases": [
+    "君才"
+   ]
+  },
+  {
+   "id": 4,
+   "name": "尔朱荣",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "天柱将军",
+   "era": "北魏",
+   "birth_year": null,
+   "death_year": 530,
+   "death_cause": "被孝庄帝手刃(别卷)",
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:天柱将军尔硃荣自晋阳入杀胡氏\n[更新]魏书:字天宝,北秀容人;洁白美容貌幼而神机明决;河阴死者千三百余人;手刃时年三十八;魏书史臣曰:非徒鼠窃狗盗;地逼贻毙",
+   "degree": 21,
+   "aliases": [
+    "天宝",
+    "尔硃荣"
+   ]
+  },
+  {
+   "id": 8,
+   "name": "萧衍",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "梁武帝",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": 549,
+   "death_cause": "忧愤感疾(饿死)",
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:五月，高祖崩于文德殿",
+   "degree": 19,
+   "aliases": []
+  },
+  {
+   "id": 12,
+   "name": "羊侃",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "军师将军",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": 548,
+   "death_cause": "病卒于围城(别卷)",
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:都官尚书羊侃为军师将军以副焉\n[更新]南史:字祖忻,泰山梁父人;身长七尺八寸;所用弓至二十石;魏帝谓郎官为虎试作虎状,以手抉殿没指;寒山之战频言乘其远来可击不见纳,军败结阵徐还;性豪侈善音律自造采莲棹歌两曲;围城中寻以疾卒赠侍中护军\n[更新]南史:字祖忻,泰山梁父人;身长七尺八寸;所用弓至二十石;魏帝谓郎官为虎试作虎状,以手抉殿没指;寒山之战频言乘其远来可击不见纳,军败结阵徐还;性豪侈善音律自造采莲棹歌两曲;围城中寻以疾卒赠侍中护军",
+   "degree": 15,
+   "aliases": [
+    "祖忻"
+   ]
+  },
+  {
+   "id": 18,
+   "name": "萧绎",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "梁元帝(世祖/湘东王)",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": 554,
+   "death_cause": "江陵城陷土囊压杀(别卷)",
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:荆州刺史湘东王绎遣世子方等…下赴京师",
+   "degree": 12,
+   "aliases": [
+    "湘东王"
+   ]
+  },
+  {
+   "id": 9,
+   "name": "萧纲",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "简文帝(太宗)",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": 551,
+   "death_cause": "土囊压杀",
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:修纂以帊盛土加于腹，因崩焉",
+   "degree": 10,
+   "aliases": []
+  },
+  {
+   "id": 258,
+   "name": "宇文泰",
+   "courtesy": "黑獭",
+   "xiaozihao": null,
+   "title_label": "周太祖文皇帝",
+   "era": "西魏",
+   "birth_year": null,
+   "death_year": 556,
+   "death_cause": "病卒",
+   "home_region": "代武川",
+   "faction": "武川系",
+   "confidence": 0.85,
+   "notes": "seed依据:太祖文皇帝姓宇文氏，讳泰，字黑獭，代武川人也\n[更新]周书:字黑獭,代武川人;身长八尺方颡广额美须髯;发长委地垂手过膝背有黑子宛转若龙盘之形面有紫光;母孕五月夜梦抱子升天纔不至而止,寤告德皇:虽不至天贵亦极矣;生有黑气如盖下覆其身",
+   "degree": 10,
+   "aliases": [
+    "黑獭"
+   ]
+  },
+  {
+   "id": 208,
+   "name": "颜之推",
+   "courtesy": "介",
+   "xiaozihao": null,
+   "title_label": "黄门侍郎·三为亡国之人",
+   "era": "梁→齐→周→隋",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": "琅邪临沂",
+   "faction": null,
+   "confidence": 0.85,
+   "notes": "seed依据:颜之推，字介，琅邪临沂人也\n[更新]字介,琅邪临沂人;九世祖颜含随晋元东渡;年十九释褐湘东国右常侍;郢州陷被囚送建业赖王则救;周破江陵俘入关;黄河暴涨率妻子砥柱一夜奔齐;三为亡国之人(梁/北齐/北周终仕隋);撰观我生赋+家训二十篇;隋开皇中以疾终",
+   "degree": 9,
+   "aliases": [
+    "介"
+   ]
+  },
+  {
+   "id": 11,
+   "name": "王伟",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "谋主·中书监",
+   "era": "汉(侯)",
+   "birth_year": null,
+   "death_year": 552,
+   "death_cause": "烹于市",
+   "home_region": "陈留",
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:王伟，陈留人。少有才学，景之表、启、书、檄，皆其所制\n[更新]南史:其先略阳人,父略仕魏居颍川(梁书作陈留人);死状南史作钉舌剜肠脔肉,梁书作烹于市\n[更新]南史:其先略阳人,父略仕魏居颍川(梁书作陈留人);死状南史作钉舌剜肠脔肉,梁书作烹于市\n[更新]南史:其先略阳人,父略仕魏居颍川(梁书作陈留人);死状南史作钉舌剜肠脔肉,梁书作烹于市",
+   "degree": 8,
+   "aliases": []
+  },
+  {
+   "id": 16,
+   "name": "韦粲",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "衡州刺史",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": 549,
+   "death_cause": "青塘战死",
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:粲拒战败绩，景斩粲首徇于城下\n[更新]字长蒨,韦睿之孙、韦放之子;青塘死节年五十四,子弟从弟死者数百人;世祖追谥忠贞\n[更新]字长蒨,韦睿之孙、韦放之子;青塘死节年五十四,子弟从弟死者数百人;世祖追谥忠贞",
+   "degree": 8,
+   "aliases": [
+    "长蒨"
+   ]
+  },
+  {
+   "id": 24,
+   "name": "任约",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "司空",
+   "era": "汉(侯)",
+   "birth_year": null,
+   "death_year": 551,
+   "death_cause": "赤亭被擒",
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:约至与战，大破之，生擒约\n[更新]被擒后与徐文盛同禁,有门外马迹之对",
+   "degree": 8,
+   "aliases": []
+  },
+  {
+   "id": 2,
+   "name": "高欢",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "齐神武帝",
+   "era": "东魏",
+   "birth_year": null,
+   "death_year": 547,
+   "death_cause": "病卒",
+   "home_region": null,
+   "faction": "怀朔系",
+   "confidence": 0.9,
+   "notes": "seed依据:齐神武帝为魏相，又入洛诛尔硃氏",
+   "degree": 7,
+   "aliases": []
+  },
+  {
+   "id": 277,
+   "name": "高长恭",
+   "courtesy": "孝瓘",
+   "xiaozihao": null,
+   "title_label": "兰陵武王(面具将军)",
+   "era": "北齐",
+   "birth_year": null,
+   "death_year": 573,
+   "death_cause": "赐鸩",
+   "home_region": "渤海蓨",
+   "faction": null,
+   "confidence": 0.85,
+   "notes": "seed依据:兰陵武王长恭，一名孝瓘，文襄第四子也",
+   "degree": 7,
+   "aliases": [
+    "兰陵武王",
+    "孝瓘"
+   ]
+  },
+  {
+   "id": 3,
+   "name": "高澄",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "齐文襄帝",
+   "era": "东魏",
+   "birth_year": null,
+   "death_year": 549,
+   "death_cause": "遇刺(别卷)",
+   "home_region": null,
+   "faction": "怀朔系",
+   "confidence": 0.9,
+   "notes": "seed依据:及齐神武卒，其子澄嗣，是为文襄帝",
+   "degree": 6,
+   "aliases": []
+  },
+  {
+   "id": 15,
+   "name": "柳仲礼",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "司州刺史·西道都督",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:司州刺史柳仲礼、衡州刺史韦粲…皆来赴援",
+   "degree": 6,
+   "aliases": []
+  },
+  {
+   "id": 36,
+   "name": "刘神茂",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "马头太守→司空→归顺",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:刘神茂、尹思合、刘归义、王晔…据东阳归顺",
+   "degree": 6,
+   "aliases": []
+  },
+  {
+   "id": 278,
+   "name": "高延宗",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "安德王(短暂称帝德昌)",
+   "era": "北齐",
+   "birth_year": null,
+   "death_year": 578,
+   "death_cause": "周武帝赐死(椒塞口)",
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.85,
+   "notes": "seed依据:安德王延宗，文襄第五子也",
+   "degree": 6,
+   "aliases": [
+    "安德王"
+   ]
+  },
+  {
+   "id": 5,
+   "name": "葛荣",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": null,
+   "era": "北魏",
+   "birth_year": null,
+   "death_year": 528,
+   "death_cause": "兵败被擒杀",
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:怀朔镇将葛荣因收集之，攻杀吐斤洛周，尽有其众，谓之“葛贼”",
+   "degree": 5,
+   "aliases": []
+  },
+  {
+   "id": 10,
+   "name": "萧正德",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "临贺王(伪帝正平)",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": "矫诏杀",
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:初，童谣有“正平”之言，故立号以应之",
+   "degree": 5,
+   "aliases": [
+    "临贺王"
+   ]
+  },
+  {
+   "id": 17,
+   "name": "萧纶",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "邵陵王",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": "西魏军攻杀(别卷)",
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:开府仪同三司、丹阳尹、邵陵王纶持节，董督众军",
+   "degree": 5,
+   "aliases": [
+    "邵陵王"
+   ]
+  },
+  {
+   "id": 23,
+   "name": "宋子仙",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "司徒",
+   "era": "汉(侯)",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": "郢州兵败被杀",
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:遣宋子仙率轻骑三百袭陷之，执刺史方诸",
+   "degree": 5,
+   "aliases": []
+  },
+  {
+   "id": 20,
+   "name": "慕容绍宗",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "大将军",
+   "era": "东魏",
+   "birth_year": null,
+   "death_year": 549,
+   "death_cause": "涡阳后坠水死(别卷)",
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:齐文襄遣大将军慕容绍宗围景于长社",
+   "degree": 4,
+   "aliases": []
+  },
+  {
+   "id": 26,
+   "name": "羊鲲",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "前太子舍人",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:至壶豆洲，前太子舍人羊鲲杀之\n[更新]南史作第三子'从'字子鹏(羊从/羊鹍/羊鲲异写);杀景全过程在此传最详\n[更新]南史作第三子'从'字子鹏(羊从/羊鹍/羊鲲异写);杀景全过程在此传最详",
+   "degree": 4,
+   "aliases": [
+    "子鹏(羊",
+    "羊从",
+    "羊鲲",
+    "羊鹍"
+   ]
+  },
+  {
+   "id": 35,
+   "name": "赵伯超",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "东道行台",
+   "era": "汉(侯)→降",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:景以赵伯超为东道行台，镇钱塘",
+   "degree": 4,
+   "aliases": []
+  },
+  {
+   "id": 42,
+   "name": "郭元建",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "太尉·北道行台",
+   "era": "汉(侯)",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:景以仪同郭元建为尚书仆射、北道行台、总江北诸军事",
+   "degree": 4,
+   "aliases": []
+  },
+  {
+   "id": 47,
+   "name": "张嵊",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "吴兴太守",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": "执送京师并杀之",
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:破吴兴，执太守张嵊父子送京师，景并杀之",
+   "degree": 4,
+   "aliases": []
+  },
+  {
+   "id": 59,
+   "name": "侯瑱",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "领军麾下将",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:王僧辩遣侯瑱率军追景",
+   "degree": 4,
+   "aliases": []
+  },
+  {
+   "id": 99,
+   "name": "王琳",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "军人(后? 王琳军)",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.85,
+   "notes": "seed依据:才度淮，王琳、杜龛军人掠之，甚于寇贼\n[更新]江陵陷后入齐,齐遣镇寿春图江左;陈平淮南执琳杀之;僧辩长子頠闻其死一恸而绝",
+   "degree": 4,
+   "aliases": []
+  },
+  {
+   "id": 100,
+   "name": "杜龛",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "军人",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.85,
+   "notes": "seed依据:才度淮，王琳、杜龛军人掠之，甚于寇贼\n[更新]杜掞第二兄岑之子;王僧辩之婿;僧辩死后据吴兴拒陈,降而遇害",
+   "degree": 4,
+   "aliases": []
+  },
+  {
+   "id": 256,
+   "name": "孝庄帝",
+   "courtesy": "子攸",
+   "xiaozihao": null,
+   "title_label": "魏庄帝",
+   "era": "北魏",
+   "birth_year": null,
+   "death_year": 530,
+   "death_cause": "尔朱兆缢于三级佛寺",
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.85,
+   "notes": "seed依据:帝与兄彭城王劭、弟始平王子正于高渚潜渡以赴之",
+   "degree": 4,
+   "aliases": [
+    "子攸"
+   ]
+  },
+  {
+   "id": 13,
+   "name": "朱异",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "中领军",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": 549,
+   "death_cause": "惭愤发病卒(别卷)",
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:领军硃异曰：“侯景数百叛虏，何能为役？”",
+   "degree": 3,
+   "aliases": [
+    "硃异"
+   ]
+  },
+  {
+   "id": 21,
+   "name": "萧渊明",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "贞阳侯",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:豫州刺史贞阳侯渊明督众军围彭城，兵败没于魏",
+   "degree": 3,
+   "aliases": [
+    "贞阳侯"
+   ]
+  },
+  {
+   "id": 25,
+   "name": "侯子鉴",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "南兖州刺史",
+   "era": "汉(侯)",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:景以侯子鉴为南兖州刺史",
+   "degree": 3,
+   "aliases": []
+  },
+  {
+   "id": 39,
+   "name": "胡僧祐",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "平北将军",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:世祖遣平北将军胡僧祐率兵二千人救巴陵",
+   "degree": 3,
+   "aliases": []
+  },
+  {
+   "id": 40,
+   "name": "徐文盛",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "卫军将军",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:遣卫军将军徐文盛率众军下武昌，拒约",
+   "degree": 3,
+   "aliases": []
+  },
+  {
+   "id": 41,
+   "name": "萧会理",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "南康嗣王",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": "谋袭景事泄被害",
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:南康王会理及北兗州司马成钦等将袭之…景遣收会理…并害之",
+   "degree": 3,
+   "aliases": [
+    "南康嗣王"
+   ]
+  },
+  {
+   "id": 46,
+   "name": "萧大心",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "寻阳王·江州刺史",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:任约进军袭江州，江州刺史寻阳王大心降之",
+   "degree": 3,
+   "aliases": [
+    "寻阳王"
+   ]
+  },
+  {
+   "id": 66,
+   "name": "沈浚",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "御史中丞",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:遣御史中丞沈浚至景所，景无去意，浚固责之",
+   "degree": 3,
+   "aliases": []
+  },
+  {
+   "id": 73,
+   "name": "萧方诸",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "郢州刺史(世祖子)",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": "轻骑袭执",
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:遣宋子仙率轻骑三百袭陷之，执刺史方诸",
+   "degree": 3,
+   "aliases": []
+  },
+  {
+   "id": 114,
+   "name": "江子一",
+   "courtesy": "元贞",
+   "xiaozihao": null,
+   "title_label": "南津校尉(谥义子)",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": 548,
+   "death_cause": "承明门死战",
+   "home_region": "济阳考城",
+   "faction": null,
+   "confidence": 0.85,
+   "notes": "seed依据:江子一，字元贞，济阳考城人",
+   "degree": 3,
+   "aliases": [
+    "义子",
+    "元贞"
+   ]
+  },
+  {
+   "id": 133,
+   "name": "周文育",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "将",
+   "era": "陈",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.85,
+   "notes": "seed依据:霸先乃遣将周文育讨龛",
+   "degree": 3,
+   "aliases": []
+  },
+  {
+   "id": 167,
+   "name": "侯安都",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "司空(陈名将)",
+   "era": "陈",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.85,
+   "notes": "seed依据:侯安都、张亻思等率千余人来附",
+   "degree": 3,
+   "aliases": []
+  },
+  {
+   "id": 241,
+   "name": "尔朱兆",
+   "courtesy": "万仁",
+   "xiaozihao": null,
+   "title_label": "荣从子(汾州刺史)",
+   "era": "北魏",
+   "birth_year": null,
+   "death_year": 533,
+   "death_cause": "自缢赤谺岭",
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.85,
+   "notes": "seed依据:尔朱兆，字万仁，荣从子也",
+   "degree": 3,
+   "aliases": [
+    "万仁"
+   ]
+  },
+  {
+   "id": 295,
+   "name": "周武帝",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "周武帝宇文邕",
+   "era": "北周",
+   "birth_year": null,
+   "death_year": 578,
+   "death_cause": "北伐突厥军中病卒年36",
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.85,
+   "notes": "seed依据:周武帝左右略尽",
+   "degree": 3,
+   "aliases": []
+  },
+  {
+   "id": 29,
+   "name": "韦黯",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "监州",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:奔寿春，监州韦黯纳之",
+   "degree": 2,
+   "aliases": []
+  },
+  {
+   "id": 30,
+   "name": "庄铁",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "历阳太守",
+   "era": "梁",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:历阳太守庄铁遣弟均率数百人夜斫景营，不克，均战没，铁又降之",
+   "degree": 2,
+   "aliases": []
+  },
+  {
+   "id": 33,
+   "name": "萧栋",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "豫章王(傀儡帝天正)",
+   "era": "汉(侯)",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:景迎豫章王栋即皇帝位，升太极前殿，大赦天下，改元为天正元年",
+   "degree": 2,
+   "aliases": [
+    "豫章王"
+   ]
+  },
+  {
+   "id": 34,
+   "name": "谢答仁",
+   "courtesy": null,
+   "xiaozihao": null,
+   "title_label": "仪同",
+   "era": "汉(侯)",
+   "birth_year": null,
+   "death_year": null,
+   "death_cause": null,
+   "home_region": null,
+   "faction": null,
+   "confidence": 0.9,
+   "notes": "seed依据:遣仪同田迁、谢答仁等将兵东征神茂",
+   "degree": 2,
+   "aliases": []
+  }
+ ],
+ "network_edges": [
+  {
+   "source": "尔朱荣",
+   "target": "侯景",
+   "type": "效忠",
+   "polarity": 1,
+   "evidence": "景始以私众见荣，荣甚奇景，即委以军事"
+  },
+  {
+   "source": "侯景",
+   "target": "葛荣",
+   "type": "军事对手",
+   "polarity": -1,
+   "evidence": "命景先驱，至河内，击，大破之，生擒葛荣"
+  },
+  {
+   "source": "葛荣",
+   "target": "鲜于修礼",
+   "type": "收编",
+   "polarity": 0,
+   "evidence": "后修礼见杀，部下溃散，怀朔镇将葛荣因收集之"
+  },
+  {
+   "source": "葛荣",
+   "target": "吐斤洛周",
+   "type": "仇敌",
+   "polarity": -1,
+   "evidence": "攻杀吐斤洛周，尽有其众"
+  },
+  {
+   "source": "高欢",
+   "target": "尔朱荣",
+   "type": "仇敌",
+   "polarity": -1,
+   "evidence": "又入洛诛尔硃氏"
+  },
+  {
+   "source": "侯景",
+   "target": "高欢",
+   "type": "效忠",
+   "polarity": 1,
+   "evidence": "景复以众降之，仍为神武所用"
+  },
+  {
+   "source": "高欢",
+   "target": "高澄",
+   "type": "父子",
+   "polarity": 1,
+   "evidence": "及神武疾笃，谓子澄曰：“侯景狡猾多计，反覆难知，我死后，必不为汝用。”"
+  },
+  {
+   "source": "侯景",
+   "target": "高澄",
+   "type": "仇敌",
+   "polarity": -1,
+   "evidence": "而丞相既遭疾患，政出子澄。澄天性险忌"
+  },
+  {
+   "source": "侯景",
+   "target": "萧衍",
+   "type": "投降",
+   "polarity": 1,
+   "evidence": "太清元年，乃遣其行台郎中丁和来上表请降"
+  },
+  {
+   "source": "萧衍",
+   "target": "侯景",
+   "type": "封授",
+   "polarity": 1,
+   "evidence": "高祖乃下诏封景河南王、大将军、使持节"
+  },
+  {
+   "source": "慕容绍宗",
+   "target": "侯景",
+   "type": "军事对手",
+   "polarity": -1,
+   "evidence": "齐文襄遣大将军慕容绍宗围景于长社"
+  },
+  {
+   "source": "慕容绍宗",
+   "target": "侯景",
+   "type": "军事对手",
+   "polarity": -1,
+   "evidence": "慕容绍宗乘胜席卷，涡阳诸镇靡不弃甲"
+  },
+  {
+   "source": "侯景",
+   "target": "韦黯",
+   "type": "投靠",
+   "polarity": 1,
+   "evidence": "奔寿春，监州韦黯纳之"
+  },
+  {
+   "source": "萧渊明",
+   "target": "萧衍",
+   "type": "宗室",
+   "polarity": 1,
+   "evidence": "豫州刺史贞阳侯渊明督众军围彭城，兵败没于魏"
+  },
+  {
+   "source": "羊鸦仁",
+   "target": "侯景",
+   "type": "告发",
+   "polarity": -1,
+   "evidence": "及司州刺史羊鸦仁俱累启称景有异志"
+  },
+  {
+   "source": "萧范",
+   "target": "侯景",
+   "type": "告发",
+   "polarity": -1,
+   "evidence": "鄱阳王范镇合肥，及司州刺史羊鸦仁俱累启称景有异志"
+  },
+  {
+   "source": "朱异",
+   "target": "侯景",
+   "type": "轻敌",
+   "polarity": -1,
+   "evidence": "领军硃异曰：“侯景数百叛虏，何能为役？”并抑不奏闻"
+  },
+  {
+   "source": "侯景",
+   "target": "萧正德",
+   "type": "密盟",
+   "polarity": 1,
+   "evidence": "又知临贺王正德怨望朝廷，密令要结，正德许为内启"
+  },
+  {
+   "source": "萧正德",
+   "target": "萧衍",
+   "type": "怨恨",
+   "polarity": -1,
+   "evidence": "又知临贺王正德怨望朝廷"
+  },
+  {
+   "source": "侯景",
+   "target": "刘神茂",
+   "type": "俘虏→任用",
+   "polarity": 0,
+   "evidence": "攻马头、木栅，执太守刘神茂、戍主曹璆等"
+  },
+  {
+   "source": "庄铁",
+   "target": "侯景",
+   "type": "抵抗后降",
+   "polarity": 0,
+   "evidence": "历阳太守庄铁遣弟均率数百人夜斫景营，不克，均战没，铁又降之"
+  },
+  {
+   "source": "萧正德",
+   "target": "侯景",
+   "type": "内应",
+   "polarity": 1,
+   "evidence": "萧正德先遣大船数十艘，伪称载荻，实装济景"
+  },
+  {
+   "source": "王质",
+   "target": "侯景",
+   "type": "避战",
+   "polarity": -1,
+   "evidence": "俄而质无故退，景闻之尚未信也"
+  },
+  {
+   "source": "庾信",
+   "target": "侯景",
+   "type": "军事对手",
+   "polarity": -1,
+   "evidence": "建康令庾信率兵千余人屯航北，见景至航，命彻航，始除一舶，遂弃军走南塘"
+  },
+  {
+   "source": "萧正德",
+   "target": "侯景",
+   "type": "姻亲",
+   "polarity": 1,
+   "evidence": "景自为相国、天柱将军，正德以女妻之"
+  },
+  {
+   "source": "羊侃",
+   "target": "侯景",
+   "type": "守御",
+   "polarity": -1,
+   "evidence": "羊侃凿门扇，刺杀数人，贼乃退"
+  },
+  {
+   "source": "萧大器",
+   "target": "侯景",
+   "type": "城内统帅",
+   "polarity": -1,
+   "evidence": "诏以扬州刺史宣城王大器为都督城内诸军事"
+  },
+  {
+   "source": "侯景",
+   "target": "萧推",
+   "type": "杀",
+   "polarity": -1,
+   "evidence": "悉驱城内文武裸身而出，贼交兵杀之，死者二千余人。南浦侯推是日遇害"
+  },
+  {
+   "source": "范桃棒",
+   "target": "萧衍",
+   "type": "密降未遂",
+   "polarity": 1,
+   "evidence": "景仪同范桃棒密遣使送款乞降，会事泄见杀"
+  },
+  {
+   "source": "萧纶",
+   "target": "侯景",
+   "type": "军事对手",
+   "polarity": -1,
+   "evidence": "众军因乱，遂败绩。纶奔京口"
+  },
+  {
+   "source": "霍俊",
+   "target": "萧纶",
+   "type": "忠言",
+   "polarity": 1,
+   "evidence": "俊独云“王小小失利，已全军还京口，城中但坚守，援军寻至”"
+  },
+  {
+   "source": "宋嶷",
+   "target": "侯景",
+   "type": "降献计",
+   "polarity": 1,
+   "evidence": "材官将军宋嶷降贼，因为立计，引玄武湖水灌台城"
+  },
+  {
+   "source": "侯景",
+   "target": "韦粲",
+   "type": "杀",
+   "polarity": -1,
+   "evidence": "见韦粲营垒未合，先渡兵击之。粲拒战败绩，景斩粲首徇于城下"
+  },
+  {
+   "source": "柳仲礼",
+   "target": "侯景",
+   "type": "军事对手",
+   "polarity": -1,
+   "evidence": "柳仲礼闻粲败，不遑贯甲，与数十骑驰赴之"
+  },
+  {
+   "source": "萧绎",
+   "target": "萧衍",
+   "type": "勤王(迟滞)",
+   "polarity": 1,
+   "evidence": "荆州刺史湘东王绎遣世子方等、兼司马吴晔、天门太守樊文皎下赴京师"
+  },
+  {
+   "source": "樊文皎",
+   "target": "侯景",
+   "type": "军事对手",
+   "polarity": -1,
+   "evidence": "羊鸦仁、李迁仕、樊文皎率众渡淮，攻贼东府城前栅，破之"
+  },
+  {
+   "source": "萧会理",
+   "target": "侯景",
+   "type": "谋袭",
+   "polarity": -1,
+   "evidence": "南康王会理及北兗州司马成钦等将袭之"
+  },
+  {
+   "source": "柳津",
+   "target": "侯景",
+   "type": "会盟",
+   "polarity": 0,
+   "evidence": "左卫将军柳津出西华门下，景出其栅门，与津遥相对，刑牲歃血"
+  },
+  {
+   "source": "傅岐",
+   "target": "萧大器",
+   "type": "维护",
+   "polarity": 1,
+   "evidence": "中领军傅岐议以宣城王嫡嗣之重，不容许之"
+  },
+  {
+   "source": "沈浚",
+   "target": "侯景",
+   "type": "责让",
+   "polarity": -1,
+   "evidence": "遣御史中丞沈浚至景所，景无去意，浚固责之。景大怒"
+  },
+  {
+   "source": "王伟",
+   "target": "侯景",
+   "type": "谋主",
+   "polarity": 1,
+   "evidence": "景谋臣王伟又说曰"
+  },
+  {
+   "source": "刘邈",
+   "target": "侯景",
+   "type": "献策",
+   "polarity": 1,
+   "evidence": "彭城刘邈说景曰"
+  },
+  {
+   "source": "侯景",
+   "target": "萧衍",
+   "type": "弑(间接)",
+   "polarity": -1,
+   "evidence": "至于御膳亦被裁抑，遂忧愤感疾而崩"
+  },
+  {
+   "source": "萧衍",
+   "target": "周石珍",
+   "type": "问答",
+   "polarity": 0,
+   "evidence": "高祖乃谬曰：“何物丞相？”对曰：“是侯丞相。”高祖怒曰：“是名景，何谓丞相！”"
+  },
+  {
+   "source": "侯景",
+   "target": "萧纲",
+   "type": "拥立",
+   "polarity": 0,
+   "evidence": "升梓宫于太极前殿，迎皇太子即皇帝位"
+  },
+  {
+   "source": "侯景",
+   "target": "萧正德",
+   "type": "杀",
+   "polarity": -1,
+   "evidence": "至是，景杀萧正德于永福省"
+  },
+  {
+   "source": "董绍先",
+   "target": "萧会理",
+   "type": "受降",
+   "polarity": 1,
+   "evidence": "景遣董绍先率兵袭广陵，南兗州刺史南康嗣王会理以城降之"
+  },
+  {
+   "source": "于子悦",
+   "target": "袁君正",
+   "type": "受降",
+   "polarity": -1,
+   "evidence": "景又遣仪同于子悦、张大黑率兵入吴，吴郡太守袁君正迎降"
+  },
+  {
+   "source": "祖皓",
+   "target": "董绍先",
+   "type": "杀",
+   "polarity": -1,
+   "evidence": "前江都令祖皓起兵于广陵，斩景刺史董绍先"
+  },
+  {
+   "source": "侯景",
+   "target": "祖皓",
+   "type": "车裂",
+   "polarity": -1,
+   "evidence": "皓婴城拒守，景攻城，陷之。景车裂皓以徇，城中无少长皆斩之"
+  },
+  {
+   "source": "文成侯宁",
+   "target": "侯景",
+   "type": "起义",
+   "polarity": -1,
+   "evidence": "文成侯宁于吴西乡起兵，旬日之间，众至一万"
+  },
+  {
+   "source": "任约",
+   "target": "萧嗣",
+   "type": "杀",
+   "polarity": -1,
+   "evidence": "任约、卢晖略攻晋熙郡，杀鄱阳世子嗣"
+  },
+  {
+   "source": "任约",
+   "target": "萧大心",
+   "type": "受降",
+   "polarity": 1,
+   "evidence": "任约进军袭江州，江州刺史寻阳王大心降之"
+  },
+  {
+   "source": "徐文盛",
+   "target": "任约",
+   "type": "军事对手",
+   "polarity": -1,
+   "evidence": "徐文盛率水军邀战，大破之"
+  },
+  {
+   "source": "宋子仙",
+   "target": "萧方诸",
+   "type": "袭执",
+   "polarity": -1,
+   "evidence": "遣宋子仙率轻骑三百袭陷之，执刺史方诸、行事鲍泉"
+  },
+  {
+   "source": "王僧辩",
+   "target": "侯景",
+   "type": "军事对手",
+   "polarity": -1,
+   "evidence": "军次巴陵，会景至，僧辩因坚壁拒之。景设长围，筑土山，昼夜攻击，不克"
+  },
+  {
+   "source": "陆法和",
+   "target": "任约",
+   "type": "擒获",
+   "polarity": -1,
+   "evidence": "僧祐与居士陆法和退据赤亭以待之，约至与战，大破之，生擒约"
+  },
+  {
+   "source": "胡僧祐",
+   "target": "任约",
+   "type": "军事对手",
+   "polarity": -1,
+   "evidence": "遣任约以精卒数千逆击僧祐"
+  },
+  {
+   "source": "王伟",
+   "target": "萧纲",
+   "type": "废立策划",
+   "polarity": 1,
+   "evidence": "其谋臣王伟云“自古移鼎，必须废立”，故景从之"
+  },
+  {
+   "source": "郭元建",
+   "target": "侯景",
+   "type": "谏阻",
+   "polarity": 1,
+   "evidence": "其太尉郭元建闻之，自秦郡驰还，谏景曰"
+  },
+  {
+   "source": "彭俊",
+   "target": "萧纲",
+   "type": "弑(执行)",
+   "polarity": -1,
+   "evidence": "景遣其卫尉彭俊、王修纂奉酒于太宗曰"
+  },
+  {
+   "source": "殷不害",
+   "target": "萧纲",
+   "type": "近侍",
+   "polarity": 1,
+   "evidence": "吾昨夜梦吞土，卿试为思之"
+  },
+  {
+   "source": "侯景",
+   "target": "萧栋",
+   "type": "拥立→逼禅",
+   "polarity": -1,
+   "evidence": "景迎豫章王栋即皇帝位"
+  },
+  {
+   "source": "刘神茂",
+   "target": "侯景",
+   "type": "背叛",
+   "polarity": -1,
+   "evidence": "景司空东道行台刘神茂、仪同尹思合、刘归义、王晔、云麾将军桑乾王元頵等据东阳归顺"
+  },
+  {
+   "source": "谢答仁",
+   "target": "刘神茂",
+   "type": "讨伐",
+   "polarity": -1,
+   "evidence": "神茂孤危，复降答仁"
+  },
+  {
+   "source": "张彪",
+   "target": "侯景",
+   "type": "起义",
+   "polarity": -1,
+   "evidence": "张彪起义于会稽，攻破上虞"
+  },
+  {
+   "source": "侯子鉴",
+   "target": "王僧辩",
+   "type": "军事对手",
+   "polarity": -1,
+   "evidence": "子鉴乃率步骑万余人渡洲，并引水军俱进，僧辩逆击，大破之，子鉴仅以身免"
+  },
+  {
+   "source": "王伟",
+   "target": "侯景",
+   "type": "谏阻东逃",
+   "polarity": 1,
+   "evidence": "自古岂有叛天子！今宫中卫士，尚足一战"
+  },
+  {
+   "source": "侯景",
+   "target": "王僧辩",
+   "type": "仇敌",
+   "polarity": -1,
+   "evidence": "遣掘王僧辩父墓，剖棺焚尸"
+  },
+  {
+   "source": "侯瑱",
+   "target": "侯景",
+   "type": "追击",
+   "polarity": -1,
+   "evidence": "而侯瑱军掩至，景众未阵，皆举幡乞降"
+  },
+  {
+   "source": "羊鲲",
+   "target": "侯景",
+   "type": "杀",
+   "polarity": -1,
+   "evidence": "至壶豆洲，前太子舍人羊鲲杀之，送尸于王僧辩"
+  },
+  {
+   "source": "萧绎",
+   "target": "侯景",
+   "type": "戮尸",
+   "polarity": -1,
+   "evidence": "及景首至江陵，世祖命枭之于市，然后煮而漆之，付武库"
+  },
+  {
+   "source": "萧绎",
+   "target": "王伟",
+   "type": "烹杀",
+   "polarity": -1,
+   "evidence": "及囚送江陵，烹于市，百姓有遭其毒者，并割炙食之"
+  },
+  {
+   "source": "僧通",
+   "target": "侯景",
+   "type": "预言戏弄",
+   "polarity": 0,
+   "evidence": "僧通取肉揾盐以进景，问曰：“好不？”"
+  },
+  {
+   "source": "陶弘景",
+   "target": "侯景",
+   "type": "预言",
+   "polarity": 0,
+   "evidence": "不意昭阳殿，化作单于宫"
+  },
+  {
+   "source": "朱异",
+   "target": "萧衍",
+   "type": "影响决策",
+   "polarity": 1,
+   "evidence": "高祖深纳异言，又信前梦，乃定议纳景"
+  },
+  {
+   "source": "谢举",
+   "target": "萧衍",
+   "type": "谏阻",
+   "polarity": -1,
+   "evidence": "尚书仆射谢举及百辟等议，皆云纳侯景非宜，高祖不从是议而纳景"
+  },
+  {
+   "source": "侯景",
+   "target": "元贞",
+   "type": "拟立",
+   "polarity": 0,
+   "evidence": "求诸元子弟立为魏主，辅以北伐，许之"
+  },
+  {
+   "source": "侯景",
+   "target": "萧大连",
+   "type": "追擒",
+   "polarity": -1,
+   "evidence": "东扬州刺史临成公大连弃城走，遣刘神茂追擒之"
+  },
+  {
+   "source": "侯景",
+   "target": "张嵊",
+   "type": "杀",
+   "polarity": -1,
+   "evidence": "破吴兴，执太守张嵊父子送京师，景并杀之"
+  },
+  {
+   "source": "戴僧易",
+   "target": "宋子仙",
+   "type": "拒战→降",
+   "polarity": 0,
+   "evidence": "新城戍主戴僧易据县拒之"
+  },
+  {
+   "source": "萧大心",
+   "target": "萧范",
+   "type": "接纳",
+   "polarity": 1,
+   "evidence": "江州刺史寻阳王大心要之西上"
+  },
+  {
+   "source": "王僧辩",
+   "target": "侯瑱",
+   "type": "部属",
+   "polarity": 1,
+   "evidence": "王僧辩遣侯瑱率军追景"
+  },
+  {
+   "source": "萧方诸",
+   "target": "萧绎",
+   "type": "父子",
+   "polarity": 1,
+   "evidence": "郢州无备，兵少"
+  },
+  {
+   "source": "卢晖略",
+   "target": "萧推",
+   "type": "杀(执行)",
+   "polarity": -1,
+   "evidence": "景使其仪同卢晖略率数千人，持长刀夹城门，悉驱城内文武裸身而出"
+  },
+  {
+   "source": "赵伯超",
+   "target": "萧纶",
+   "type": "见死不救",
+   "polarity": -1,
+   "evidence": "时赵伯超陈于玄武湖北，见骏急，不赴，乃率军前走，众军因乱，遂败绩"
+  },
+  {
+   "source": "赵伯超",
+   "target": "侯景",
+   "type": "叛离",
+   "polarity": -1,
+   "evidence": "进次嘉兴，赵伯超据钱塘拒之"
+  },
+  {
+   "source": "侯景",
+   "target": "王僧贵",
+   "type": "亲信",
+   "polarity": 1,
+   "evidence": "谓厢公王僧贵曰：“吾常据鞍对敌"
+  },
+  {
+   "source": "侯景",
+   "target": "郭元建",
+   "type": "敬惮其直",
+   "polarity": 0,
+   "evidence": "景以哀太子妃赐郭元建，元建曰：“岂有皇太子妃而降为人妾？”竟不与相见"
+  },
+  {
+   "source": "史安和",
+   "target": "侯子鉴",
+   "type": "同守",
+   "polarity": 1,
+   "evidence": "景遣史安和、宋长贵等率兵二千，助子鉴守姑孰"
+  },
+  {
+   "source": "谢禧",
+   "target": "侯景",
+   "type": "弃城",
+   "polarity": -1,
+   "evidence": "谢禧亦弃白下城走"
+  },
+  {
+   "source": "侯景",
+   "target": "慕容绍宗",
+   "type": "师从→反超",
+   "polarity": 0,
+   "evidence": "初学兵法于荣部将慕容绍宗，未几绍宗每询问焉"
+  },
+  {
+   "source": "侯景",
+   "target": "高欢",
+   "type": "献策",
+   "polarity": 1,
+   "evidence": "请以数千劲骑至关中取之"
+  },
+  {
+   "source": "娄昭君",
+   "target": "高欢",
+   "type": "谏止",
+   "polarity": 1,
+   "evidence": "彼若得泰，亦将不归。得泰失景，于事奚益"
+  },
+  {
+   "source": "侯景",
+   "target": "萧衍",
+   "type": "狂言",
+   "polarity": -1,
+   "evidence": "以作太平寺主"
+  },
+  {
+   "source": "慕容绍宗",
+   "target": "侯景",
+   "type": "纵敌",
+   "polarity": 0,
+   "evidence": "使谓绍宗曰：“景若就禽，公复何用？”绍宗乃纵之"
+  },
+  {
+   "source": "暴显",
+   "target": "侯景",
+   "type": "叛降",
+   "polarity": -1,
+   "evidence": "其将暴显等各率所部降绍宗"
+  },
+  {
+   "source": "刘神茂",
+   "target": "侯景",
+   "type": "献计",
+   "polarity": 1,
+   "evidence": "景执其手曰：“天教也。”"
+  },
+  {
+   "source": "徐思玉",
+   "target": "韦黯",
+   "type": "说降",
+   "polarity": 1,
+   "evidence": "乃遣豫州司马徐思玉夜入说之，黯乃开门纳景"
+  },
+  {
+   "source": "庄铁母",
+   "target": "庄铁",
+   "type": "劝降",
+   "polarity": 0,
+   "evidence": "铁母爱其子，劝铁降。景拜其母"
+  },
+  {
+   "source": "萧坚",
+   "target": "侯景",
+   "type": "守御(内应出卖)",
+   "polarity": -1,
+   "evidence": "邵陵王世子坚帐内白昙朗、董勋华于城西北楼纳贼"
+  },
+  {
+   "source": "白昙朗",
+   "target": "侯景",
+   "type": "内应",
+   "polarity": 1,
+   "evidence": "于城西北楼纳贼。五鼓，贼四面飞梯"
+  },
+  {
+   "source": "任约",
+   "target": "侯景",
+   "type": "谏留",
+   "polarity": 1,
+   "evidence": "任约曰：“去乡万里，走欲何之？战若不捷，君臣同死。草间乞活，约所不为。”"
+  },
+  {
+   "source": "萧纶",
+   "target": "侯景",
+   "type": "军事对手",
+   "polarity": -1,
+   "evidence": "纶大败之于爱敬寺下"
+  },
+  {
+   "source": "范桃棒",
+   "target": "萧纲",
+   "type": "密降(疑而失)",
+   "polarity": 1,
+   "evidence": "朱异以手捶胸曰：“今年社稷去矣。”俄而桃棒军人鲁伯和告景，并烹之"
+  },
+  {
+   "source": "萧贲",
+   "target": "萧绎",
+   "type": "谏→被杀",
+   "polarity": -1,
+   "evidence": "贲曰：“殿下都无下意。”王深为憾，遂因事害之"
+  },
+  {
+   "source": "萧衍",
+   "target": "侯景",
+   "type": "轻敌",
+   "polarity": 0,
+   "evidence": "是何能为,吾以折棰笞之"
+  },
+  {
+   "source": "王僧辩",
+   "target": "侯景",
+   "type": "疑兵",
+   "polarity": -1,
+   "evidence": "王僧辩沈船卧鼓，若将已遁"
+  },
+  {
+   "source": "郭元建",
+   "target": "萧栋",
+   "type": "维护",
+   "polarity": 1,
+   "evidence": "元建固陈不可，景意遂回，欲复帝位，以栋为太孙"
+  },
+  {
+   "source": "裴之横",
+   "target": "王僧辩",
+   "type": "部属",
+   "polarity": 1,
+   "evidence": "王克开台城门引裴之横入宫"
+  },
+  {
+   "source": "王琳",
+   "target": "杜龛",
+   "type": "同恶",
+   "polarity": -1,
+   "evidence": "王琳、杜龛军人掠之，甚于寇贼，号叫闻于石头"
+  },
+  {
+   "source": "王僧辩",
+   "target": "王琳",
+   "type": "纵容",
+   "polarity": 0,
+   "evidence": "僧辩谓为有变，登城问故，亦不禁也"
+  },
+  {
+   "source": "黄公喜",
+   "target": "王伟",
+   "type": "擒获",
+   "polarity": -1,
+   "evidence": "直渎戍主黄公喜禽送之"
+  },
+  {
+   "source": "虞骘",
+   "target": "王伟",
+   "type": "唾面",
+   "polarity": -1,
+   "evidence": "遇之而唾其面，曰：“死虏，庸复能为恶乎！”"
+  },
+  {
+   "source": "萧绎",
+   "target": "王伟",
+   "type": "钉舌剜肠",
+   "polarity": -1,
+   "evidence": "帝大怒，使以钉钉其舌于柱，剜其肠"
+  },
+  {
+   "source": "谢答仁",
+   "target": "萧纲",
+   "type": "礼遇得免",
+   "polarity": 1,
+   "evidence": "答仁以不失礼于简文见宥"
+  },
+  {
+   "source": "赵伯超",
+   "target": "萧绎",
+   "type": "饿死狱中",
+   "polarity": -1,
+   "evidence": "伯超及伏知命俱饿死江陵狱中"
+  },
+  {
+   "source": "侯景",
+   "target": "刘神茂",
+   "type": "锉碓寸斩",
+   "polarity": -1,
+   "evidence": "景为大锉碓，先进其脚，寸寸斩之，至头方止"
+  },
+  {
+   "source": "萧衍",
+   "target": "侯景",
+   "type": "预言",
+   "polarity": 0,
+   "evidence": "为帝当得百日"
+  },
+  {
+   "source": "高澄",
+   "target": "侯景",
+   "type": "族诛",
+   "polarity": -1,
+   "evidence": "魏相高澄悉命先剥景妻子面皮，以大铁镬盛油煎杀之"
+  },
+  {
+   "source": "羊车儿",
+   "target": "萧纲",
+   "type": "献计",
+   "polarity": 1,
+   "evidence": "有羊车儿献计，作纸鸦系以长绳，藏敕于中"
+  },
+  {
+   "source": "周弘正",
+   "target": "侯景",
+   "type": "避讳改姓",
+   "polarity": 0,
+   "evidence": "故改周弘正、石珍姓姬焉"
+  },
+  {
+   "source": "蔡道遵",
+   "target": "高澄",
+   "type": "传语",
+   "polarity": 0,
+   "evidence": "时景将蔡道遵北归，言景有悔过志。高澄以为信然"
+  },
+  {
+   "source": "元贞",
+   "target": "侯景",
+   "type": "惧而叛归",
+   "polarity": -1,
+   "evidence": "贞益惧，奔还建邺，具以事闻"
+  },
+  {
+   "source": "李瞻",
+   "target": "侯景",
+   "type": "殉节",
+   "polarity": -1,
+   "evidence": "瞻正色整容，言笑自若，见其胆者乃如升焉"
+  },
+  {
+   "source": "斛律光",
+   "target": "侯景",
+   "type": "军事对手",
+   "polarity": -1,
+   "evidence": "勿度涡水"
+  },
+  {
+   "source": "贺季",
+   "target": "侯景",
+   "type": "质问",
+   "polarity": 0,
+   "evidence": "景曰：“欲为帝也。”"
+  },
+  {
+   "source": "宗懔",
+   "target": "萧绎",
+   "type": "战略对答",
+   "polarity": 1,
+   "evidence": "此上策也"
+  },
+  {
+   "source": "侯景",
+   "target": "宋子仙",
+   "type": "军令",
+   "polarity": 0,
+   "evidence": "若破城邑，净杀却"
+  },
+  {
+   "source": "萧纲",
+   "target": "侯景",
+   "type": "共宴(屈辱)",
+   "polarity": 0,
+   "evidence": "上大笑"
+  },
+  {
+   "source": "王伟",
+   "target": "王僧辩",
+   "type": "对答",
+   "polarity": 0,
+   "evidence": "向使侯氏早从伟言"
+  },
+  {
+   "source": "韦粲",
+   "target": "柳仲礼",
+   "type": "推戴",
+   "polarity": 1,
+   "evidence": "粲建议推仲礼为大都督"
+  },
+  {
+   "source": "裴之高",
+   "target": "柳仲礼",
+   "type": "耻居其下",
+   "polarity": -1,
+   "evidence": "柳节下是州将，何须我复鞭板"
+  },
+  {
+   "source": "韦粲",
+   "target": "裴之高",
+   "type": "切让",
+   "polarity": 1,
+   "evidence": "乃单舸至之高营，切让之曰"
+  },
+  {
+   "source": "柳仲礼",
+   "target": "韦粲",
+   "type": "命屯青塘",
+   "polarity": 1,
+   "evidence": "青塘立栅，迫近淮渚，欲以粮储船乘尽就泊之，此是大事，非兄不可"
+  },
+  {
+   "source": "刘叔胤",
+   "target": "韦粲",
+   "type": "畏懦致败",
+   "polarity": -1,
+   "evidence": "叔胤畏懦不敢进，逸遂败"
+  },
+  {
+   "source": "萧纲",
+   "target": "韦粲",
+   "type": "痛惜",
+   "polarity": 1,
+   "evidence": "太宗闻之流涕曰：“社稷所寄，惟在韦公，如何不幸，先死行阵。”"
+  },
+  {
+   "source": "江子一",
+   "target": "朱异",
+   "type": "不附",
+   "polarity": 1,
+   "evidence": "其姑夫右卫将军硃异，权要当朝，休下之日，宾客辐凑，子一未尝造门"
+  },
+  {
+   "source": "江子一",
+   "target": "侯景",
+   "type": "死战",
+   "polarity": -1,
+   "evidence": "子一乃身先士卒，抽戈独进，群贼夹攻之，从者莫敢继"
+  },
+  {
+   "source": "张嵊",
+   "target": "刘神茂",
+   "type": "拒降破敌",
+   "polarity": -1,
+   "evidence": "嵊命斩其使，仍遣军主王雄等帅兵于鳢渎逆击之，破神茂"
+  },
+  {
+   "source": "柳敬礼",
+   "target": "柳仲礼",
+   "type": "密谋杀景",
+   "polarity": 1,
+   "evidence": "敬礼抱之，兄拔佩刀，便可斫杀，敬礼死亦无所恨"
+  },
+  {
+   "source": "沈浚",
+   "target": "侯景",
+   "type": "面责",
+   "polarity": -1,
+   "evidence": "景曰：“是真司直也。”然密衔之"
+  },
+  {
+   "source": "韦粲",
+   "target": "萧大心",
+   "type": "献策移镇",
+   "polarity": 1,
+   "evidence": "今直且张声势，移镇湓城，遣偏将赐随，于事便足"
+  },
+  {
+   "source": "韦粲",
+   "target": "侯景",
+   "type": "死节",
+   "polarity": -1,
+   "evidence": "粲不动，犹叱子弟力战，兵死略尽，遂见害，时年五十四"
+  },
+  {
+   "source": "江子四",
+   "target": "江子一",
+   "type": "兄弟赴死",
+   "polarity": 1,
+   "evidence": "子四、子五见事急，相引赴贼，并见害"
+  },
+  {
+   "source": "张嵊",
+   "target": "沈浚",
+   "type": "共谋举义",
+   "polarity": 1,
+   "evidence": "浚曰：“鄙郡虽小，仗义拒逆，谁敢不从！”固劝嵊举义"
+  },
+  {
+   "source": "侯子鉴",
+   "target": "张嵊",
+   "type": "攻灭",
+   "polarity": -1,
+   "evidence": "嵊乃释戎服，坐于听事，贼临之以刃，终不为屈"
+  },
+  {
+   "source": "柳敬礼",
+   "target": "萧会理",
+   "type": "共谋",
+   "polarity": 1,
+   "evidence": "敬礼与南康王会理共谋袭其城，克期将发，建安侯萧贲知而告之，遂遇害"
+  },
+  {
+   "source": "萧绎",
+   "target": "王僧辩",
+   "type": "斫髄下狱→起用",
+   "polarity": 0,
+   "evidence": "世祖因斫之，中其左髀，流血至地。僧辩闷绝，久之方苏"
+  },
+  {
+   "source": "王僧辩",
+   "target": "鲍泉",
+   "type": "锁拿",
+   "polarity": 0,
+   "evidence": "僧辩既入，背泉而坐，曰：“鲍郎，卿有罪，令旨使我鏁卿"
+  },
+  {
+   "source": "王僧辩",
+   "target": "侯景",
+   "type": "巴陵守御",
+   "polarity": -1,
+   "evidence": "僧辩乃分命众军，乘城固守，偃旗卧鼓，安若无人"
+  },
+  {
+   "source": "王僧辩",
+   "target": "宋子仙",
+   "type": "诈擒",
+   "polarity": -1,
+   "evidence": "僧辩伪许之，命给船百艘，以老其意"
+  },
+  {
+   "source": "陈霸先",
+   "target": "王僧辩",
+   "type": "白茅洲会盟",
+   "polarity": 1,
+   "evidence": "于是升坛歃血，共读盟文，皆泪下沾襟，辞色慷慨"
+  },
+  {
+   "source": "王僧辩",
+   "target": "陈霸先",
+   "type": "忌惮",
+   "polarity": 0,
+   "evidence": "霸先倜傥多谋策，名盖僧辩，僧辩畏之"
+  },
+  {
+   "source": "王僧辩",
+   "target": "赵伯超",
+   "type": "受降问答",
+   "polarity": 0,
+   "evidence": "朝廷昔唯知有赵伯超耳，岂识王僧辩"
+  },
+  {
+   "source": "李贤明",
+   "target": "王僧辩",
+   "type": "突袭被斩",
+   "polarity": -1,
+   "evidence": "僧辩尚据胡床，不为之动"
+  },
+  {
+   "source": "魏氏",
+   "target": "王僧辩",
+   "type": "母教",
+   "polarity": 1,
+   "evidence": "夫人深相责励，辞色俱严，云：“人之事君，惟须忠烈，非但保祐当世，亦乃庆流子孙。”"
+  },
+  {
+   "source": "萧绎",
+   "target": "王僧辩",
+   "type": "江陵征召",
+   "polarity": 1,
+   "evidence": "此孙膑克庞涓时也"
+  },
+  {
+   "source": "王僧辩",
+   "target": "萧渊明",
+   "type": "迎立",
+   "polarity": 1,
+   "evidence": "僧辩拥楫中流，不敢就岸"
+  },
+  {
+   "source": "陈霸先",
+   "target": "王僧辩",
+   "type": "夜袭杀",
+   "polarity": -1,
+   "evidence": "僧辩曰：“委公北门，何谓无备。”尔夜斩之"
+  },
+  {
+   "source": "王頠",
+   "target": "王琳",
+   "type": "恸绝",
+   "polarity": 1,
+   "evidence": "闻琳死，乃出郡城南，登高冢上号哭，一恸而绝"
+  },
+  {
+   "source": "杜龛",
+   "target": "王僧辩",
+   "type": "婿",
+   "polarity": 1,
+   "evidence": "龛，僧辩之婿也"
+  },
+  {
+   "source": "杜龛",
+   "target": "陈蒨",
+   "type": "攻败",
+   "polarity": -1,
+   "evidence": "遣军副杜泰攻陈蒨于长城，反为蒨所败"
+  },
+  {
+   "source": "胡僧祐",
+   "target": "萧绎",
+   "type": "狱中起用",
+   "polarity": 0,
+   "evidence": "汝可开两门，一门拟硃，一门拟白。吉则由硃门，凶则由白门。吾不捷不归也"
+  },
+  {
+   "source": "胡僧祐",
+   "target": "任约",
+   "type": "芊口骂战→赤砂亭擒",
+   "polarity": -1,
+   "evidence": "呼僧祐曰：“吴儿，何为不早降？走何处去。”"
+  },
+  {
+   "source": "徐文盛",
+   "target": "侯景",
+   "type": "私通",
+   "polarity": 1,
+   "evidence": "文盛深德景，遂密通信使，都无战心，众咸愤怨"
+  },
+  {
+   "source": "杜幼安",
+   "target": "侯景",
+   "type": "降而被杀",
+   "polarity": -1,
+   "evidence": "景杀之，以其多反覆故也"
+  },
+  {
+   "source": "杜掞",
+   "target": "侯景",
+   "type": "横截破阵",
+   "polarity": -1,
+   "evidence": "掞从岭后横截之，景乃大败，东奔晋陵"
+  },
+  {
+   "source": "杜龛",
+   "target": "宋子仙",
+   "type": "生擒",
+   "polarity": -1,
+   "evidence": "龛追至杨浦，生擒之"
+  },
+  {
+   "source": "阴智伯",
+   "target": "萧衍",
+   "type": "异光预言",
+   "polarity": 1,
+   "evidence": "见有异光成五色，因握高祖手曰：“公后必大贵，非人臣也"
+  },
+  {
+   "source": "阴子春",
+   "target": "侯景",
+   "type": "力战",
+   "polarity": -1,
+   "evidence": "子春力战，恒冠诸军，频败景"
+  },
+  {
+   "source": "王僧辩",
+   "target": "萧纶",
+   "type": "攻郢",
+   "polarity": -1,
+   "evidence": "世祖令子春随领军将军王僧辩攻邵陵王于郢州，平之"
+  },
+  {
+   "source": "任约",
+   "target": "徐文盛",
+   "type": "狱中对话",
+   "polarity": 0,
+   "evidence": "门外不见卿马迹，使我何遽得降"
+  },
+  {
+   "source": "萧映",
+   "target": "陈霸先",
+   "type": "知遇",
+   "polarity": 1,
+   "evidence": "此人方将远大"
+  },
+  {
+   "source": "杜僧明",
+   "target": "陈霸先",
+   "type": "先敌后降",
+   "polarity": 0,
+   "evidence": "僧明遂降"
+  },
+  {
+   "source": "萧衍",
+   "target": "陈霸先",
+   "type": "叹异图容",
+   "polarity": 1,
+   "evidence": "仍遣画工图高祖容貌而观之"
+  },
+  {
+   "source": "萧勃",
+   "target": "陈霸先",
+   "type": "阻挠",
+   "polarity": -1,
+   "evidence": "岂可畏惮宗室，轻于国宪"
+  },
+  {
+   "source": "钟休悦",
+   "target": "陈霸先",
+   "type": "说留",
+   "polarity": 0,
+   "evidence": "未若且住始兴，遥张声势，保此太山，自求多福"
+  },
+  {
+   "source": "陈霸先",
+   "target": "钟休悦",
+   "type": "泣答决计",
+   "polarity": 1,
+   "evidence": "君辱臣死，谁敢爱命"
+  },
+  {
+   "source": "蔡路养",
+   "target": "陈霸先",
+   "type": "拒战被破",
+   "polarity": -1,
+   "evidence": "路养出军顿南野，依山水立四城以拒高祖"
+  },
+  {
+   "source": "李迁仕",
+   "target": "陈霸先",
+   "type": "谋袭被擒斩",
+   "polarity": -1,
+   "evidence": "生擒迁仕送南康，高祖斩之"
+  },
+  {
+   "source": "陈霸先",
+   "target": "王僧辩",
+   "type": "济粮",
+   "polarity": 1,
+   "evidence": "高祖先贮军粮五十万石，至是分三十万以资之"
+  },
+  {
+   "source": "陈霸先",
+   "target": "柳仲礼",
+   "type": "批判前车",
+   "polarity": -1,
+   "evidence": "前柳仲礼数十万兵隔水而坐，韦粲之在青溪，竟不渡岸"
+  },
+  {
+   "source": "徐度",
+   "target": "陈霸先",
+   "type": "部属",
+   "polarity": 1,
+   "evidence": "高祖遣徐度领弩手二千横截其后"
+  },
+  {
+   "source": "侯景",
+   "target": "陈霸先",
+   "type": "望气而惧",
+   "polarity": 0,
+   "evidence": "此军上有紫气，不易可当"
+  },
+  {
+   "source": "郭元建",
+   "target": "陈霸先",
+   "type": "奔齐纳众",
+   "polarity": 0,
+   "evidence": "高祖纳其部曲三千人而还"
+  },
+  {
+   "source": "陈霸先",
+   "target": "辛术",
+   "type": "解围",
+   "polarity": -1,
+   "evidence": "齐平秦王中流矢死"
+  },
+  {
+   "source": "陈霸先",
+   "target": "王僧辩",
+   "type": "苦争贞阳",
+   "polarity": -1,
+   "evidence": "遣使诣僧辩苦争之，往返数四，僧辩竟不从"
+  },
+  {
+   "source": "陈霸先",
+   "target": "侯安都",
+   "type": "谋主班底",
+   "polarity": 1,
+   "evidence": "高祖召徐度、侯安都、周文育等谋之"
+  },
+  {
+   "source": "陈霸先",
+   "target": "王僧辩",
+   "type": "夜袭缢杀(陈书版)",
+   "polarity": -1,
+   "evidence": "是夜缢僧辩及頠"
+  },
+  {
+   "source": "徐嗣徽",
+   "target": "陈霸先",
+   "type": "引齐攻陈",
+   "polarity": -1,
+   "evidence": "率精兵五千奄至阙下"
+  },
+  {
+   "source": "柳达摩",
+   "target": "陈霸先",
+   "type": "请和结盟",
+   "polarity": 0,
+   "evidence": "乃于城门外刑牲盟约"
+  },
+  {
+   "source": "萧轨",
+   "target": "陈霸先",
+   "type": "十万攻陈→覆灭",
+   "polarity": -1,
+   "evidence": "虏萧轨、东方老、王敬宝、李希光、裴英起等将帅凡四十六人"
+  },
+  {
+   "source": "侯安都",
+   "target": "萧轨",
+   "type": "横出掩杀",
+   "polarity": 1,
+   "evidence": "侯安都自白下引兵横出其后，齐师大溃"
+  },
+  {
+   "source": "萧勃",
+   "target": "陈霸先",
+   "type": "举兵反",
+   "polarity": -1,
+   "evidence": "萧勃举兵，自广州渡岭，顿南康"
+  },
+  {
+   "source": "王琳",
+   "target": "陈霸先",
+   "type": "拥兵抗命",
+   "polarity": -1,
+   "evidence": "湘州刺史王琳拥兵不应命，高祖遣周文育、侯安都率众讨之"
+  },
+  {
+   "source": "熊昙朗",
+   "target": "周文育",
+   "type": "阵前杀害",
+   "polarity": -1,
+   "evidence": "熊昙朗杀都督周文育于军，举兵反"
+  },
+  {
+   "source": "陈霸先",
+   "target": "周文育",
+   "type": "素服哭祭",
+   "polarity": 1,
+   "evidence": "高祖素服哭于东堂，哀甚"
+  },
+  {
+   "source": "侯瑱",
+   "target": "陈霸先",
+   "type": "江州入附",
+   "polarity": 1,
+   "evidence": "是月侯瑱以江州入附"
+  },
+  {
+   "source": "慧志",
+   "target": "陈霸先",
+   "type": "密献佛牙",
+   "polarity": 1,
+   "evidence": "慧志密送于高祖，至是乃出"
+  },
+  {
+   "source": "周文育",
+   "target": "侯安都",
+   "type": "同囚同宥",
+   "polarity": 1,
+   "evidence": "于王琳所逃归，自劾廷尉，即日引见，并宥之"
+  },
+  {
+   "source": "杨蒨",
+   "target": "陈霸先",
+   "type": "委以经略",
+   "polarity": 1,
+   "evidence": "必陈司武也"
+  },
+  {
+   "source": "杜掞",
+   "target": "陈霸先",
+   "type": "问计",
+   "polarity": 1,
+   "evidence": "问计于高祖"
+  },
+  {
+   "source": "羊侃",
+   "target": "萧宝寅",
+   "type": "部属",
+   "polarity": 1,
+   "evidence": "侃为偏将，隶萧宝寅往讨之，射杀天生"
+  },
+  {
+   "source": "羊祉",
+   "target": "羊侃",
+   "type": "遗志",
+   "polarity": 1,
+   "evidence": "其父祉恒使侃南归"
+  },
+  {
+   "source": "羊敦",
+   "target": "羊侃",
+   "type": "据州相拒",
+   "polarity": -1,
+   "evidence": "据州拒侃，侃乃率精兵三万袭之，不克"
+  },
+  {
+   "source": "羊侃",
+   "target": "于晖",
+   "type": "斩使南归",
+   "polarity": -1,
+   "evidence": "一日一夜，乃出魏境"
+  },
+  {
+   "source": "羊侃",
+   "target": "兰钦",
+   "type": "折辱",
+   "polarity": -1,
+   "evidence": "汝以铜鼓买朱异作父，韦粲作兄，何敢无宜适"
+  },
+  {
+   "source": "羊侃",
+   "target": "萧渊明",
+   "type": "献策不用",
+   "polarity": 1,
+   "evidence": "侃劝元帅贞阳侯明乘水攻彭城，不见纳"
+  },
+  {
+   "source": "羊侃",
+   "target": "萧衍",
+   "type": "采石之策",
+   "polarity": 1,
+   "evidence": "侃求以二千人急据采石，令邵陵王袭取寿春"
+  },
+  {
+   "source": "羊侃",
+   "target": "萧纲",
+   "type": "一决于侃",
+   "polarity": 1,
+   "evidence": "军旅指撝，一决于侃，胆力俱壮，简文深仗之"
+  },
+  {
+   "source": "羊侃",
+   "target": "侯景",
+   "type": "火城却敌",
+   "polarity": -1,
+   "evidence": "侃乃令多掷火，为火城以断其路"
+  },
+  {
+   "source": "羊侃",
+   "target": "羊鷟",
+   "type": "引弓射子",
+   "polarity": 0,
+   "evidence": "因引弓射之。贼以其忠义，亦弗之害"
+  },
+  {
+   "source": "傅士哲",
+   "target": "羊侃",
+   "type": "阵前对话",
+   "polarity": 0,
+   "evidence": "侃为免胄，士哲瞻望久之而去，其为北人所钦慕如此"
+  },
+  {
+   "source": "羊鲲",
+   "target": "侯景",
+   "type": "杀(全程)",
+   "polarity": -1,
+   "evidence": "今就王乞头以取富贵"
+  },
+  {
+   "source": "侯景",
+   "target": "羊鲲",
+   "type": "妹婿之待",
+   "polarity": 1,
+   "evidence": "侯景以其妹为小妻，呼还待之甚厚，以为库真都督"
+  },
+  {
+   "source": "侯瑱",
+   "target": "羊鲲",
+   "type": "破杀",
+   "polarity": -1,
+   "evidence": "为侯瑱所破，遇害，年二十八"
+  },
+  {
+   "source": "张孺才",
+   "target": "羊侃",
+   "type": "失火不责",
+   "polarity": 1,
+   "evidence": "侃闻聊不挂意，命酒不辍"
+  },
+  {
+   "source": "羊侃",
+   "target": "萧衍",
+   "type": "折树矟之宠",
+   "polarity": 1,
+   "evidence": "此树必为侍中折矣"
+  },
+  {
+   "source": "羊侃",
+   "target": "阳斐",
+   "type": "同学宴集",
+   "polarity": 1,
+   "evidence": "食器皆金玉杂宝"
+  },
+  {
+   "source": "颜之推",
+   "target": "萧绎",
+   "type": "府僚",
+   "polarity": 1,
+   "evidence": "时年十九，释褐湘东国右常侍，以军功加镇西墨曹参军"
+  },
+  {
+   "source": "侯景",
+   "target": "颜之推",
+   "type": "欲杀",
+   "polarity": -1,
+   "evidence": "赖其行台郎中王则以获免"
+  },
+  {
+   "source": "王则",
+   "target": "颜之推",
+   "type": "救护",
+   "polarity": 1,
+   "evidence": "景行台郎中王则初无旧识，再三救护，获免，囚以还都"
+  },
+  {
+   "source": "颜之推",
+   "target": "萧衍",
+   "type": "弃周奔齐",
+   "polarity": 0,
+   "evidence": "值河水暴长，具船将妻子来奔，经砥柱之险，时人称其勇决"
+  },
+  {
+   "source": "颜之推",
+   "target": "邓长颙",
+   "type": "献策",
+   "polarity": 1,
+   "evidence": "之推因宦者侍中邓长颙进奔陈之策"
+  },
+  {
+   "source": "高阿那肱",
+   "target": "颜之推",
+   "type": "谗间",
+   "polarity": -1,
+   "evidence": "阿那肱不愿入陈，乃云吴士难信，不须募之"
+  },
+  {
+   "source": "祖珽",
+   "target": "颜之推",
+   "type": "知遇",
+   "polarity": 1,
+   "evidence": "大为祖珽所重，令掌知馆事"
+  },
+  {
+   "source": "颜之推",
+   "target": "崔季舒",
+   "type": "避祸",
+   "polarity": 0,
+   "evidence": "之推取急还宅，故不联署"
+  },
+  {
+   "source": "萧方诸",
+   "target": "鲍泉",
+   "type": "委任",
+   "polarity": 1,
+   "evidence": "以虞预为郢州司马，领城防事。委军政于儒生。以鲍泉为郢州行事，总摄州府也"
+  },
+  {
+   "source": "萧方等",
+   "target": "萧誉",
+   "type": "互攻致死",
+   "polarity": -1,
+   "evidence": "世子信用□小，贪其子女玉帛，遂欲攻之，故河东急而逆战，世子为乱兵所害"
+  },
+  {
+   "source": "杜岸",
+   "target": "萧詧",
+   "type": "夜降",
+   "polarity": 1,
+   "evidence": "率兵八千夜降，岳阳于是遁走"
+  },
+  {
+   "source": "颜之推",
+   "target": "阳休之",
+   "type": "同馆",
+   "polarity": 1,
+   "evidence": "之推专掌，其撰修文殿御览、续文章流别等皆诣进贤门奏之"
+  },
+  {
+   "source": "李穆叔",
+   "target": "高洋",
+   "type": "祚数预言",
+   "polarity": 0,
+   "evidence": "齐初践祚计止于二十八年。至是如期而灭"
+  },
+  {
+   "source": "尔朱荣",
+   "target": "尔朱新兴",
+   "type": "父子",
+   "polarity": 1,
+   "evidence": "肃宗世，以年老启求传爵于荣，朝廷许之"
+  },
+  {
+   "source": "尔朱荣",
+   "target": "元天穆",
+   "type": "密议",
+   "polarity": 1,
+   "evidence": "与元天穆等密议称兵，入匡朝廷"
+  },
+  {
+   "source": "费穆",
+   "target": "尔朱荣",
+   "type": "献策(河阴)",
+   "polarity": 0,
+   "evidence": "荣惑武卫将军费穆之说，乃引迎驾百官于行宫西北"
+  },
+  {
+   "source": "尔朱荣",
+   "target": "萧衍",
+   "type": "元颢之仇",
+   "polarity": -1,
+   "evidence": "北海王元颢南奔萧衍，衍乃立为魏主"
+  },
+  {
+   "source": "尔朱荣",
+   "target": "葛荣",
+   "type": "七千骑破百万",
+   "polarity": -1,
+   "evidence": "荣身自陷陈，出于贼后，表里合击，大破之。于陈擒葛荣"
+  },
+  {
+   "source": "尔朱荣",
+   "target": "孝庄帝",
+   "type": "拥立→被弑",
+   "polarity": 0,
+   "evidence": "荣遂有大志，令御史赵元则造禅文"
+  },
+  {
+   "source": "刘灵助",
+   "target": "尔朱荣",
+   "type": "占卜劝止",
+   "polarity": 1,
+   "evidence": "言天时人事必不可尔"
+  },
+  {
+   "source": "尔朱荣",
+   "target": "元徽",
+   "type": "构陷",
+   "polarity": -1,
+   "evidence": "惧荣害之，复相间构，日月滋甚"
+  },
+  {
+   "source": "孝庄帝",
+   "target": "尔朱荣",
+   "type": "手刃",
+   "polarity": -1,
+   "evidence": "帝先横刀膝下，遂手刃之"
+  },
+  {
+   "source": "尔朱荣",
+   "target": "尔朱天光",
+   "type": "从子/部属",
+   "polarity": 1,
+   "evidence": "荣遣其从子天光为雍州刺史"
+  },
+  {
+   "source": "尔朱天光",
+   "target": "万俟丑奴",
+   "type": "擒获",
+   "polarity": -1,
+   "evidence": "擒丑奴、宝夤，并槛车送阙"
+  },
+  {
+   "source": "尔朱荣",
+   "target": "元天穆",
+   "type": "猎政对答",
+   "polarity": 0,
+   "evidence": "令贪污朝贵入围搏虎"
+  },
+  {
+   "source": "尔朱荣",
+   "target": "孝庄帝",
+   "type": "遥制朝廷",
+   "polarity": -1,
+   "evidence": "天子由谁得立？今乃不用我语"
+  },
+  {
+   "source": "尔朱荣",
+   "target": "尔朱菩提",
+   "type": "父子同死",
+   "polarity": 1,
+   "evidence": "荣与天穆、菩提同时俱死"
+  },
+  {
+   "source": "尔朱兆",
+   "target": "尔朱荣",
+   "type": "从子/爪牙",
+   "polarity": 1,
+   "evidence": "荣以此特加赏爱，任为爪牙"
+  },
+  {
+   "source": "尔朱兆",
+   "target": "孝庄帝",
+   "type": "缢杀",
+   "polarity": -1,
+   "evidence": "遂害帝于五级寺"
+  },
+  {
+   "source": "尔朱兆",
+   "target": "高欢",
+   "type": "招而不合",
+   "polarity": 0,
+   "evidence": "臣而伐君，其逆已甚"
+  },
+  {
+   "source": "尔朱世隆",
+   "target": "尔朱荣",
+   "type": "劝不来",
+   "polarity": 1,
+   "evidence": "荣从弟世隆与荣书，劝其不来"
+  },
+  {
+   "source": "尔朱新兴",
+   "target": "尔朱荣",
+   "type": "天池箫鼓",
+   "polarity": 0,
+   "evidence": "凡闻此声皆至公辅"
+  },
+  {
+   "source": "尔朱荣",
+   "target": "李神俊",
+   "type": "跋扈夺任",
+   "polarity": -1,
+   "evidence": "荣闻大怒，即遣其所补者往夺其任"
+  },
+  {
+   "source": "尔朱荣",
+   "target": "尔朱羽生",
+   "type": "署从叔",
+   "polarity": 1,
+   "evidence": "乃署其从叔羽生为刺史"
+  },
+  {
+   "source": "宇文泰",
+   "target": "宇文肱",
+   "type": "父子",
+   "polarity": 1,
+   "evidence": "太祖，德皇帝之少子也"
+  },
+  {
+   "source": "宇文泰",
+   "target": "葛荣",
+   "type": "部属→逃离",
+   "polarity": 0,
+   "evidence": "太祖时年十八，荣遂任以将帅。太祖知其无成"
+  },
+  {
+   "source": "尔朱荣",
+   "target": "宇文洛生",
+   "type": "诛兄",
+   "polarity": -1,
+   "evidence": "诛太祖第三兄洛生，复欲害太祖"
+  },
+  {
+   "source": "宇文泰",
+   "target": "贺拔岳",
+   "type": "旧从/谋主",
+   "polarity": 1,
+   "evidence": "事无巨细，皆委决焉"
+  },
+  {
+   "source": "宇文泰",
+   "target": "高欢",
+   "type": "识破",
+   "polarity": -1,
+   "evidence": "高欢非人臣也"
+  },
+  {
+   "source": "宇文泰",
+   "target": "侯莫陈悦",
+   "type": "预言其叛",
+   "polarity": -1,
+   "evidence": "侯莫陈悦怙众密迩，贪而无信，必将为患"
+  },
+  {
+   "source": "赵贵",
+   "target": "宇文泰",
+   "type": "推举",
+   "polarity": 1,
+   "evidence": "英姿不世，雄谟冠时"
+  },
+  {
+   "source": "寇洛",
+   "target": "宇文泰",
+   "type": "让贤",
+   "polarity": 1,
+   "evidence": "洛智能本阙，不宜统御"
+  },
+  {
+   "source": "宇文泰",
+   "target": "侯景",
+   "type": "阵前喝退",
+   "polarity": -1,
+   "evidence": "贺拔公虽死，宇文泰尚存，卿何为也"
+  },
+  {
+   "source": "弥姐元进",
+   "target": "宇文泰",
+   "type": "密图被斩",
+   "polarity": -1,
+   "evidence": "都督弥姐元进规欲应悦，密图太祖"
+  },
+  {
+   "source": "侯莫陈崇",
+   "target": "史归",
+   "type": "轻骑擒获",
+   "polarity": -1,
+   "evidence": "率轻骑一千袭归，擒之"
+  },
+  {
+   "source": "宇文泰",
+   "target": "尔朱显寿",
+   "type": "倍道追擒",
+   "polarity": -1,
+   "evidence": "追至华山，擒之"
+  },
+  {
+   "source": "贺拔岳",
+   "target": "侯莫陈悦",
+   "type": "被害",
+   "polarity": -1,
+   "evidence": "二月，至于河曲，岳果为悦所害"
+  },
+  {
+   "source": "高长恭",
+   "target": "高澄",
+   "type": "父子",
+   "polarity": 1,
+   "evidence": "文襄第四子也"
+  },
+  {
+   "source": "高延宗",
+   "target": "高澄",
+   "type": "父子",
+   "polarity": 1,
+   "evidence": "文襄第五子也"
+  },
+  {
+   "source": "高长恭",
+   "target": "周武帝",
+   "type": "邙山五百骑",
+   "polarity": -1,
+   "evidence": "率五百骑再入周军，遂至金墉之下"
+  },
+  {
+   "source": "高纬",
+   "target": "高长恭",
+   "type": "忌杀",
+   "polarity": -1,
+   "evidence": "帝嫌其称家事，遂忌之"
+  },
+  {
+   "source": "尉相愿",
+   "target": "高长恭",
+   "type": "劝自污/劝退",
+   "polarity": 1,
+   "evidence": "宜属疾在家，勿预时事"
+  },
+  {
+   "source": "高长恭",
+   "target": "郑氏",
+   "type": "夫妻诀别",
+   "polarity": 1,
+   "evidence": "天颜何由可见"
+  },
+  {
+   "source": "高延宗",
+   "target": "高长恭",
+   "type": "兄弟(服其勇/哀其死)",
+   "polarity": 1,
+   "evidence": "使延宗当此势，关西岂得复存"
+  },
+  {
+   "source": "高延宗",
+   "target": "高湛",
+   "type": "鞭仇",
+   "polarity": -1,
+   "evidence": "何故杀我兄"
+  },
+  {
+   "source": "周武帝",
+   "target": "高延宗",
+   "type": "执手礼遇→赐死",
+   "polarity": 0,
+   "evidence": "两国天子，有何怨恶"
+  },
+  {
+   "source": "高纬",
+   "target": "高延宗",
+   "type": "弃之",
+   "polarity": -1,
+   "evidence": "我宁使周得并州，不欲安德得之"
+  },
+  {
+   "source": "阳士深",
+   "target": "高长恭",
+   "type": "表赃→被安",
+   "polarity": 0,
+   "evidence": "吾本无此意"
+  },
+  {
+   "source": "高延宗",
+   "target": "周武帝",
+   "type": "晋阳守城战",
+   "polarity": -1,
+   "evidence": "皆亲执手陈辞"
+  }
+ ],
+ "rewrite_nodes": [
+  {
+   "id": 178,
+   "year_ce": 528,
+   "year_raw": "武泰元年四月",
+   "month": null,
+   "title": "铸像卜君",
+   "summary": "铜铸高祖及咸阳王禧等六王子孙像,成者当奉为主,惟庄帝独就",
+   "event_type": "志怪",
+   "location": "河内",
+   "is_rewrite_node": 1,
+   "source_id": 6,
+   "chunk_id": 10,
+   "evidence": "惟庄帝独就"
+  },
+  {
+   "id": 179,
+   "year_ce": 528,
+   "year_raw": "武泰元年四月十三日",
+   "month": null,
+   "title": "河阴之变(魏书版)",
+   "summary": "费穆之说;引百官行宫西北云欲祭天;纵兵乱害;死者千三百余人;灵太后少主其日暴崩",
+   "event_type": "政变",
+   "location": "河阴陶渚",
+   "is_rewrite_node": 1,
+   "source_id": 6,
+   "chunk_id": 10,
+   "evidence": "死者千三百余人"
+  },
+  {
+   "id": 180,
+   "year_ce": 528,
+   "year_raw": "武泰元年",
+   "month": null,
+   "title": "铸金像四不成",
+   "summary": "荣欲称帝铸金为己像,数四不成;刘灵助言天时人事必不可尔;愧悔还奉庄帝",
+   "event_type": "志怪",
+   "location": "河桥",
+   "is_rewrite_node": 1,
+   "source_id": 6,
+   "chunk_id": 10,
+   "evidence": "数四不成"
+  },
+  {
+   "id": 181,
+   "year_ce": 528,
+   "year_raw": "建义元年九月",
+   "month": null,
+   "title": "邺城七千破百万",
+   "summary": "葛荣众号百万列阵数十里;荣率精骑七千倍道兼行;潜军山谷;袖棒;身自陷陈出于贼后表里合击;于阵擒葛荣;数十万众一朝散尽",
+   "event_type": "战争",
+   "location": "邺城",
+   "is_rewrite_node": 1,
+   "source_id": 6,
+   "chunk_id": 10,
+   "evidence": "率精骑七千，马皆有副"
+  },
+  {
+   "id": 183,
+   "year_ce": 530,
+   "year_raw": "永安三年九月",
+   "month": null,
+   "title": "手刃尔朱荣(魏书版)",
+   "summary": "帝伏兵明光殿东廊;荣从人不过数十皆挺身不持兵仗;帝先横刀膝下遂手刃之;鲁安等乱斫;荣与天穆菩提同时俱死;内外喜叫声满京城",
+   "event_type": "政变",
+   "location": "明光殿",
+   "is_rewrite_node": 1,
+   "source_id": 6,
+   "chunk_id": 10,
+   "evidence": "从人不过数十，又皆挺身不持兵仗"
+  },
+  {
+   "id": 188,
+   "year_ce": 534,
+   "year_raw": "永熙三年",
+   "month": null,
+   "title": "贺拔岳遇害",
+   "summary": "岳欲讨曹泥;侯莫陈悦密迩贪而无信;太祖预言:必将为患;岳不听;河曲果为悦所害;赵贵收岳尸",
+   "event_type": "政变",
+   "location": "河曲",
+   "is_rewrite_node": 1,
+   "source_id": 7,
+   "chunk_id": 11,
+   "evidence": "岳不听，遂与悦俱讨泥。二月，至于河曲，岳果为悦所害"
+  },
+  {
+   "id": 7,
+   "year_ce": 546,
+   "year_raw": "中大同中",
+   "month": null,
+   "title": "金瓯一言",
+   "summary": "武德阁独言:我家国犹若金瓯无一伤缺,今便受地讵是事宜",
+   "event_type": "志怪",
+   "location": "建康",
+   "is_rewrite_node": 1,
+   "source_id": 1,
+   "chunk_id": 1,
+   "evidence": "我家国犹若金瓯，无一伤缺，今便受地，讵是事宜，脱致纷纭，非可悔也"
+  },
+  {
+   "id": 4,
+   "year_ce": 547,
+   "year_raw": "太清元年正月",
+   "month": null,
+   "title": "侯景上表请降",
+   "summary": "高欢死,侯景遣丁和上表,以河南十三州内附",
+   "event_type": "外交",
+   "location": "寿阳-建康",
+   "is_rewrite_node": 1,
+   "source_id": 1,
+   "chunk_id": 1,
+   "evidence": "太清元年，乃遣其行台郎中丁和来上表请降"
+  },
+  {
+   "id": 5,
+   "year_ce": 547,
+   "year_raw": "太清元年",
+   "month": null,
+   "title": "朝议纳景",
+   "summary": "谢举等议非宜,高祖不从而纳;封河南王承制",
+   "event_type": "外交",
+   "location": "建康",
+   "is_rewrite_node": 1,
+   "source_id": 1,
+   "chunk_id": 1,
+   "evidence": "皆云纳侯景非宜，高祖不从是议而纳景"
+  },
+  {
+   "id": 10,
+   "year_ce": 548,
+   "year_raw": "太清二年二月",
+   "month": null,
+   "title": "梁魏连和",
+   "summary": "高祖与魏连和,景驰启固谏不从——信任崩断之始",
+   "event_type": "外交",
+   "location": "建康",
+   "is_rewrite_node": 1,
+   "source_id": 1,
+   "chunk_id": 1,
+   "evidence": "二年二月，高祖又与魏连和。景闻之惧，驰启固谏，高祖不从"
+  },
+  {
+   "id": 12,
+   "year_ce": 548,
+   "year_raw": "太清二年十月",
+   "month": null,
+   "title": "采石渡江",
+   "summary": "王质无故退,折枝为验;马数百匹兵千人自采石济,京师不之觉",
+   "event_type": "战争",
+   "location": "采石",
+   "is_rewrite_node": 1,
+   "source_id": 1,
+   "chunk_id": 1,
+   "evidence": "乃自采石济，马数百匹，兵千人，京师不之觉"
+  },
+  {
+   "id": 15,
+   "year_ce": 548,
+   "year_raw": "太清二年十月",
+   "month": null,
+   "title": "台城攻防开始",
+   "summary": "烧大司马门,羊侃凿门扇刺杀数人",
+   "event_type": "战争",
+   "location": "台城",
+   "is_rewrite_node": 1,
+   "source_id": 1,
+   "chunk_id": 1,
+   "evidence": "羊侃凿门扇，刺杀数人，贼乃退"
+  },
+  {
+   "id": 18,
+   "year_ce": 548,
+   "year_raw": "太清二年十一月",
+   "month": null,
+   "title": "钟山之战",
+   "summary": "邵陵王纶三万据钟山,赵伯超不赴,众军败绩",
+   "event_type": "战争",
+   "location": "钟山-玄武湖",
+   "is_rewrite_node": 1,
+   "source_id": 1,
+   "chunk_id": 1,
+   "evidence": "时赵伯超陈于玄武湖北，见骏急，不赴"
+  },
+  {
+   "id": 21,
+   "year_ce": 548,
+   "year_raw": "太清二年冬",
+   "month": null,
+   "title": "援军剥掠",
+   "summary": "百姓扶老携幼候王师,才过淮便竞剥掠,自拔者闻之咸止",
+   "event_type": "灾异",
+   "location": "建康",
+   "is_rewrite_node": 1,
+   "source_id": 1,
+   "chunk_id": 1,
+   "evidence": "才得过淮，便竞剥掠，贼党有欲自拔者，闻之咸止"
+  },
+  {
+   "id": 119,
+   "year_ce": 548,
+   "year_raw": "太清二年",
+   "month": null,
+   "title": "采石之策被寝",
+   "summary": "二千人急据采石+邵陵袭寿春之策,议者谓未敢便逼都遂寝——改写节点③的原始提案",
+   "event_type": "战争",
+   "location": "建康",
+   "is_rewrite_node": 1,
+   "source_id": 2,
+   "chunk_id": 7,
+   "evidence": "议者谓景未敢便逼都，遂寝其策"
+  },
+  {
+   "id": 124,
+   "year_ce": 548,
+   "year_raw": "太清二年",
+   "month": null,
+   "title": "羊侃之死",
+   "summary": "大雨土山崩贼垂入;火城断路城内筑城;寻以疾卒于城内,赠侍中护军将军——台城支柱塌了",
+   "event_type": "战争",
+   "location": "台城",
+   "is_rewrite_node": 1,
+   "source_id": 2,
+   "chunk_id": 7,
+   "evidence": "寻以疾卒于城内，赠侍中、护军将军"
+  },
+  {
+   "id": 20,
+   "year_ce": 549,
+   "year_raw": "太清三年正月",
+   "month": null,
+   "title": "青塘之战",
+   "summary": "韦粲营未合被袭战死,柳仲礼驰救重创",
+   "event_type": "战争",
+   "location": "青塘",
+   "is_rewrite_node": 1,
+   "source_id": 1,
+   "chunk_id": 1,
+   "evidence": "见韦粲营垒未合，先渡兵击之"
+  },
+  {
+   "id": 23,
+   "year_ce": 549,
+   "year_raw": "太清三年三月",
+   "month": null,
+   "title": "台城陷落",
+   "summary": "决石阙前水,百道攻城昼夜不息,城遂陷",
+   "event_type": "战争",
+   "location": "台城",
+   "is_rewrite_node": 1,
+   "source_id": 1,
+   "chunk_id": 1,
+   "evidence": "即决石阙前水，百道攻城，昼夜不息，城遂陷"
+  },
+  {
+   "id": 57,
+   "year_ce": 549,
+   "year_raw": "太清三年",
+   "month": null,
+   "title": "内应纳贼",
+   "summary": "萧坚帐内白昙朗董勋华于城西北楼纳贼,五鼓四面飞梯",
+   "event_type": "战争",
+   "location": "台城西北",
+   "is_rewrite_node": 1,
+   "source_id": 2,
+   "chunk_id": 2,
+   "evidence": "白昙朗、董勋华于城西北楼纳贼。五鼓，贼四面飞梯"
+  },
+  {
+   "id": 81,
+   "year_ce": 549,
+   "year_raw": "太清三年正月",
+   "month": null,
+   "title": "青塘之死(详)",
+   "summary": "昏雾失道夜过半垒至晓未合;景登禅灵寺阁望见来攻;军副劝据栅不从;子弟助警构昂皆战死,亲戚死者数百人",
+   "event_type": "战争",
+   "location": "青塘",
+   "is_rewrite_node": 1,
+   "source_id": 1,
+   "chunk_id": 3,
+   "evidence": "比及青塘，夜已过半，垒栅至晓未合"
+  },
+  {
+   "id": 84,
+   "year_ce": 549,
+   "year_raw": "太清三年",
+   "month": null,
+   "title": "后渚刺杀未遂",
+   "summary": "柳敬礼谋于饯宴抱景,仲礼拔刀斫杀;见备卫严不敢动,计遂不果",
+   "event_type": "战争",
+   "location": "后渚",
+   "is_rewrite_node": 1,
+   "source_id": 1,
+   "chunk_id": 3,
+   "evidence": "及酒数行，敬礼目仲礼，仲礼见备卫严，不敢动，计遂不果"
+  },
+  {
+   "id": 85,
+   "year_ce": 549,
+   "year_raw": "太清末",
+   "month": null,
+   "title": "斫髄下狱",
+   "summary": "僧辩欲待竟陵兵集,世祖以为迁延,斫中左髄流血至地;会岳阳王袭江陵,狱中问计登即赦用",
+   "event_type": "政变",
+   "location": "江陵",
+   "is_rewrite_node": 1,
+   "source_id": 1,
+   "chunk_id": 4,
+   "evidence": "世祖因斫之，中其左髀，流血至地"
+  },
+  {
+   "id": 102,
+   "year_ce": 549,
+   "year_raw": "太清三年",
+   "month": null,
+   "title": "始兴举义",
+   "summary": "元景仲阴图高祖,集义兵于南海驰檄讨之,景仲缢于阁下;厚结始兴豪杰,侯安都等千余人来附",
+   "event_type": "战争",
+   "location": "始兴",
+   "is_rewrite_node": 1,
+   "source_id": 3,
+   "chunk_id": 5,
+   "evidence": "集义兵于南海，驰檄以讨景仲"
+  },
+  {
+   "id": 103,
+   "year_ce": 550,
+   "year_raw": "大宝元年",
+   "month": null,
+   "title": "泣答决计",
+   "summary": "钟休悦说留;霸先泣:君辱臣死谁敢爱命,仆行计决矣;遣使间道往江陵禀承军期",
+   "event_type": "外交",
+   "location": "始兴",
+   "is_rewrite_node": 1,
+   "source_id": 3,
+   "chunk_id": 5,
+   "evidence": "仆行计决矣"
+  },
+  {
+   "id": 34,
+   "year_ce": 551,
+   "year_raw": "大宝二年四月",
+   "month": null,
+   "title": "巴陵之战",
+   "summary": "王僧辩坚壁;胡僧祐陆法和赤亭大破任约生擒之;景夜遁",
+   "event_type": "战争",
+   "location": "巴陵-赤亭",
+   "is_rewrite_node": 1,
+   "source_id": 1,
+   "chunk_id": 1,
+   "evidence": "僧祐与居士陆法和退据赤亭以待之，约至与战，大破之，生擒约。景闻之，夜遁"
+  },
+  {
+   "id": 36,
+   "year_ce": 551,
+   "year_raw": "大宝二年十月壬寅夜",
+   "month": null,
+   "title": "弑简文帝",
+   "summary": "彭俊王修纂奉酒,大酣醉,帊盛土加腹崩;前有梦吞土之谶",
+   "event_type": "政变",
+   "location": "永福省",
+   "is_rewrite_node": 1,
+   "source_id": 1,
+   "chunk_id": 1,
+   "evidence": "修纂以帊盛土加于腹，因崩焉"
+  },
+  {
+   "id": 86,
+   "year_ce": 551,
+   "year_raw": "大宝二年",
+   "month": null,
+   "title": "巴陵守城(详)",
+   "summary": "沉公私船,偃旗卧鼓;兔头肉薄,矢石雨下;桔槔聚茅置火自焚而退;频战挫衄任约被擒,景烧营夜遁",
+   "event_type": "战争",
+   "location": "巴陵",
+   "is_rewrite_node": 1,
+   "source_id": 1,
+   "chunk_id": 4,
+   "evidence": "城上放木掷火爨昚石，杀伤甚多"
+  },
+  {
+   "id": 88,
+   "year_ce": 552,
+   "year_raw": "承圣元年二月",
+   "month": null,
+   "title": "白茅洲盟誓",
+   "summary": "陈霸先率众五万出南江前军五千至湓口;登坛盟誓,霸先为文,皆泪下沾襟——王陈合流定格",
+   "event_type": "外交",
+   "location": "白茅洲",
+   "is_rewrite_node": 1,
+   "source_id": 1,
+   "chunk_id": 4,
+   "evidence": "与僧辩会于白茅洲，登坛盟誓"
+  },
+  {
+   "id": 104,
+   "year_ce": 552,
+   "year_raw": "承圣元年",
+   "month": null,
+   "title": "白茅湾会盟(陈书版)",
+   "summary": "僧辩已发湓城会高祖于白茅湾,登岸结坛刑牲盟约——与梁书'白茅洲'互异",
+   "event_type": "外交",
+   "location": "白茅湾",
+   "is_rewrite_node": 1,
+   "source_id": 3,
+   "chunk_id": 5,
+   "evidence": "会高祖于白茅湾，乃登岸结坛，刑牲盟约"
+  },
+  {
+   "id": 105,
+   "year_ce": 552,
+   "year_raw": "承圣元年三月",
+   "month": null,
+   "title": "石头城下战略演讲",
+   "summary": "柳仲礼前车之鉴论;今围石头须渡北岸,请先往立栅;横陇筑栅连八城;贼果林作五城",
+   "event_type": "战争",
+   "location": "石头城",
+   "is_rewrite_node": 1,
+   "source_id": 3,
+   "chunk_id": 5,
+   "evidence": "今围石头，须渡北岸"
+  },
+  {
+   "id": 123,
+   "year_ce": 552,
+   "year_raw": "承圣元年",
+   "month": null,
+   "title": "胡豆洲杀景(羊从版)",
+   "summary": "景昼寝,从语海师直向京口;三人同谋乞头取富贵;景欲透水,从抽刀斫之;以小刀抉船,从刺杀之",
+   "event_type": "战争",
+   "location": "胡豆洲",
+   "is_rewrite_node": 1,
+   "source_id": 2,
+   "chunk_id": 7,
+   "evidence": "遂直向京口，至胡豆洲，景觉，大惊"
+  },
+  {
+   "id": 92,
+   "year_ce": 554,
+   "year_raw": "承圣三年",
+   "month": null,
+   "title": "胡僧祐之死",
+   "summary": "西魏寇至都督城东,亲当矢石昼夜督战,中流矢卒年六十三;世祖驰往临哭;内外惶骇城遂陷",
+   "event_type": "战争",
+   "location": "江陵",
+   "is_rewrite_node": 1,
+   "source_id": 1,
+   "chunk_id": 4,
+   "evidence": "俄而中流矢卒，时年六十三"
+  },
+  {
+   "id": 129,
+   "year_ce": 554,
+   "year_raw": "554",
+   "month": null,
+   "title": "江陵焚书(赋注版)",
+   "summary": "唯孝元鸠合,通重十余万,史籍以来未之有也;兵败悉焚之,海内无复书府;北于坟籍少于江东三分之一",
+   "event_type": "灾异",
+   "location": "江陵",
+   "is_rewrite_node": 1,
+   "source_id": 4,
+   "chunk_id": 6,
+   "evidence": "兵败悉焚之，海内无复书府"
+  },
+  {
+   "id": 96,
+   "year_ce": 555,
+   "year_raw": "绍泰元年",
+   "month": null,
+   "title": "夜袭石头(详)",
+   "summary": "陈霸先自京口水陆十万俱至;僧辩与子頠走出,据南门楼乞命;霸先纵火焚之;委公北门何谓无备;尔夜斩之",
+   "event_type": "政变",
+   "location": "石头城",
+   "is_rewrite_node": 1,
+   "source_id": 1,
+   "chunk_id": 4,
+   "evidence": "僧辩与其子頠遽走出阁"
+  },
+  {
+   "id": 107,
+   "year_ce": 555,
+   "year_raw": "承圣四年九月",
+   "month": null,
+   "title": "夜发南徐",
+   "summary": "密具袍数千领及锦彩金银以为赏赐之具;召徐度侯安都周文育谋;是夜发南徐讨王僧辩",
+   "event_type": "政变",
+   "location": "京口",
+   "is_rewrite_node": 1,
+   "source_id": 3,
+   "chunk_id": 5,
+   "evidence": "乃密具袍数千领，及锦彩金银，以为赏赐之具"
+  },
+  {
+   "id": 112,
+   "year_ce": 556,
+   "year_raw": "太平元年六月",
+   "month": null,
+   "title": "莫府山夜雨(陈书版)",
+   "summary": "断粮(尽获其船米,齐军杀马驴而食);夜大雨震电暴风拔木平地水丈余,齐军尽夜坐立泥中悬鬓以爨,而台中及潮沟北水退路燥,官军每得番易;旦攻之大溃",
+   "event_type": "战争",
+   "location": "莫府山",
+   "is_rewrite_node": 1,
+   "source_id": 3,
+   "chunk_id": 5,
+   "evidence": "其夜大雨震电，暴风拔木，平地水丈余，齐军尽夜坐立泥中"
+  },
+  {
+   "id": 190,
+   "year_ce": 564,
+   "year_raw": "河清三年",
+   "month": null,
+   "title": "兰陵王入阵曲",
+   "summary": "芒山之战率五百骑再入周军至金墉;免胄示面;城上弩手救;武士共歌之为兰陵王入阵曲——此曲唐传入日本雅乐至今",
+   "event_type": "战争",
+   "location": "邙山",
+   "is_rewrite_node": 1,
+   "source_id": 2,
+   "chunk_id": 12,
+   "evidence": "免胄示之面，乃下弩手救之"
+  },
+  {
+   "id": 191,
+   "year_ce": 573,
+   "year_raw": "武平四年五月",
+   "month": null,
+   "title": "兰陵王之死",
+   "summary": "帝使徐之范饮以毒药;谓妃郑氏:我忠以事上何辜于天;天颜何由可见;遂饮药薨",
+   "event_type": "政变",
+   "location": "北齐",
+   "is_rewrite_node": 1,
+   "source_id": 2,
+   "chunk_id": 12,
+   "evidence": "何辜于天而遭鸩也"
+  },
+  {
+   "id": 192,
+   "year_ce": 576,
+   "year_raw": "武平七年",
+   "month": null,
+   "title": "安德王晋阳守城",
+   "summary": "将士拥立即帝位改德昌;倾府藏赐将士;亲执手自称名流涕呜咽;童儿女子乘屋投砖;齐人奋击死者千余;周武帝左右略尽;张寿牵马贺拔佛恩鞭拂仅得出;四更周武出城饥甚欲遁;诘旦还攻克之",
+   "event_type": "战争",
+   "location": "晋阳",
+   "is_rewrite_node": 1,
+   "source_id": 2,
+   "chunk_id": 12,
+   "evidence": "童兒女子亦乘屋攘袂，投砖石以御周军"
+  }
+ ],
+ "zhgai_events": [
+  {
+   "id": 152,
+   "year_ce": -690,
+   "year_raw": "春秋",
+   "month": null,
+   "title": "【还冤:彭生下车】鲁桓公",
+   "summary": "齐襄公使公子彭生送桓公于车,彭生多力抵桓公胁杀之;后齐侯田猎见豕人立而啼,从者曰'公子彭生也'",
+   "event_type": "志怪",
+   "location": "齐",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "彭生多力乃抵桓公胁桓公薨于车上"
+  },
+  {
+   "id": 153,
+   "year_ce": -470,
+   "year_raw": "春秋",
+   "month": null,
+   "title": "【还冤:呼名山应】公孙圣",
+   "summary": "吴王夫差杀臣公孙圣不以罪,投余杭山下;越伐吴,王败走道当由之,使太宰嚭唱圣名,果有应声",
+   "event_type": "志怪",
+   "location": "余杭山",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "吾前杀臣公孙圣投于余杭山之下"
+  },
+  {
+   "id": 174,
+   "year_ce": -130,
+   "year_raw": "汉",
+   "month": null,
+   "title": "【还冤:灌夫索命】田蚡",
+   "summary": "魏其侯窦婴与灌夫相善;田蚡为丞相,构陷灌夫族诛,窦婴亦弃市;后蚡病,一身尽痛,若有击者;呼服谢罪;使视鬼者观之,见灌夫窦婴俱笞蚡;蚡死",
+   "event_type": "志怪",
+   "location": "长安",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "灌夫相引荐交结"
+  },
+  {
+   "id": 165,
+   "year_ce": -100,
+   "year_raw": "汉",
+   "month": null,
+   "title": "【还冤:鹊奔亭女鬼】苏娥",
+   "summary": "何敞为交趾刺史,行部宿鹊奔亭;夜有女子自楼下出,姓苏名娥字始珠;夫亡无兄弟,有杂缯百二十疋;同乘车,欲往旁县;亭主杀婢财,取财物;敞为杀亭主,葬娥冢",
+   "event_type": "志怪",
+   "location": "鹊奔亭",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "妾姓苏名娥字始珠"
+  },
+  {
+   "id": 166,
+   "year_ce": -80,
+   "year_raw": "汉",
+   "month": null,
+   "title": "【还冤:厘亭诉冤】王忳",
+   "summary": "王忳为郿县令,之县宿厘亭;亭常杀人;夜有女子欲诉冤,无衣自盖;忳以衣与之;乃言:本涪令妻,过亭宿,亭长杀妾大小十余口;忳为杀亭长",
+   "event_type": "志怪",
+   "location": "厘亭",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "亭长杀妾大小十余口"
+  },
+  {
+   "id": 147,
+   "year_ce": 65,
+   "year_raw": "汉明帝时",
+   "month": null,
+   "title": "【母题:佛教初传】汉明帝梦神人",
+   "summary": "形垂二丈身黄金色项佩日光;或对曰西方有神其号曰佛,形如陛下所梦——感应链条的起点",
+   "event_type": "志怪",
+   "location": "洛阳",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 8,
+   "evidence": "形垂二丈，身黃金色，項佩日光"
+  },
+  {
+   "id": 170,
+   "year_ce": 200,
+   "year_raw": "汉末",
+   "month": null,
+   "title": "【还冤:道人旱杀】于吉",
+   "summary": "孙策既定会稽,道人于吉在军中;遇天旱将士多在吉所;策怒'吾不如吉'缚吉置日中令降雨,俄顷云雨滂沱,策竟杀吉;后策照镜见吉在镜中,顾则无人,俄而遇刺",
+   "event_type": "志怪",
+   "location": "会稽",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "吾不如吉"
+  },
+  {
+   "id": 151,
+   "year_ce": 251,
+   "year_raw": "魏",
+   "month": null,
+   "title": "【还冤:颈食诉帝】夏侯玄",
+   "summary": "夏侯玄(字太初)为司马景王所忌杀;宗族设祭,见玄来灵座,脱头置旁,取果食以内颈中;言'吾得诉于上帝矣,司马子元无嗣也';景王寻薨无子",
+   "event_type": "志怪",
+   "location": "",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "吾得诉于上帝矣司马子元无嗣也"
+  },
+  {
+   "id": 135,
+   "year_ce": 280,
+   "year_raw": "西晋",
+   "month": null,
+   "title": "【母题:宿命记忆】羊祜识环",
+   "summary": "羊祜五岁令乳母取先所弄指环:昔于东垣边弄之落桑树中;乳母掘之果得——前世记忆实证",
+   "event_type": "志怪",
+   "location": "",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 8,
+   "evidence": "昔於東垣邊弄之，落桑樹中"
+  },
+  {
+   "id": 136,
+   "year_ce": 296,
+   "year_raw": "晋元康中",
+   "month": null,
+   "title": "【母题:诵经御火】竺长舒邻火",
+   "summary": "草屋下风,诵观音经,火至其家自越;不信者取火爇之三掷不燃",
+   "event_type": "志怪",
+   "location": "洛阳",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 8,
+   "evidence": "其後鄰比失火。長舒家悉草屋，又正在下風"
+  },
+  {
+   "id": 150,
+   "year_ce": 310,
+   "year_raw": "永嘉年",
+   "month": null,
+   "title": "【还冤:门生谋财】诸元崇堕水",
+   "summary": "琅琊人诸覆永嘉年为元真太守;长子元崇(十九岁)送丧;门生何法僧贪其资货,推堕水死分其财;母陈氏梦元崇还,具叙凶事",
+   "event_type": "志怪",
+   "location": "",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "何法僧贪其资货与伴共推元崇堕水而死"
+  },
+  {
+   "id": 98,
+   "year_ce": 317,
+   "year_raw": "永嘉南迁",
+   "month": null,
+   "title": "陈氏二百年预言",
+   "summary": "长城令陈达:此地山川秀丽当有王者兴,二百年后我子孙必钟斯运——二百三十年后应验",
+   "event_type": "志怪",
+   "location": "长城",
+   "is_rewrite_node": 0,
+   "source_id": 3,
+   "chunk_id": 5,
+   "evidence": "此地山川秀丽，当有王者兴，二百年后，我子孙必钟斯运"
+  },
+  {
+   "id": 149,
+   "year_ce": 325,
+   "year_raw": "晋",
+   "month": null,
+   "title": "【还冤:含玄射报】力士含玄",
+   "summary": "晋明帝杀力士含玄;含玄预嘱持刀者'我颈多筋斫之必令即防';死后见绛冠朱服,赤弓丹矢射持刀者,呼'含玄缓我'而死",
+   "event_type": "志怪",
+   "location": "",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "我颈多筋斫之必令即防吾将报汝"
+  },
+  {
+   "id": 168,
+   "year_ce": 330,
+   "year_raw": "晋",
+   "month": null,
+   "title": "【还冤:庾亮诛陶称】陶侃来谒",
+   "summary": "庾亮诛陶称;后咸康五年冬节会,文武数十人忽然悉起向阶拜揖;亮惊问,并云'陶公来'——陶公是称父侃也;亮亦起迎;左右数十人皆操伏戈;陶公入,亮遂病而死",
+   "event_type": "志怪",
+   "location": "建康",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "陶公是称父侃也"
+  },
+  {
+   "id": 148,
+   "year_ce": 340,
+   "year_raw": "晋",
+   "month": null,
+   "title": "【母题:水怪支无肿】吕竑父溪行",
+   "summary": "县南溪流急岸峭白日行者犹怀危惧;父尝行溪中暮天风暴,诵观音得济——山水灵验",
+   "event_type": "志怪",
+   "location": "始丰",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 8,
+   "evidence": "流急岸峭，迴曲如縈，又多大石"
+  },
+  {
+   "id": 160,
+   "year_ce": 340,
+   "year_raw": "晋",
+   "month": null,
+   "title": "【还冤:白日见杀】石密",
+   "summary": "山阴县令石密先为御史时,枉奏杀典客令万黜;后密白日见黜来杀密,遂死",
+   "event_type": "志怪",
+   "location": "山阴",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "宻白日见黜来杀宻遂死"
+  },
+  {
+   "id": 171,
+   "year_ce": 345,
+   "year_raw": "秦",
+   "month": null,
+   "title": "【还冤:期射为祟】李寿",
+   "summary": "李雄既王于蜀,其第四子期从叔李寿袭期废为邛都公,寻复杀之;寿自立;性素凶狠,猜忌仆射蔡射,遂诛之;寿病,恒见李期蔡射为祟,呕血而死",
+   "event_type": "志怪",
+   "location": "蜀",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "恒见李期蔡射为祟"
+  },
+  {
+   "id": 137,
+   "year_ce": 350,
+   "year_raw": "晋永和中",
+   "month": null,
+   "title": "【母题:狱囚得脱】窦传系狱",
+   "summary": "被俘共系入狱;一心呼观世音,锁械自解,守者并寐,逾城而逝",
+   "event_type": "志怪",
+   "location": "并州",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 8,
+   "evidence": "同伴六七人，共繫入一獄"
+  },
+  {
+   "id": 154,
+   "year_ce": 355,
+   "year_raw": "晋永和",
+   "month": null,
+   "title": "【还冤:截头预告】张祚",
+   "summary": "张祚自立凉王;河州刺史张璀强盛,祚密遣兵图璀,璀率众拒杀祚;后璀数见祚来,铠甲举手指璀'底奴要当截汝头';璀入姑臧立张玄靓,为部下所杀",
+   "event_type": "志怪",
+   "location": "凉州",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "底奴要当截汝头"
+  },
+  {
+   "id": 138,
+   "year_ce": 360,
+   "year_raw": "晋",
+   "month": null,
+   "title": "【母题:海难救溺】徐荣洄澓",
+   "summary": "舟堕洄澓垂欲沉没;至心呼观世音,如有数十人齐力引船,踊出覆没中",
+   "event_type": "志怪",
+   "location": "定山",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 8,
+   "evidence": "如有數十人齊力引船者，踴出"
+  },
+  {
+   "id": 173,
+   "year_ce": 370,
+   "year_raw": "晋",
+   "month": null,
+   "title": "【还冤:孔基唁祸】孔基",
+   "summary": "孔基勤学有志操;族人孔敝使其二子以基为师;敝子凶猾,基屡言之;敝亡,基赍羊酒往唁;二子犹怀忿,共杀基;后基魂来,二子俱死",
+   "event_type": "志怪",
+   "location": "会稽",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "以基为师"
+  },
+  {
+   "id": 161,
+   "year_ce": 371,
+   "year_raw": "晋",
+   "month": null,
+   "title": "【还冤:桓温见晞】武陵王晞",
+   "summary": "桓温废帝立简文;忌太宰武陵王晞,奏免晞及子综官;后温疾,见晞来;温死",
+   "event_type": "志怪",
+   "location": "",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "温常忌之故加罪状奏免晞及子综官"
+  },
+  {
+   "id": 139,
+   "year_ce": 372,
+   "year_raw": "晋咸安二年",
+   "month": null,
+   "title": "【母题:梦医治病】竺法义感疾",
+   "summary": "山居沙门疾病积时攻治备至不损;梦人道人为治,疾愈——观音疗疾母题",
+   "event_type": "志怪",
+   "location": "始宁保山",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 8,
+   "evidence": "至咸安二年，忽感心氣，疾病積時"
+  },
+  {
+   "id": 169,
+   "year_ce": 380,
+   "year_raw": "晋",
+   "month": null,
+   "title": "【还冤:羊聃暴杀】羊聃",
+   "summary": "羊聃(字懿彭祖)庐陵太守,刚克粗暴,睚眦之嫌辄加刑杀;杀郡将吏及民简良等二百九十人;庾亮槛送;有司奏:聃罪当死;以国姻减死;后聃病,恒见所杀者来;遂死",
+   "event_type": "志怪",
+   "location": "庐陵",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "杀郡将吏及民蕳良等二百九十人"
+  },
+  {
+   "id": 162,
+   "year_ce": 385,
+   "year_raw": "秦",
+   "month": null,
+   "title": "【还冤:缢主索命】苻坚",
+   "summary": "姚苌缢苻坚于新平佛寺;后苌与苻坚战,每见坚在军中,惧而败;苌病,夜梦坚将天官使者鬼兵数百入营;苌惊惧,掘坚尸鞭挞,仍梦,又做坚像,像前祝祷,无效;遂斩像首;苌病中狂言坚来索命而死",
+   "event_type": "志怪",
+   "location": "",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "姚苌字景茂赤亭羌也"
+  },
+  {
+   "id": 159,
+   "year_ce": 389,
+   "year_raw": "晋太元十四年",
+   "month": null,
+   "title": "【还冤:裳飞示处】张鹿杀经旷",
+   "summary": "张鹿与经旷共登钟岭,鹿酒失色拔刀斩旷;旷母梦旷自说:尸在涧中,脱裈覆腹,'当令裳飞起以示处也';明晨觅之,裳果飞起,尸在涧中,裈覆腹如梦",
+   "event_type": "志怪",
+   "location": "钟岭",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "当令裳飞起以示处也"
+  },
+  {
+   "id": 167,
+   "year_ce": 390,
+   "year_raw": "晋",
+   "month": null,
+   "title": "【还冤:法存冤狱】支法存",
+   "summary": "支法存本胡人,生长广州,善医术成巨富;有八㲲毯作百种形象,沈香八尺板床;王谈为广州刺史,大儿劭屡求二物不与;谈囚法存杀之;后法存魂来,谈父子皆死",
+   "event_type": "志怪",
+   "location": "广州",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "王谈为广州刺史大儿劭之屡求二物法存不与"
+  },
+  {
+   "id": 145,
+   "year_ce": 395,
+   "year_raw": "晋宋间",
+   "month": null,
+   "title": "【母题:阎罗讲经】王浮锁械",
+   "summary": "阎罗王讲首楞严经;见道士王浮身被锁械求祖忏悔——佛道冥判高下",
+   "event_type": "志怪",
+   "location": "",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 8,
+   "evidence": "閻羅王講《首楞嚴經》。又見道士王浮身被鎖械"
+  },
+  {
+   "id": 142,
+   "year_ce": 400,
+   "year_raw": "晋宋间",
+   "month": null,
+   "title": "【母题:地狱巡游】镬汤剑树",
+   "summary": "鬼持叉三四百人立一面次当入镬相抱悲泣;剑树高广不可限极——地狱景观原典",
+   "event_type": "志怪",
+   "location": "",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 8,
+   "evidence": "次當入鑊，相抱悲泣。或劍樹高廣，不可限極"
+  },
+  {
+   "id": 143,
+   "year_ce": 405,
+   "year_raw": "晋宋间",
+   "month": null,
+   "title": "【母题:死而复生述冥】孙丰郝伯平集会",
+   "summary": "死而复生多见罪福互来访问;太中大夫孙丰关内侯郝伯平等十人同集论冥界见闻",
+   "event_type": "志怪",
+   "location": "",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 8,
+   "evidence": "死而復生，多見罪福，互來訪問"
+  },
+  {
+   "id": 144,
+   "year_ce": 410,
+   "year_raw": "晋宋间",
+   "month": null,
+   "title": "【母题:冥司房舍】道人舍",
+   "summary": "冥司福舍前土地神问吏此是何等舍;吏曰道人舍——持戒者冥中有屋",
+   "event_type": "志怪",
+   "location": "",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 8,
+   "evidence": "此是何等舍？」吏曰：「道人舍。"
+  },
+  {
+   "id": 175,
+   "year_ce": 412,
+   "year_raw": "宋",
+   "month": null,
+   "title": "【还冤:僧魂告天】刘毅杀牛牧寺僧",
+   "summary": "宋高祖平桓玄后,刘毅为荆州刺史;到州杀牛牧寺僧主云藏桓家儿,并杀四道人;后夜梦僧来:'君何以枉杀贫道,已白于天帝';毅后败,果以荷惧死",
+   "event_type": "志怪",
+   "location": "荆州",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "天帝恐君亦不得久"
+  },
+  {
+   "id": 140,
+   "year_ce": 416,
+   "year_raw": "晋义熙十二年",
+   "month": null,
+   "title": "【母题:铸像免死】僧洪偷铸",
+   "summary": "官禁镕铸,偷铸丈六金像;收禁相府锁械甚严;心念观音,像现金色,获免",
+   "event_type": "志怪",
+   "location": "瓦官寺",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 8,
+   "evidence": "所司收洪，禁在相府，鎖械甚嚴"
+  },
+  {
+   "id": 176,
+   "year_ce": 433,
+   "year_raw": "北凉",
+   "month": null,
+   "title": "【还冤:昙摩谶】沮渠蒙逊",
+   "summary": "沙门昙摩谶博达多识,蒙逊信重;魏遣李顺求之,蒙逊恡而不与;谶屡请入魏,蒙逊怒杀之;既而左右白日见谶来;蒙逊病,前后见谶,遂死",
+   "event_type": "志怪",
+   "location": "凉州",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "凉王"
+  },
+  {
+   "id": 155,
+   "year_ce": 435,
+   "year_raw": "宋元嘉中",
+   "month": null,
+   "title": "【还冤:乐伎冤死】陶继之",
+   "summary": "丹阳陶继之为秣陵令,捕劫李龙等;引一人是太乐伎(劫发之夜在同伴处奏乐);陶不详审,作款列上;伎死之日曰'我无罪,当诉天帝';后陶见伎来曰'昔枉见杀,今已得请于天帝';旬日而死",
+   "event_type": "志怪",
+   "location": "秣陵",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "此伎推同伴往就人宿共奏音声陶不详审为作欵列"
+  },
+  {
+   "id": 164,
+   "year_ce": 438,
+   "year_raw": "宋元嘉",
+   "month": null,
+   "title": "【还冤:魂语羊酒】吕庆祖",
+   "summary": "永康人吕庆祖家甚温富;使奴教子守墅舍;元嘉中往案行,忽为人杀;族弟无期先大举庆祖饯,咸谓为害;无期赍羊酒至柩所咒:'君荼酷如此乃云是我,魂而有灵使知其人'——庆祖魂果来告,无期遂伏法",
+   "event_type": "志怪",
+   "location": "永康",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "君荼酷如此乃云是我魂而有灵使知其人"
+  },
+  {
+   "id": 163,
+   "year_ce": 440,
+   "year_raw": "宋元嘉",
+   "month": null,
+   "title": "【还冤:山中报仇】张超",
+   "summary": "张超与翟愿不和;愿为方与令,忽为人杀,咸疑是超;后翟兄子铜乌执弓持矢就山贶超,斟酌已毕:'明府昔害民叔';超无以对;铜乌即射杀之",
+   "event_type": "志怪",
+   "location": "金乡",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "明府昔害民叔"
+  },
+  {
+   "id": 172,
+   "year_ce": 445,
+   "year_raw": "宋",
+   "month": null,
+   "title": "【还冤:焚屋杀邻】张稗",
+   "summary": "下邳张稗,家世冠族;邻人求其孙女为妾,稗耻而不与;邻人愤焚其屋,稗烧死;其子知情而贪财不言,嫁女与邻;后稗魂来,孙女及子俱死",
+   "event_type": "志怪",
+   "location": "下邳",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "乃焚其屋稗遂烧死"
+  },
+  {
+   "id": 141,
+   "year_ce": 450,
+   "year_raw": "刘宋",
+   "month": null,
+   "title": "【母题:谤佛致殃】史俊脚挛",
+   "summary": "奉道慢佛:佛是小神不足事耳;病脚挛种种祈福无效;造观音像得愈",
+   "event_type": "志怪",
+   "location": "",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 8,
+   "evidence": "佛是小神，不足事耳"
+  },
+  {
+   "id": 156,
+   "year_ce": 466,
+   "year_raw": "宋泰始",
+   "month": null,
+   "title": "【还冤:伏甲杀琬】张悦",
+   "summary": "江州刺史邓琬立晋安王子勋作乱;琬败,张悦惧诛称暴疾伏甲召琬杀之;后悦病,常见琬来;悦遂死",
+   "event_type": "志怪",
+   "location": "湓口",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "琬赦之以为冠军将军与共经纪军事"
+  },
+  {
+   "id": 95,
+   "year_ce": 490,
+   "year_raw": "天监前(微时)",
+   "month": null,
+   "title": "阴智伯异光之谶",
+   "summary": "入高祖卧内见异光成五色,握手言公后必大贵非人臣也,安苍生者其在君乎——萧衍微时预言",
+   "event_type": "志怪",
+   "location": "",
+   "is_rewrite_node": 0,
+   "source_id": 1,
+   "chunk_id": 4,
+   "evidence": "见有异光成五色，因握高祖手曰：“公后必大贵，非人臣也"
+  },
+  {
+   "id": 157,
+   "year_ce": 490,
+   "year_raw": "齐",
+   "month": null,
+   "title": "【还冤:太子加药】萧嶷见形",
+   "summary": "齐豫章王萧嶷亡后,见形于沈文季:'我病未应死,皇太子加膏中十一种药,使我不差;汤中复加药一种,使我利不断;吾已先诉'——怀出青纸文书,呈主上",
+   "event_type": "志怪",
+   "location": "建康",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "皇太子加膏中十一种药使我不差"
+  },
+  {
+   "id": 146,
+   "year_ce": 500,
+   "year_raw": "齐梁间",
+   "month": null,
+   "title": "【母题:观音金像现前】陈玄范妻",
+   "summary": "精心奉佛恒愿自作金像终身供养;专心日久忽有观音金像连光五尺见高座上(辩正论卷七辑)",
+   "event_type": "志怪",
+   "location": "",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 8,
+   "evidence": "忽有觀音金像，連光五尺，見高座上"
+  },
+  {
+   "id": 43,
+   "year_ce": 505,
+   "year_raw": "天监中(谶)",
+   "month": null,
+   "title": "宝志二谶",
+   "summary": "掘尾狗子自发狂/山家小儿果攘臂,太极殿前作虎视",
+   "event_type": "志怪",
+   "location": "建康",
+   "is_rewrite_node": 0,
+   "source_id": 1,
+   "chunk_id": 1,
+   "evidence": "又曰：“山家小儿果攘臂，太极殿前作虎视。”"
+  },
+  {
+   "id": 185,
+   "year_ce": 507,
+   "year_raw": "出生时",
+   "month": null,
+   "title": "宇文泰之异相",
+   "summary": "母孕五月夜梦抱子升天纔不至;德皇:虽不至天贵亦极矣;生有黑气如盖下覆其身;背有黑子宛转若龙盘;面有紫光人望而敬畏",
+   "event_type": "志怪",
+   "location": "武川",
+   "is_rewrite_node": 0,
+   "source_id": 7,
+   "chunk_id": 11,
+   "evidence": "虽不至天，贵亦极矣"
+  },
+  {
+   "id": 42,
+   "year_ce": 520,
+   "year_raw": "普通中(谶)",
+   "month": null,
+   "title": "青丝白马童谣",
+   "summary": "青丝白马寿阳来——景果乘白马,兵皆青衣",
+   "event_type": "志怪",
+   "location": "建康",
+   "is_rewrite_node": 0,
+   "source_id": 1,
+   "chunk_id": 1,
+   "evidence": "普通中，童谣曰：“青丝白马寿阳来。”后景果乘白马，兵皆青衣"
+  },
+  {
+   "id": 178,
+   "year_ce": 528,
+   "year_raw": "武泰元年四月",
+   "month": null,
+   "title": "铸像卜君",
+   "summary": "铜铸高祖及咸阳王禧等六王子孙像,成者当奉为主,惟庄帝独就",
+   "event_type": "志怪",
+   "location": "河内",
+   "is_rewrite_node": 1,
+   "source_id": 6,
+   "chunk_id": 10,
+   "evidence": "惟庄帝独就"
+  },
+  {
+   "id": 180,
+   "year_ce": 528,
+   "year_raw": "武泰元年",
+   "month": null,
+   "title": "铸金像四不成",
+   "summary": "荣欲称帝铸金为己像,数四不成;刘灵助言天时人事必不可尔;愧悔还奉庄帝",
+   "event_type": "志怪",
+   "location": "河桥",
+   "is_rewrite_node": 1,
+   "source_id": 6,
+   "chunk_id": 10,
+   "evidence": "数四不成"
+  },
+  {
+   "id": 182,
+   "year_ce": 528,
+   "year_raw": "建义初",
+   "month": null,
+   "title": "双兔碑",
+   "summary": "军次襄垣双兔起马前;跃马弯弓誓:中之则擒葛荣;并应弦而殪;三军咸悦;破贼后立双兔碑",
+   "event_type": "志怪",
+   "location": "襄垣",
+   "is_rewrite_node": 0,
+   "source_id": 6,
+   "chunk_id": 10,
+   "evidence": "中之则擒葛荣，不中则否"
+  },
+  {
+   "id": 99,
+   "year_ce": 530,
+   "year_raw": "微时",
+   "month": null,
+   "title": "纳日之梦",
+   "summary": "夜梦天开数丈,四人硃衣捧日而至,令高祖开口纳焉;及觉腹中犹热,心独负之",
+   "event_type": "志怪",
+   "location": "义兴",
+   "is_rewrite_node": 0,
+   "source_id": 3,
+   "chunk_id": 5,
+   "evidence": "夜梦天开数丈，有四人硃衣捧日而至，令高祖开口纳焉"
+  },
+  {
+   "id": 186,
+   "year_ce": 530,
+   "year_raw": "关中",
+   "month": null,
+   "title": "箫鼓之音",
+   "summary": "太祖从数骑于野忽闻箫鼓之音;问从人皆云莫之闻——与尔朱新兴天池箫鼓同构",
+   "event_type": "志怪",
+   "location": "原州",
+   "is_rewrite_node": 0,
+   "source_id": 7,
+   "chunk_id": 11,
+   "evidence": "忽闻箫鼓之音"
+  },
+  {
+   "id": 158,
+   "year_ce": 531,
+   "year_raw": "魏",
+   "month": null,
+   "title": "【还冤:匿金恶报】寇祖仁",
+   "summary": "城阳王元徽为孝庄帝画计杀尔朱荣;尔朱兆入洛,徽走投洛阳令寇祖仁(父叔兄弟三人皆徽之力);兆购徽万户侯,祖仁斩徽送之,并匿其金百斤马五十匹;后兆梦徽言'我金二百斤马百匹在祖仁家',兆索得金马,祖仁忧死",
+   "event_type": "志怪",
+   "location": "洛阳",
+   "is_rewrite_node": 0,
+   "source_id": 5,
+   "chunk_id": 9,
+   "evidence": "并匿其金百斤马五十匹"
+  },
+  {
+   "id": 187,
+   "year_ce": 534,
+   "year_raw": "河曲",
+   "month": null,
+   "title": "老翁预言",
+   "summary": "贺拔岳营于河曲;军吏独行忽见老翁须眉皓素:贺拔岳虽据此众终无所成,当有一宇文家从东北来后必大盛;言讫不见;至是方验",
+   "event_type": "志怪",
+   "location": "河曲",
+   "is_rewrite_node": 0,
+   "source_id": 7,
+   "chunk_id": 11,
+   "evidence": "当有一宇文家从东北来，后必大盛"
+  },
+  {
+   "id": 44,
+   "year_ce": 540,
+   "year_raw": "大同中(谶)",
+   "month": null,
+   "title": "硃耽犬羊之梦",
+   "summary": "太医令梦犬羊各一在御坐,觉而恶之——后景登正殿",
+   "event_type": "志怪",
+   "location": "建康",
+   "is_rewrite_node": 0,
+   "source_id": 1,
+   "chunk_id": 1,
+   "evidence": "夜梦犬羊各一在御坐，觉而恶之"
+  },
+  {
+   "id": 47,
+   "year_ce": 540,
+   "year_raw": "镇河南前",
+   "month": null,
+   "title": "缚萧衍为太平寺主",
+   "summary": "请兵三万横行天下,要须济江缚取萧衍老公以作太平寺主——狂言成谶",
+   "event_type": "志怪",
+   "location": "河南",
+   "is_rewrite_node": 0,
+   "source_id": 2,
+   "chunk_id": 2,
+   "evidence": "以作太平寺主"
+  },
+  {
+   "id": 6,
+   "year_ce": 546,
+   "year_raw": "中大同中",
+   "month": null,
+   "title": "武帝中原之梦",
+   "summary": "梦中原牧守以地来降,朱异解为宇内将一",
+   "event_type": "志怪",
+   "location": "建康",
+   "is_rewrite_node": 0,
+   "source_id": 1,
+   "chunk_id": 1,
+   "evidence": "高祖尝夜梦中原牧守皆以地来降"
+  },
+  {
+   "id": 7,
+   "year_ce": 546,
+   "year_raw": "中大同中",
+   "month": null,
+   "title": "金瓯一言",
+   "summary": "武德阁独言:我家国犹若金瓯无一伤缺,今便受地讵是事宜",
+   "event_type": "志怪",
+   "location": "建康",
+   "is_rewrite_node": 1,
+   "source_id": 1,
+   "chunk_id": 1,
+   "evidence": "我家国犹若金瓯，无一伤缺，今便受地，讵是事宜，脱致纷纭，非可悔也"
+  },
+  {
+   "id": 50,
+   "year_ce": 548,
+   "year_raw": "太清二年八月",
+   "month": null,
+   "title": "登坛歃血地大震",
+   "summary": "豫州城内集将帅登坛歃血,是日地大震",
+   "event_type": "志怪",
+   "location": "寿阳",
+   "is_rewrite_node": 0,
+   "source_id": 2,
+   "chunk_id": 2,
+   "evidence": "登坛歃血。是日地大震"
+  },
+  {
+   "id": 53,
+   "year_ce": 548,
+   "year_raw": "太清二年",
+   "month": null,
+   "title": "焚东宫图籍",
+   "summary": "简文募人烧东宫台殿尽,所聚图籍数百厨一皆灰烬;先梦秦始皇云此人复焚书",
+   "event_type": "志怪",
+   "location": "东宫",
+   "is_rewrite_node": 0,
+   "source_id": 2,
+   "chunk_id": 2,
+   "evidence": "所聚图籍数百厨，一皆灰烬。先是简文梦有人画作秦始皇，云“此人复焚书”，至是而验"
+  },
+  {
+   "id": 79,
+   "year_ce": 548,
+   "year_raw": "太清二年",
+   "month": null,
+   "title": "童谣年代(南史版)",
+   "summary": "大同中童谣:青丝白马寿阳来——与梁书'普通中'互异;景涡阳败后求锦得青布用为袍,乘白马青丝为辔以应谣",
+   "event_type": "志怪",
+   "location": "建康",
+   "is_rewrite_node": 0,
+   "source_id": 2,
+   "chunk_id": 2,
+   "evidence": "青丝白马寿阳来。”"
+  },
+  {
+   "id": 54,
+   "year_ce": 549,
+   "year_raw": "围城中",
+   "month": null,
+   "title": "纸鸦传书",
+   "summary": "羊车儿献计作纸鸦藏敕,因西北风放;群贼骇谓厌胜之术,射下之",
+   "event_type": "志怪",
+   "location": "台城",
+   "is_rewrite_node": 0,
+   "source_id": 2,
+   "chunk_id": 2,
+   "evidence": "作纸鸦系以长绳，藏敕于中。简文出太极殿前，因西北风而放"
+  },
+  {
+   "id": 56,
+   "year_ce": 549,
+   "year_raw": "太清三年",
+   "month": null,
+   "title": "简文诗谶",
+   "summary": "雪花无有蔕/冰镜不安台/飞轮了无辙——无蒂无帝,台城不安",
+   "event_type": "志怪",
+   "location": "建康",
+   "is_rewrite_node": 0,
+   "source_id": 2,
+   "chunk_id": 2,
+   "evidence": "后人以为诗谶，谓无蔕者，是无帝。不安台者，台城不安"
+  },
+  {
+   "id": 59,
+   "year_ce": 549,
+   "year_raw": "太清三年五月",
+   "month": null,
+   "title": "钉陵绝灭",
+   "summary": "葬武帝于修陵,使卫士以大钉于要地钉之,欲令后世绝灭",
+   "event_type": "志怪",
+   "location": "修陵",
+   "is_rewrite_node": 0,
+   "source_id": 2,
+   "chunk_id": 2,
+   "evidence": "使卫士以大钉于要地钉之，欲令后世绝灭"
+  },
+  {
+   "id": 132,
+   "year_ce": 549,
+   "year_raw": "549",
+   "month": null,
+   "title": "百日天子(赋注)",
+   "summary": "台城陷后梁武独坐叹:侯景于文为小人百日天子;十一月十九僭位至三月十九弃城,一百二十日",
+   "event_type": "志怪",
+   "location": "建康",
+   "is_rewrite_node": 0,
+   "source_id": 4,
+   "chunk_id": 6,
+   "evidence": "梁武曾独坐叹曰：\"侯景于文为小人百日天子。\""
+  },
+  {
+   "id": 35,
+   "year_ce": 551,
+   "year_raw": "大宝二年",
+   "month": null,
+   "title": "回风折物",
+   "summary": "迎萧栋即位,有回风自永福省吹其文物皆倒折,见者惊骇",
+   "event_type": "志怪",
+   "location": "建康",
+   "is_rewrite_node": 0,
+   "source_id": 1,
+   "chunk_id": 1,
+   "evidence": "有回风自永福省吹其文物，皆倒折，见者莫不惊骇"
+  },
+  {
+   "id": 37,
+   "year_ce": 551,
+   "year_raw": "大宝二年十一月",
+   "month": null,
+   "title": "受禅异象三连",
+   "summary": "剑坠/兔走/白虹贯日;南郊登坛改元太始",
+   "event_type": "志怪",
+   "location": "建康南郊",
+   "is_rewrite_node": 0,
+   "source_id": 1,
+   "chunk_id": 1,
+   "evidence": "景所带剑水精标无故堕落"
+  },
+  {
+   "id": 63,
+   "year_ce": 551,
+   "year_raw": "大宝间",
+   "month": null,
+   "title": "李瞻剖胆",
+   "summary": "东阳李瞻起兵被执,断手足刻析心腹,言笑自若,胆如升",
+   "event_type": "志怪",
+   "location": "建邺市",
+   "is_rewrite_node": 0,
+   "source_id": 2,
+   "chunk_id": 2,
+   "evidence": "瞻正色整容，言笑自若，见其胆者乃如升焉"
+  },
+  {
+   "id": 65,
+   "year_ce": 551,
+   "year_raw": "大宝二年",
+   "month": null,
+   "title": "受禅异象全录",
+   "summary": "大风拔木旗盖尽偃/剑坠手自拾/兔走/白虹贯日三重日青无色/床脚自陷/中会触扆坠地",
+   "event_type": "志怪",
+   "location": "建康南郊",
+   "is_rewrite_node": 0,
+   "source_id": 2,
+   "chunk_id": 2,
+   "evidence": "大风拔木，旗盖尽偃，文物并失旧仪"
+  },
+  {
+   "id": 66,
+   "year_ce": 551,
+   "year_raw": "受禅后",
+   "month": null,
+   "title": "百日天子",
+   "summary": "武帝拆字预言:小人百日天子;篡位至败恰一百二十日,在宫足满十旬",
+   "event_type": "志怪",
+   "location": "建康",
+   "is_rewrite_node": 0,
+   "source_id": 2,
+   "chunk_id": 2,
+   "evidence": "案景以辛未年十一月十九日篡位，壬申年三月十九日败，得一百二十日"
+  },
+  {
+   "id": 67,
+   "year_ce": 551,
+   "year_raw": "受禅后",
+   "month": null,
+   "title": "的脰乌与庙柏",
+   "summary": "童谣:的脰乌拂朱雀还与吴/脱青袍着芒屩荆州天子挺应着;文宣太后庙柏独茂重青,贼斫之再宿悉枯",
+   "event_type": "志怪",
+   "location": "建康",
+   "is_rewrite_node": 0,
+   "source_id": 2,
+   "chunk_id": 2,
+   "evidence": "童谣曰：“的脰乌，拂朱雀，还与吴。”"
+  },
+  {
+   "id": 78,
+   "year_ce": 551,
+   "year_raw": "受禅后",
+   "month": null,
+   "title": "东厢香炉",
+   "summary": "床东香炉无故堕地,景曰东厢香炉那忽下地——议者以为湘东军下之征",
+   "event_type": "志怪",
+   "location": "台城",
+   "is_rewrite_node": 0,
+   "source_id": 2,
+   "chunk_id": 2,
+   "evidence": "此东厢香炉那忽下地"
+  },
+  {
+   "id": 45,
+   "year_ce": 552,
+   "year_raw": "承圣间",
+   "month": null,
+   "title": "僧通预言盐尸",
+   "summary": "夺弓射景阳山大呼得奴已;取肉揾盐:不咸则烂臭——果以盐封其尸",
+   "event_type": "志怪",
+   "location": "建康",
+   "is_rewrite_node": 0,
+   "source_id": 1,
+   "chunk_id": 1,
+   "evidence": "“不咸则烂臭。”果以盐封其尸"
+  },
+  {
+   "id": 69,
+   "year_ce": 552,
+   "year_raw": "承圣元年",
+   "month": null,
+   "title": "魏人檄谶",
+   "summary": "景未渡江前魏人檄极言景反复猜忍——至是祸败之状皆如所陈,南人咸以为谶",
+   "event_type": "志怪",
+   "location": "",
+   "is_rewrite_node": 0,
+   "source_id": 2,
+   "chunk_id": 2,
+   "evidence": "南人咸以为谶"
+  },
+  {
+   "id": 70,
+   "year_ce": 552,
+   "year_raw": "承圣元年",
+   "month": null,
+   "title": "足瘤与白马",
+   "summary": "左足肉瘤状似龟,战胜则隐起分明,不胜则低,败日瘤隐陷;白马胜则踯躅嘶鸣,败则低头不前",
+   "event_type": "志怪",
+   "location": "",
+   "is_rewrite_node": 0,
+   "source_id": 2,
+   "chunk_id": 2,
+   "evidence": "始景左足上有肉瘤，状似龟，战应克捷，瘤则隐起分明"
+  },
+  {
+   "id": 72,
+   "year_ce": 552,
+   "year_raw": "承圣元年",
+   "month": null,
+   "title": "盐尸确证(南史版)",
+   "summary": "僧辩截二手送齐文宣;果以盐五斗置腹中送建康曝市;百姓屠脍羹食皆尽,溧阳主亦预食例",
+   "event_type": "志怪",
+   "location": "建康",
+   "is_rewrite_node": 0,
+   "source_id": 2,
+   "chunk_id": 2,
+   "evidence": "果以盐五斗置腹中，送于建康，暴之于市"
+  },
+  {
+   "id": 73,
+   "year_ce": 552,
+   "year_raw": "承圣元年",
+   "month": null,
+   "title": "苦竹町谶",
+   "summary": "江陵谣言:苦竹町市南有好井,荆州军杀侯景——首至,付李季长宅,宅东即苦竹町,鼎镬用市南井水",
+   "event_type": "志怪",
+   "location": "江陵",
+   "is_rewrite_node": 0,
+   "source_id": 2,
+   "chunk_id": 2,
+   "evidence": "先是江陵谣言：“苦竹町，市南有好井。荆州军，杀侯景。”"
+  },
+  {
+   "id": 109,
+   "year_ce": 556,
+   "year_raw": "太平元年三月",
+   "month": null,
+   "title": "玉玺四纽",
+   "summary": "前宁远石城公外兵参军王位于石头沙际获玉玺四纽,高祖表以送台",
+   "event_type": "志怪",
+   "location": "石头",
+   "is_rewrite_node": 0,
+   "source_id": 3,
+   "chunk_id": 5,
+   "evidence": "获玉玺四纽，高祖表以送台"
+  },
+  {
+   "id": 110,
+   "year_ce": 556,
+   "year_raw": "太平元年",
+   "month": null,
+   "title": "甘露频降",
+   "summary": "自去冬至是,甘露频降于钟山梅岗南涧及京口江宁,或至三数升,大如弈棋子",
+   "event_type": "志怪",
+   "location": "建康",
+   "is_rewrite_node": 0,
+   "source_id": 3,
+   "chunk_id": 5,
+   "evidence": "甘露频降于钟山、梅岗、南涧及京口、江宁县境"
+  },
+  {
+   "id": 128,
+   "year_ce": 556,
+   "year_raw": "556",
+   "month": null,
+   "title": "黄河筮卦东行",
+   "summary": "闻梁人返国有奔齐之心;丙子岁旦筮东行吉不,遇泰之坎,喜曰天地交泰而更习坎,此吉卦也——后遂吉",
+   "event_type": "志怪",
+   "location": "弘农",
+   "is_rewrite_node": 0,
+   "source_id": 4,
+   "chunk_id": 6,
+   "evidence": "遇泰之坎，乃喜曰：\"天地交泰而更习"
+  },
+  {
+   "id": 113,
+   "year_ce": 557,
+   "year_raw": "永定元年十月",
+   "month": null,
+   "title": "受禅天晴",
+   "summary": "先是氛雾昼夜晦冥,至于是日景气清晏,识者知有天道焉;即位于南郊柴燎告天",
+   "event_type": "志怪",
+   "location": "建康南郊",
+   "is_rewrite_node": 0,
+   "source_id": 3,
+   "chunk_id": 5,
+   "evidence": "先是氛雾，昼夜晦冥，至于是日，景气清晏，识者知有天道焉"
+  },
+  {
+   "id": 114,
+   "year_ce": 557,
+   "year_raw": "永定元年",
+   "month": null,
+   "title": "佛牙出杜姥宅",
+   "summary": "诏出佛牙于杜姥宅,集四部设无遮大会,高祖亲出阙前礼拜——法献乌缠国得之,慧兴慧志保藏,承圣末密送于高祖",
+   "event_type": "志怪",
+   "location": "建康",
+   "is_rewrite_node": 0,
+   "source_id": 3,
+   "chunk_id": 5,
+   "evidence": "诏出佛牙于杜姥宅，集四部设无遮大会，高祖亲出阙前礼拜"
+  },
+  {
+   "id": 115,
+   "year_ce": 557,
+   "year_raw": "永定元年",
+   "month": null,
+   "title": "樟木流至",
+   "summary": "太极殿焚后议营独阙一柱;有樟木大十八围长四丈五尺,流泊陶家后渚——起太极殿",
+   "event_type": "志怪",
+   "location": "建康",
+   "is_rewrite_node": 0,
+   "source_id": 3,
+   "chunk_id": 5,
+   "evidence": "至是有樟木大十八围，长四丈五尺，流泊陶家后渚"
+  },
+  {
+   "id": 116,
+   "year_ce": 558,
+   "year_raw": "永定年间",
+   "month": null,
+   "title": "祥瑞爆发",
+   "summary": "青龙见东方;太极殿前龙迹;广州白龙长数十丈历城西道;仙人见于罗浮山寺,长三丈通身洁白;重云殿鸱尾紫烟属天;京师地震",
+   "event_type": "志怪",
+   "location": "陈境",
+   "is_rewrite_node": 0,
+   "source_id": 3,
+   "chunk_id": 5,
+   "evidence": "仙人见于罗浮山寺小石楼，长三丈所，通身洁白，衣服楚丽"
+  },
+  {
+   "id": 193,
+   "year_ce": 576,
+   "year_raw": "延宗败前",
+   "month": null,
+   "title": "墨书预言",
+   "summary": "高都郡山绝壁临水忽有墨书:齐亡延宗;洗视逾明;使者改亡为上;至是应焉——年号德昌好事者言得二日",
+   "event_type": "志怪",
+   "location": "高都",
+   "is_rewrite_node": 0,
+   "source_id": 2,
+   "chunk_id": 12,
+   "evidence": "齐亡延宗"
+  }
+ ]
+}

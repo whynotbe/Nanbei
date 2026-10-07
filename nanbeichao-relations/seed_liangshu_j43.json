@@ -1,0 +1,53 @@
+{
+  "batch": "liangshu-j43-inline-v3",
+  "method": "glm-5.3-inline-v1",
+  "source_title": "梁书",
+  "juan": 43,
+  "juan_title": "列传第三十七 韦粲 江子一 张嵊 沈浚 柳敬礼",
+  "persons": [
+    {"name":"江子一","courtesy":"元贞","title_label":"南津校尉(谥义子)","era":"梁","death_year":548,"death_cause":"承明门死战","home_region":"济阳考城","evidence":"江子一，字元贞，济阳考城人"},
+    {"name":"江子四","title_label":"尚书右丞(谥毅子)","era":"梁","death_year":548,"death_cause":"与兄同死","evidence":"前尚书右丞江子四"},
+    {"name":"江子五","title_label":"东宫直殿主帅(谥烈子)","era":"梁","death_year":548,"death_cause":"与兄同死","evidence":"东宫直殿主帅子五"},
+    {"name":"张嵊","courtesy":"四山","title_label":"吴兴太守(谥忠贞子)","era":"梁","death_year":549,"death_cause":"不屈刑于都市","death_year_note":"年六十二","evidence":"张嵊，字四山，镇北将军稷之子也"},
+    {"name":"柳敬礼","title_label":"护军将军","era":"梁","death_year":550,"death_cause":"与会理谋袭事泄遇害","evidence":"柳敬礼，开府仪同三司庆远之孙。父津，太子詹事"},
+    {"name":"刘孝仪","title_label":"豫章内史","era":"梁","evidence":"粲即就内史刘孝仪共谋之"},
+    {"name":"柳昕","title_label":"中兵","era":"梁","evidence":"遣中兵柳昕帅兵二千人随粲"},
+    {"name":"刘叔胤","title_label":"直阁将军","era":"梁","notes":"青塘之战畏懦不进致败","evidence":"乃使直阁将军刘叔胤师助粲"},
+    {"name":"王长茂","title_label":"军副","era":"梁","evidence":"军副王长茂劝据栅待之"},
+    {"name":"郑逸","title_label":"军主","era":"梁","evidence":"令军主郑逸逆击之"},
+    {"name":"韦臧","title_label":"粲长子","era":"梁","death_cause":"据豫章为部下所害","evidence":"粲长子臧，字君理"},
+    {"name":"董桃生","title_label":"江子一副将","era":"梁","notes":"家在江北,临阵散走","evidence":"其副董桃生家在江北，因与其党散走"},
+    {"name":"王雄","title_label":"军主","era":"梁","evidence":"仍遣军主王雄等帅兵于鳢渎逆击之"},
+    {"name":"范智朗","title_label":"军主","era":"梁","evidence":"嵊遣军主范智朗出郡西拒战"},
+    {"name":"张伊","title_label":"嵊弟","era":"梁","evidence":"嵊遣弟伊率郡兵数千人赴援"}
+  ],
+  "person_updates": [
+    {"name":"韦粲","note":"字长蒨,韦睿之孙、韦放之子;青塘死节年五十四,子弟从弟死者数百人;世祖追谥忠贞"}
+  ],
+  "relations": [
+    {"s":"韦粲","o":"柳仲礼","type":"推戴","detail":"建议推仲礼为大都督,单舸切让裴之高","year":548,"polarity":1,"evidence":"粲建议推仲礼为大都督"},
+    {"s":"裴之高","o":"柳仲礼","type":"耻居其下","detail":"柳节下是州将,何须我复鞭板——累日不决","year":548,"polarity":-1,"evidence":"柳节下是州将，何须我复鞭板"},
+    {"s":"韦粲","o":"裴之高","type":"切让","detail":"单舸至营:豫州必欲立异,锋镝便有所归;之高垂泣","year":548,"polarity":1,"evidence":"乃单舸至之高营，切让之曰"},
+    {"s":"柳仲礼","o":"韦粲","type":"命屯青塘","detail":"青塘立栅迫近淮渚,此大事非兄不可","year":549,"polarity":1,"evidence":"青塘立栅，迫近淮渚，欲以粮储船乘尽就泊之，此是大事，非兄不可"},
+    {"s":"刘叔胤","o":"韦粲","type":"畏懦致败","detail":"命以水军截后,畏懦不敢进,郑逸遂败","year":549,"polarity":-1,"evidence":"叔胤畏懦不敢进，逸遂败"},
+    {"s":"韦粲","o":"侯景","type":"死节","detail":"左右牵避,粲不动犹叱子弟力战,兵死略尽遂见害,年五十四;子弟亲戚死者数百人","year":549,"polarity":-1,"evidence":"粲不动，犹叱子弟力战，兵死略尽，遂见害，时年五十四"},
+    {"s":"萧纲","o":"韦粲","type":"痛惜","detail":"社稷所寄惟在韦公,如何不幸先死行阵","year":549,"polarity":1,"evidence":"太宗闻之流涕曰：“社稷所寄，惟在韦公，如何不幸，先死行阵。”"},
+    {"s":"江子一","o":"朱异","type":"不附","detail":"姑夫权要当朝,休下之日宾客辐凑,子一未尝造门","year":540,"polarity":1,"evidence":"其姑夫右卫将军硃异，权要当朝，休下之日，宾客辐凑，子一未尝造门"},
+    {"s":"江子一","o":"侯景","type":"死战","detail":"身先士卒抽戈独进,群贼夹攻从者莫敢继","year":548,"polarity":-1,"evidence":"子一乃身先士卒，抽戈独进，群贼夹攻之，从者莫敢继"},
+    {"s":"江子四","o":"江子一","type":"兄弟赴死","detail":"见事急相引赴贼,并见害","year":548,"polarity":1,"evidence":"子四、子五见事急，相引赴贼，并见害"},
+    {"s":"张嵊","o":"沈浚","type":"共谋举义","detail":"贼臣凭陵正是人臣效命之秋;浚固劝嵊举义","year":549,"polarity":1,"evidence":"浚曰：“鄙郡虽小，仗义拒逆，谁敢不从！”固劝嵊举义"},
+    {"s":"张嵊","o":"刘神茂","type":"拒降破敌","detail":"斩其使,鳢渎逆击破神茂","year":548,"polarity":-1,"evidence":"嵊命斩其使，仍遣军主王雄等帅兵于鳢渎逆击之，破神茂"},
+    {"s":"侯子鉴","o":"张嵊","type":"攻灭","detail":"帅精兵二万助神茂,栅破;嵊释戎服坐听事终不屈,刑于都市,子弟同遇害十余人","year":549,"polarity":-1,"evidence":"嵊乃释戎服，坐于听事，贼临之以刃，终不为屈"},
+    {"s":"柳敬礼","o":"柳仲礼","type":"密谋杀景","detail":"景饯仲礼于后渚:敬礼抱之兄拔佩刀便可斫杀;仲礼壮其言许之,见备卫严不敢动","year":549,"polarity":1,"evidence":"敬礼抱之，兄拔佩刀，便可斫杀，敬礼死亦无所恨"},
+    {"s":"柳敬礼","o":"萧会理","type":"共谋","detail":"与南康王会理共谋袭其城,建安侯萧贲知而告之,遂遇害","year":550,"polarity":1,"evidence":"敬礼与南康王会理共谋袭其城，克期将发，建安侯萧贲知而告之，遂遇害"},
+    {"s":"沈浚","o":"侯景","type":"面责","detail":"口血未干而有翻背…岂畏逆臣之刀乎;景曰是真司直也,然密衔之,后求浚害之","year":549,"polarity":-1,"evidence":"景曰：“是真司直也。”然密衔之"},
+    {"s":"韦粲","o":"萧大心","type":"献策移镇","detail":"移镇湍城遣偏将随,留家累于江州","year":548,"polarity":1,"evidence":"今直且张声势，移镇湓城，遣偏将赐随，于事便足"}
+  ],
+  "events": [
+    {"year_raw":"太清二年","year_ce":548,"title":"韦粲赴援","summary":"闻乱简阅部下得精卒五千马百匹倍道赴援;刘孝仪置酒,以杯抵地:韦粲今日何情饮酒","event_type":"战争","location":"庐陵-豫章","evidence":"韦粲今日何情饮酒"},
+    {"year_raw":"太清三年正月","year_ce":549,"title":"青塘之死(详)","summary":"昏雾失道夜过半垒至晓未合;景登禅灵寺阁望见来攻;军副劝据栅不从;子弟助警构昂皆战死,亲戚死者数百人","event_type":"战争","location":"青塘","rewrite":1,"evidence":"比及青塘，夜已过半，垒栅至晓未合"},
+    {"year_raw":"太清二年","year_ce":548,"title":"江氏三兄弟之死","summary":"子一启:贼围未合犹可出荡;承明门挑贼,身先士卒抽戈独进;子四子五相引赴贼并见害","event_type":"战争","location":"承明门","evidence":"请与其弟子四、子五帅所领百余人，开承明门挑贼"},
+    {"year_raw":"太清三年","year_ce":549,"title":"张嵊守吴兴","summary":"斩刘神茂使;破神茂;侯子鉴二万助攻,栅破;释戎服坐听事不屈,刑于都市年六十二","event_type":"战争","location":"吴兴","evidence":"今欲收集兵力，保据贵乡"},
+    {"year_raw":"太清三年","year_ce":549,"title":"后渚刺杀未遂","summary":"柳敬礼谋于饯宴抱景,仲礼拔刀斫杀;见备卫严不敢动,计遂不果","event_type":"战争","location":"后渚","rewrite":1,"evidence":"及酒数行，敬礼目仲礼，仲礼见备卫严，不敢动，计遂不果"}
+  ]
+}

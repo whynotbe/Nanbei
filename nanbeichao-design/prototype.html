@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>南北朝·神鬼 · Web 原型垂直切片</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:#1a1510;color:#e8ddc8;font-family:"Microsoft YaHei",sans-serif;height:100vh;overflow:hidden;}
+#game{display:flex;height:100%;}
+#left{width:220px;background:#26221c;padding:15px;border-right:1px solid #443c30;}
+#center{flex:1;padding:20px;overflow-y:auto;}
+#right{width:260px;background:#26221c;padding:15px;border-left:1px solid #443c30;}
+h1{font-size:16px;margin-bottom:10px;color:#c9a13b;}
+h2{font-size:13px;margin:10px 0 5px;color:#a89a7e;}
+.panel{background:#332d24;border-radius:6px;padding:10px;margin-bottom:8px;}
+.stat{display:flex;justify-content:space-between;font-size:12px;padding:2px 0;}
+.bar{height:6px;background:#443c30;border-radius:3px;margin:2px 0 6px;}
+.bar-fill{height:100%;border-radius:3px;transition:width .3s;}
+#dialog{background:#26221c;border-radius:8px;padding:15px;margin-bottom:15px;min-height:120px;}
+#npc-name{color:#c9a13b;font-size:15px;font-weight:bold;margin-bottom:8px;}
+#npc-text{font-size:14px;line-height:1.8;}
+#choices{margin-top:15px;}
+.choice{display:block;width:100%;text-align:left;background:#443c30;color:#e8ddc8;border:1px solid #6b5f4a;border-radius:6px;padding:10px 15px;margin:5px 0;cursor:pointer;font-size:13px;transition:background .2s;}
+.choice:hover{background:#5a4f3a;}
+.choice .effect{color:#a89a7e;font-size:11px;margin-left:10px;}
+#map{position:relative;width:100%;height:300px;background:#efe6d0;border-radius:8px;margin-bottom:15px;overflow:hidden;}
+.node{position:absolute;width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10px;cursor:pointer;transition:transform .2s;}
+.node:hover{transform:scale(1.2);}
+.node-label{position:absolute;font-size:10px;pointer-events:none;white-space:nowrap;}
+#event-log{font-size:11px;line-height:1.6;color:#bfae8e;max-height:200px;overflow-y:auto;}
+#anima-overlay{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;background:radial-gradient(ellipse at center, transparent 40%, rgba(193,18,31,var(--anima-opacity,0.05)) 100%);z-index:100;}
+.tag{display:inline-block;font-size:10px;padding:1px 6px;border-radius:3px;margin:2px;}
+.tag-war{background:#8c2f2a;color:#fff;}
+.tag-zhgai{background:#5d3b80;color:#fff;}
+.tag-rewrite{background:#c9a13b;color:#1a1510;}
+</style>
+</head>
+<body>
+<div id="anima-overlay"></div>
+<div id="game">
+<div id="left">
+<h1>南北朝·神鬼</h1>
+<h2>主角状态</h2>
+<div class="panel">
+<div class="stat"><span>姓名</span><span id="p-name">陈文清</span></div>
+<div class="stat"><span>身份</span><span id="p-title">岭南寒门</span></div>
+<div class="stat"><span>年份</span><span id="p-year">547</span></div>
+</div>
+<h2>属性</h2>
+<div class="panel">
+<div class="stat"><span>武力</span><span id="v-martial">3</span></div>
+<div class="bar"><div class="bar-fill" style="width:30%;background:#c05a2e;"></div></div>
+<div class="stat"><span>智谋</span><span id="v-wisdom">5</span></div>
+<div class="bar"><div class="bar-fill" style="width:50%;background:#4f7fa8;"></div></div>
+<div class="stat"><span>声望</span><span id="p-renown">2</span></div>
+<div class="bar"><div class="bar-fill" style="width:20%;background:#c9a13b;"></div></div>
+<div class="stat"><span>阴阳眼</span><span id="v-yinyang">开启</span></div>
+</div>
+<h2>怨气感知</h2>
+<div class="panel">
+<div class="stat"><span>当前位置</span><span id="loc-name">岭南·苍梧</span></div>
+<div class="stat"><span>怨气浓度</span><span id="anima-val">0%</span></div>
+<div class="bar"><div class="bar-fill" id="anima-bar" style="width:0%;background:#c1121f;"></div></div>
+</div>
+<h2>物品</h2>
+<div class="panel"><span style="font-size:12px;color:#a89a7e"> dried 硃砂×1 / 引魂灯×1</span></div>
+</div>
+
+<div id="center">
+<div id="map">
+<div id="map-title" style="position:absolute;top:10px;left:15px;font-size:14px;font-weight:bold;color:#4a3f2e;">序章·岭南</div>
+<!-- 城市节点 -->
+<div class="node" style="left:60px;top:180px;background:#2e6b3f;" onclick="travel(this,'苍梧·油库')">主</div>
+<div class="node-label" style="left:50px;top:214px;color:#2e6b3f;">苍梧(家)</div>
+<div class="node" style="left:140px;top:140px;background:#2e6b3f;" onclick="travel(this,'废村')">怨</div>
+<div class="node-label" style="left:135px;top:172px;color:#c1121f;">废村(怨气)</div>
+<div class="node" style="left:200px;top:200px;background:#2e6b3f;" onclick="travel(this,'高要营地')">陈</div>
+<div class="node-label" style="left:196px;top:232px;color:#2e6b3f;">高要(陈霸先)</div>
+</div>
+
+<div id="dialog">
+<div id="npc-name">旁白</div>
+<div id="npc-text">547年正月,高欢死讯尚未传到岭南。你是油库吏的儿子,二十岁,能看见别人看不见的东西。<br><br>北方很远。但江水,已经开始了它三百年一次的涨潮。</div>
+<div id="choices"></div>
+</div>
+
+<div id="event-feed">
+<h2>事件日志</h2>
+<div id="event-log">
+<span class="tag tag-zhgai">志怪</span> 检测到本地区冤气浓度:0%(安全)<br>
+<span class="tag tag-rewrite">节点</span> 序章三幕:苍梧日常→冤气初现→陈霸先北上<br>
+</div>
+</div>
+</div>
+
+<div id="right">
+<h2>关系网</h2>
+<div class="panel" id="network">
+<div class="stat"><span>陈老爹(父)</span><span style="color:#2e6b3f">+3</span></div>
+<div class="stat"><span>陈霸先(前辈)</span><span style="color:#2e6b3f">+2</span></div>
+<div class="stat"><span>婆萧(巫师)</span><span style="color:#2e6b3f">+1</span></div>
+</div>
+<h2>谶谣库</h2>
+<div class="panel" id="prophecy">
+<span style="font-size:11px;color:#8f8168">尚未解锁任何谶谣</span>
+</div>
+<h2>超度技能</h2>
+<div class="panel">
+<div class="stat"><span>基础超度(Lv1)</span><span style="color:#1e5aa8">已解锁</span></div>
+<div class="stat"><span>怨气感知(Lv1)</span><span style="color:#1e5aa8">已解锁</span></div>
+<div class="stat"><span>佛寺超度(Lv2)</span><span style="color:#6b5f4a">需佛寺好感≥5</span></div>
+</div>
+<h2>数据来源</h2>
+<div class="panel" style="font-size:10px;color:#8f8168">
+关系库:295人/279关系<br>
+事件库:195事件/84志怪<br>
+改写节点:39个<br>
+<a href="#" style="color:#4f7fa8" onclick="loadData();return false;">加载 gamedata.json</a>
+</div>
+</div>
+</div>
+
+<script>
+// ===== 游戏状态 =====
+const state = {year:547, location:'苍梧·油库', anima:0, renown:2, chapter:'序章'};
+const scenes = {
+'苍梧·油库':{npc:'父亲',text:'又是那个俚人少年。偷了三次了,这次说什么也不放。<br><br>少年怀里抱着一个小陶罐——"不是吃,是给我姐姐点灯。她的魂,还在仓库外面。"',choices:[
+{text:'放了他,我帮他姐姐超度',effect:'超度系统+婆萧好感',action:()=>{updateStat('renown',1);logEvent('超度','完成引魂灯仪式');setDialog('婆萧','你做得对。那孩子的姐姐走了——但你的眼,才刚刚打开。');}},
+{text:'按规矩来,偷了就是偷了',effect:'体制线+父亲好感',action:()=>{updateStat('renown',-1);logEvent('秩序','少年被杖二十');setDialog('父亲','你总是太硬。但……也好。');}},
+{text:'放了他,别管什么鬼',effect:'中立',action:()=>{logEvent('中立','少年跑了,仓库后续会闹鬼');}},
+]},
+'废村':{npc:'婆萧',text:'你看到了吗?这片地上空的灰红色的雾。<br><br>这不是鬼。是"冤气"——大量非正常死亡的人的怨气,凝聚成的场。你天生对它敏感,别人看不到,你能看到。<br><br><i>"你的眼,是你祖上修来的,也是你欠下的。"</i>',choices:[
+{text:'[超度仪式] 找到遗骨→安葬→诵经',effect:'学会基础超度',action:()=>{state.anima=30;updateAnima();logEvent('志怪','废村怨气净化30%');}},
+{text:'[战斗] 雾中有小型鬼物',effect:'战斗训练',action:()=>{setDialog('旁白','灰红色的雾中,几个人形向你扑来——你抽出短刀。');}},
+]},
+'高要营地':{npc:'陈霸先',text:'北边乱了。侯景以河南十三州降梁——你知道这意味着什么吗?<br><br>你是跟我走,还是留在岭南?',choices:[
+{text:'跟你走(进入主线)',effect:'序章结束',action:()=>{startMainLine();}},
+{text:'我再想想',effect:'可继续做支线',action:()=>{setDialog('陈霸先','想好了再来。但记住——时间不等人。');}},
+]},
+};
+
+function travel(el,name){
+document.querySelectorAll('.node').forEach(n=>n.style.outline='');
+el.style.outline='3px solid #e0362d';
+state.location=name;
+document.getElementById('loc-name').textContent=name;
+const sc=scenes[name];
+if(sc){setDialog(sc.npc,sc.text,sc.choices);}
+}
+
+function setDialog(npc,text,choices){
+document.getElementById('npc-name').textContent=npc;
+document.getElementById('npc-text').innerHTML=text;
+const cdiv=document.getElementById('choices');cdiv.innerHTML='';
+if(choices){choices.forEach(c=>{
+const btn=document.createElement('button');btn.className='choice';
+btn.innerHTML=c.text+(c.effect?'<span class="effect">['+c.effect+']</span>':'');
+btn.onclick=c.action;cdiv.appendChild(btn);});}
+}
+
+function updateStat(stat,delta){
+state[stat]=(state[stat]||0)+delta;
+document.getElementById('p-'+stat).textContent=state[stat];
+document.getElementById('v-'+stat)?.textContent=state[stat];
+}
+
+function updateAnima(){
+document.getElementById('anima-val').textContent=state.anima+'%';
+document.getElementById('anima-bar').style.width=state.anima+'%';
+document.getElementById('anima-overlay').style.setProperty('--anima-opacity',state.anima/1000);
+}
+
+function logEvent(tag,msg){
+const log=document.getElementById('event-log');
+const t=tag==='志怪'?'tag-zhgai':tag==='节点'?'tag-rewrite':'tag-war';
+log.innerHTML=`<span class="tag ${t}">${tag}</span> ${msg}<br>`+log.innerHTML;
+}
+
+function startMainLine(){
+state.year=548;state.chapter='第一幕';
+document.getElementById('p-year').textContent='548';
+document.getElementById('map-title').textContent='第一幕·北上';
+logEvent('节点','序章完成→进入第一幕(建康)');
+setDialog('陈霸先','好。但你记住——你姓陈,不姓别的。到了北方,别人会问你出身,你就说是岭南人。');
+// TODO: 加载第一幕地图与节点
+}
+
+async function loadData(){
+try{
+const r=await fetch('../nanbeichao-relations/export/game_views.json');
+const d=await r.json();
+document.getElementById('network').innerHTML=d.npc_seeds.slice(0,8).map(n=>
+`<div class="stat"><span>${n.name}</span><span style="color:#8f8168">${n.degree||0}边</span></div>`).join('');
+document.getElementById('prophecy').innerHTML=d.zhgai_events.slice(0,5).map(e=>
+`<div style="font-size:10px;margin:2px 0;color:#5d3b80">• ${e.title}</div>`).join('');
+logEvent('数据','gamedata.json 已加载: '+d.npc_seeds.length+' NPC种子');
+}catch(e){logEvent('错误','gamedata.json 加载失败(CORS/路径)——请通过 HTTP 服务打开');}
+}
+
+// 初始对话
+setDialog('旁白','547年正月,高欢死讯尚未传到岭南。你是油库吏的儿子,二十岁,能看见别人看不见的东西。<br><br>北方很远。但江水,已经开始了它三百年一次的涨潮。',[
+{text:'[开始] 走向油库',effect:'进入序1',action:()=>travel(document.querySelector('.node'),'苍梧·油库')},
+{text:'[感知] 打开阴阳眼',effect:'查看当前怨气',action:()=>{updateAnima();logEvent('志怪','阴阳眼开启:当前区域怨气 0%');}},
+]);
+</script>
+</body>
+</html>

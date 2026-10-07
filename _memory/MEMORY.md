@@ -1,0 +1,11 @@
+# Memory Index
+
+- [聊天用中文](chat-in-chinese.md) — 全局指令：与用户对话一律用中文，除非他主动要求换语言
+- [太阁Like神鬼游戏项目](taikou-shengui-project.md) — 新项目：南北朝末期背景神鬼游戏；一期史料整理在 D:\Codex工作区\太阁Like神鬼游戏\；含检索坑与并发限制
+- [南北朝资料库](nanbeichao-resource-library.md) — D:\Codex工作区\南北朝历史与神话\：144部古籍+CBDB，太阁Like项目的资料源
+- [Multi-agent handoff workflow](multi-agent-handoff-workflow.md) — D:\Mir3-RL Roguelite project; roles: Claude Code supervises, ZCode implements, Codex retired; movement bug still unsolved (H1+H2 fix failed real-machine test: new char + no monsters + zero click response; instrumented client 72e8a1e5 built in Debug\Client\ awaiting user consent to deploy+restart); client csproj outputs to Debug\Client\, DLL literals are UTF-16; server via StartServerCore-Detached.cmd (no console → DB backup then elevated taskkill; log timestamps UTC); real-time dispatch live (headless CLI worker via user's GLM coding plan / GLM-5.3 since 2026-10-02, DeepSeek disabled); interactive session stands down during runs; supervisor route: 路线 A (original engine)
+- [CBDB 商用调研](cbdb-commercial-game-research.md) — 南北朝神鬼游戏项目,**三目录+13件策划案全部完工(2026-10-07,用户重启前存档)**:①shigao\(通史稿7.0万字+地图集v2+548全图+建康城详图+岭南三吴区域图);②relations\(295人/279关系/195事件/84志怪/39改写节点,12批精抽,工具链7脚本,export\JSON/CSV);③design\(13件策划案00-12共6.3万字:框架/养成/关系网/战斗/冤气/围城/信息战/宗室/地图/改写/谶谣/UI/数值——全部落地级含公式+数据+界面+数值;另有对话文案版/序章/NPC卡/世界观/决策/prototype.html\);全部文件43个;重启后恢复:`cd workspace\default && py -m http.server 8613` 可预览原型;唯一待办:谭其骧校准(需用户提供);本机代理/Python 坑见 win-env-quirks
+- [本机环境坑](win-env-quirks.md) — 外网必须走代理 127.0.0.1:7897(Git Bash 手动 export);python 是坏壳,必须用 py;py 看不见 /tmp,跨 shell 用真实路径;大文件下载用断点续传循环,书源 libgen.li
+- [用户讲述时只听不动手](listen-dont-act-while-user-talks.md) — 用户明确指令:他慢慢列想法时 ZCode 只听,明确让干再干
+- [ZCode CLI channel](zcode-cli-channel.md) — hidden CLI at resources\glm\zcode.cjs (-p/--resume/--cwd); desktop+headless share one log file — always break down by sessionId or you mis-attribute providers (burned us twice 2026-10-02); FINAL: headless bills glm-coding-plan/GLM-5.3 full-fat (user's coding plan, pro user; Flash downgrade lever = reorder personalModelIds), deepseek rule DISABLED (enabled:false, no silent billing), start-plan headless impossible (OAuth-only); dispatch is the only channel, interactive session stays passive
+
