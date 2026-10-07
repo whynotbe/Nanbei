@@ -14,5 +14,6 @@ metadata:
 - **路径**:`py` 是 Windows 原生进程,看不见 Git Bash 的 `/tmp` 虚拟路径——跨 shell 传文件一律用真实路径(如 `/c/Users/L_why/.zcode/workspace/default/`)。
 - **下载大文件**:本代理跑大文件(~30MB+)会中途断(curl error 18),用断点续传循环解决:每次向 libgen.li 的 ads.php 取新 key,`curl -C -` 接着拉,几轮即成。可用书籍源:libgen.li(annas-archive 各域名/li 弃售、/gs 是壳、/org 握手失败;archive.org 通但无中文现代书)。libgen.li 的 get.php 偶发 502,换同书另一 md5 即可。
 - 下载脚本留存:`/c/Users/L_why/.zcode/workspace/default/books/fetch_book.sh`(小文件)与 `fetch_big.sh`(续传循环)+ `fetch_link.py`。
+- **Git Bash 偶发整条命令崩溃**(2026-10-07 遇到,exit 3221225794=0xC0000142,发生于 `cd` 进中文目录后的多段 grep 复合命令):重试即好;跨盘检索用绝对路径、不 cd 更稳。另:`grep -rn` 全目录扫大文件(通志.txt 等)输出会爆 91KB,限定单文件 grep。
 
 关联项目:[[cbdb-commercial-game-research]]
